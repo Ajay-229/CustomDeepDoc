@@ -1,0 +1,81 @@
+# -------------------------
+# Python & Virtual Env
+# -------------------------
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pdb
+*.egg-info/
+*.egg
+build/
+dist/
+.eggs/
+.env/
+.venv/
+deepdoc_env/
+
+# VSCode / IDE / Editor
+.vscode/
+.idea/
+*.iml
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+debug.log
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+
+# Byte-compiled
+*.so
+
+# -------------------------
+# DeepDoc & RagFlow-like Data Folders
+# -------------------------
+data/
+outputs/
+cache/
+temp/
+tmp/
+
+# -------------------------
+# HuggingFace Cache
+# -------------------------
+huggingface/
+hf_cache/
+~/.cache/huggingface/
+
+# -------------------------
+# NLTK Data
+# -------------------------
+nltk_data/
+
+# -------------------------
+# Uploaded Documents / Parsed Output
+# -------------------------
+uploads/
+parsed/
+documents/
+
+# -------------------------
+# PyInstaller / Packaging
+# -------------------------
+*.spec
+
+# -------------------------
+# dotenv / local settings
+# -------------------------
+*.env
+.env.local
+.env.*.local
+
+# -------------------------
+# Python Wheels
+# -------------------------
+*.whl
