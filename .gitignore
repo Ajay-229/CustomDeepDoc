@@ -79,3 +79,5 @@ documents/
 # Python Wheels
 # -------------------------
 *.whl
+
+rag/res/huqie.txt.trie
