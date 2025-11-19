@@ -8,17 +8,22 @@ import venv
 # ---------------------------------------------
 MINIMAL_DEPENDENCIES = [
     "beartype>=0.18.5,<0.19.0",
-    "numpy>=1.26.0,<2.0.0",
-    "pillow==10.4.0",
-    "nltk==3.9.1",
-    "trio>=0.29.0",
+    "datrie>=0.8.3,<0.9.0",
+    "hanziconv==0.3.2",
     "huggingface-hub>=0.25.0,<0.26.0",
+    "nltk==3.9.1",
+    "numpy>=1.26.0,<2.0.0",
+    "onnxruntime==1.19.2; sys_platform == 'darwin' or platform_machine != 'x86_64'",
+    "onnxruntime-gpu==1.19.2; sys_platform != 'darwin' and platform_machine == 'x86_64'",
+    "opencv-python==4.10.0.84",
+    "pdfplumber==0.10.4",
+    "pillow==10.4.0",
+    "pyclipper==1.3.0.post5",
+    "six==1.16.0",
+    "shapely==2.0.5",
+    "trio>=0.29.0"
 ]
 
-# More dependencies will be added later when we inspect DeepDoc files
-EXTRA_DEPENDENCIES = [
-    # "example==1.0.0",
-]
 
 
 def create_virtual_env(env_path="deepdoc_env"):
@@ -41,12 +46,6 @@ def install_dependencies(env_path="deepdoc_env"):
     for dep in MINIMAL_DEPENDENCIES:
         print(f"   → {dep}")
         subprocess.check_call([pip_exe, "install", dep])
-
-    if EXTRA_DEPENDENCIES:
-        print("\n[+] Installing extra dependencies...")
-        for dep in EXTRA_DEPENDENCIES:
-            print(f"   → {dep}")
-            subprocess.check_call([pip_exe, "install", dep])
 
     print("\n[✔] All dependencies installed successfully.\n")
 
