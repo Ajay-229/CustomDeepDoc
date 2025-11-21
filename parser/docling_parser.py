@@ -18,7 +18,7 @@ except Exception:
     DocumentConverter = None  
 
 try:
-    from parser.pdf_parser import RAGFlowPdfParser
+    from .pdf_parser import RAGFlowPdfParser
 except Exception:
     class RAGFlowPdfParser:  
         pass

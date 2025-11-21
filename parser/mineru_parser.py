@@ -21,7 +21,7 @@ import pdfplumber
 from PIL import Image
 from strenum import StrEnum
 
-from parser.pdf_parser import RAGFlowPdfParser
+from .pdf_parser import RAGFlowPdfParser
 
 LOCK_KEY_pdfplumber = "global_shared_lock_pdfplumber"
 if LOCK_KEY_pdfplumber not in sys.modules:

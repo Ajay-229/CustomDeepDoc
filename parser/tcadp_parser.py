@@ -22,7 +22,7 @@ from tencentcloud.common.exception.tencent_cloud_sdk_exception import TencentClo
 from tencentcloud.lkeap.v20240522 import lkeap_client, models
 
 from common.config_utils import get_base_config
-from parser.pdf_parser import RAGFlowPdfParser
+from .pdf_parser import RAGFlowPdfParser
 
 
 class TencentCloudAPIClient:
