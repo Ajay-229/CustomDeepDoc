@@ -11,6 +11,7 @@ MINIMAL_DEPENDENCIES = [
     "beautifulsoup4==4.12.3",
     "chardet==5.2.0",
     "datrie>=0.8.3,<0.9.0",
+    "demjson3==3.0.6",
     "hanziconv==0.3.2",
     "huggingface-hub>=0.25.0,<0.26.0",
     "markdown==3.6",
@@ -35,7 +36,8 @@ MINIMAL_DEPENDENCIES = [
     "tencentcloud-sdk-python==3.0.1478",
     "tiktoken==0.7.0",
     "trio>=0.29.0",
-    "xgboost==1.6.0"
+    "xgboost==1.6.0",
+    "xpinyin==0.7.6"
 ]
 
 
