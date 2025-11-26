@@ -6,7 +6,7 @@ sys.path.insert(
         os.path.join(
             os.path.dirname(
                 os.path.abspath(__file__)),
-            '../')))
+            '../../')))
 
 from vision.seeit import draw_box
 from vision import OCR, init_in_out
