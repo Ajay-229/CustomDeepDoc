@@ -38,7 +38,8 @@ debug.log
 # -------------------------
 # DeepDoc & RagFlow-like Data Folders
 # -------------------------
-data/
+output/
+input/
 outputs/
 cache/
 temp/
