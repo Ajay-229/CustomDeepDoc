@@ -26,8 +26,8 @@ import numpy as np
 from huggingface_hub import snapshot_download
 
 from common.file_utils import get_project_base_directory
-from vision import Recognizer
-from vision.operators import nms
+from .recognizer import Recognizer
+from .operators import nms
 
 
 class LayoutRecognizer(Recognizer):

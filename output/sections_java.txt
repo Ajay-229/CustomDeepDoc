@@ -1,0 +1,2787 @@
+ELECTRONICS AND COMPUTER ENGINEERING@@1	91.3	504.0	147.3	165.0##
+LECTURE NOTES@@1	218.0	376.7	270.0	288.7##
+
+OBJECT ORIENTED PROGRAMMING@@1	91.3	504.0	354.3	369.3##
+THROUGH JAVA@@1	203.7	390.7	379.7	397.3##
+
+J.B. INSTITUTE OF ENGINEERING AND TECHNOLOGY@@1	72.7	521.0	664.7	677.0##
+(UGC AUTONOMOUS)@@1	230.3	364.3	681.3	696.3##
+Bhaskar Nagar, Moinabad Mandal , R.R. District, Hyderabad -500075@@1	80.7	513.7	700.7	713.0##
+
+UNIT –I @@2	251.7	300.3	108.0	120.0##
+I. INTRODUCTION TO JAVA@@2	210.0	383.7	138.7	150.0##
+What is Java @@2	70.3	152.7	192.0	207.0##
+Java is a high Level programming language and it is also called as a @@2	70.0	525.3	221.0	238.7##
+platform. Java is a secured and robust high level object-oriented@@2	72.7	522.7	236.7	249.0##
+
+Platform: Any software or hardware environment in which a program runs @@2	71.0	523.7	277.0	292.0##
+is known as a platform. Java has its own runtime environment (JRE)and @@2	71.0	524.3	293.0	308.0##
+
+API so java is also called as platform.@@2	71.0	296.7	307.0	322.0##
+Java fallows the concept of Write Once, Run Anywhere.@@2	71.0	405.7	335.0	350.0##
+
+Application of java @@2	71.7	189.7	363.0	378.0##
+1. Desktop Applications @@2	88.7	234.0	388.7	404.3##
+2. Web Applications @@2	87.0	211.0	403.3	419.3##
+3. Mobile @@2	88.7	148.0	419.3	431.7##
+4. Enterprise Applications @@2	87.7	247.3	432.3	447.3##
+5. Smart Card @@2	87.7	178.0	446.3	461.3##
+6. Embedded System @@2	87.7	218.0	459.7	475.3##
+7. Games @@2	87.3	150.7	473.3	489.3##
+8. Robotics etc @@2	87.7	180.7	488.7	503.3##
+History of Java @@2	71.7	168.3	529.0	541.0##
+James Gosling, Patrick Naughton and Mike Sheridan initiated the Java @@2	71.7	524.3	557.7	572.7##
+language project in 1991. Team of sun engineers designed for small,@@2	71.0	522.7	572.0	586.7##
+embedded systems in electronic appliances like set-top boxes. Initially it was @@2	71.7	524.3	586.0	600.7##
+
+called "Greentalk"later it was called Oak .@@2	72.7	318.0	601.7	614.0##
+
+Java is an open source software produced by Sunmicro system under the @@2	71.0	524.3	627.0	642.0##
+
+terms of the GNU General Public License (GPL).@@2	72.7	354.3	645.7	657.7##
+
+ Features of Java:@@3	75.3	183.3	194.0	206.0##
+Object Oriented –Java implements basic concepts of Object oriented @@3	91.3	524.3	221.0	236.0##
+programming System (OOPS)ie Object, Class, Inheritance, @@3	106.3	523.7	236.0	251.0##
+Polymorphism, Abstraction, Encapsulation. In Java, everything is an @@3	106.3	524.3	249.0	264.0##
+Object. Java can be easily extended since it is based on the Object @@3	106.3	524.3	262.3	277.0##
+model.@@3	106.3	146.3	279.0	292.0##
+Platform Independent −Unlike many other programming languages @@3	103.7	524.3	291.3	306.0##
+including C and C++, when Java is compiled, it is not compiled into @@3	106.3	524.3	306.0	321.0##
+platform specific machine, rather into platform independent byte code. @@3	107.3	523.7	320.0	335.0##
+This byte code is distributed over the web and interpreted by the @@3	107.3	524.3	334.3	349.0##
+Virtual Machine (JVM)on whichever platform it is being run on.@@3	106.3	483.7	346.3	361.3##
+Simple –Java fallows the basic Syntax of C,C++. If you understand @@3	106.3	524.3	362.3	377.0##
+the basic concept of OOPS then it is easy to master in java.@@3	106.3	459.0	375.3	390.3##
+Secure −With Java's secure feature it enables to develop virus-free,@@3	104.7	522.7	390.3	405.3##
+tamper-free systems. Authentication techniques are based on public-@@3	105.3	522.7	405.3	420.0##
+ Architecture-neutral −Java compiler generates an architecture-@@3	104.7	523.7	430.7	448.3##
+neutral object file format, which makes the compiled code executable@@3	107.3	522.7	447.3	459.7##
+on many processors, with the presence of Java runtime system. @@3	107.3	482.7	461.3	476.3##
+Portable −Being architecture-neutral and having no implementation @@3	104.7	523.7	475.3	490.3##
+dependent aspects of the specification makes Java portable. Compiler @@3	106.3	523.7	488.7	503.3##
+in Java is written in ANSI C with a clean portability boundary, which @@3	105.3	524.3	502.7	517.3##
+Robust −Java makes an effort to eliminate error prone situations by @@3	103.7	524.3	530.7	545.7##
+emphasizing mainly on compile time error checking and runtime @@3	108.0	523.7	546.3	558.7##
+checking. @@3	107.0	164.3	556.7	572.3##
+write programs that can perform many tasks simultaneously. This@@3	108.0	522.7	588.7	600.7##
+ design feature allows the developers to construct interactive @@3	106.3	525.3	600.7	615.7##
+Interpreted −Java byte code is translated on the fly to native @@3	104.7	524.3	629.7	644.7##
+machine instructions and is not stored anywhere. The development @@3	105.3	524.3	643.7	658.7##
+process is more rapid and analytical since the linking is an @@3	105.3	525.3	658.7	673.7##
+High Performance −With the use of Just-In-Time compilers, Java @@3	107.3	523.7	687.7	700.0##
+Distributed −Java is designed for the distributed environment of the @@3	106.3	524.3	714.7	729.7##
+internet. @@3	107.3	158.7	729.7	742.0##
+Dynamic −Java is considered to be more dynamic than C or C++@@3	106.3	522.7	743.0	757.7##
+since it is designed to adapt to an evolving environment. Java @@3	108.0	523.7	758.7	771.0##
+
+Multithreaded −With Java's multithreaded feature In java we can @@3	103.7	524.3	572.7	587.7##
+
+applications that can run smoothly.@@3	106.3	318.0	615.0	629.7##
+
+programs can carry extensive amount of run-time information that @@4	106.3	524.3	81.7	96.3##
+can be used to verify and resolve accesses to objects on run-time.@@4	106.3	490.7	94.7	109.7##
+
+Object Oriented Programming System(OOPS)@@4	72.7	352.7	160.7	175.3##
+Object means a real word entity such as pen, chair, table etc. Object-@@4	71.7	522.7	188.7	203.3##
+Oriented Programming is a methodology or paradigm to design a program@@4	71.7	522.7	202.7	217.7##
+using classes and objects. It simplifies the software development and @@4	71.0	524.3	216.7	231.7##
+
+maintenance by providing some concepts: @@4	71.7	319.0	232.3	244.7##
+
+If any language fallows the OOPS concepts that language we call it as object @@4	70.0	524.3	356.0	372.0##
+
+Procedure to write simple java Program @@4	71.0	320.0	428.0	443.0##
+To write a java program First we have install the JDK.@@4	71.0	396.0	458.0	472.7##
+
+To create a simple java program, you need to create a class that contains @@4	71.0	524.3	486.7	501.7##
+
+main method. Let's understand the requirement first.@@4	71.7	384.3	502.7	515.0##
+install the JDK and install it.@@4	88.7	281.0	531.7	543.7##
+set path of the jdk @@4	86.7	216.0	545.7	560.3##
+create the java program @@4	102.7	107.3	562.3	573.2##
+compile and run the java program @@4	87.7	309.3	572.0	589.3##
+Setting Up the Path for Windows @@4	141.7	349.0	603.3	618.3##
+Assuming you have installed Java in c:\Program Files\java\jdk directory −@@4	71.7	508.7	632.3	647.3##
+Right-click on 'My Computer'and select 'Properties'. @@4	87.7	414.7	660.3	675.3##
+Click the 'Environment variables'button under the 'Advanced'tab.@@4	89.3	498.0	675.3	687.7##
+Now, alter the 'Path'variable so that it also contains the path to the @@4	89.3	523.7	689.3	701.7##
+Java executable. Example, if the path is currently set to @@4	108.0	524.3	703.3	715.7##
+'C:\WINDOWS\SYSTEM32', then change your @@4	107.3	432.3	715.7	730.7##
+path to read @@4	425.0	524.3	718.5	731.3##
+'C:\WINDOWS\SYSTEM32;c:\Program Files\java\jdk\bin'.@@4	106.3	456.3	729.7	744.7##
+
+Setting Up the Path for Linux, UNIX, Solaris, FreeBSD @@5	141.7	482.0	81.7	96.3##
+Environment variable PATH should be set to point to where the Java@@5	72.7	522.7	110.7	122.7##
+binaries have been installed. Refer to your shell documentation, if you have @@5	71.7	523.7	123.7	138.7##
+trouble doing this. For Example if you use bash as your shell, then you @@5	71.0	524.3	136.7	151.7##
+would add the following line to the end of your '.bashrc: export PATH =@@5	71.7	524.3	151.7	166.7##
+
+/path/to/java:$PATH'@@5	71.0	202.0	166.7	181.7##
+Popular Java Editors @@5	71.7	202.0	194.7	207.0##
+Notepad −On Windows machine, you can use any simple text editor @@5	105.3	524.3	223.7	238.7##
+like Notepad (Recommended for this tutorial), TextPad. @@5	106.3	430.7	237.7	252.7##
+Netbeans −A Java IDE that is open-source and free which can be @@5	105.3	523.7	251.7	266.7##
+downloaded from Eclipse −A Java IDE developed by the eclipse open-@@5	106.3	523.7	265.0	280.7##
+
+source community and can be downloaded from @@5	105.3	390.7	279.7	294.7##
+
+JVM (Java Virtual Machine)@@5	72.7	244.7	320.0	332.3##
+JVM (Java Virtual Machine)is an abstract machine. It is a specification that @@5	71.0	524.3	347.3	362.3##
+provides runtime environment in which java bytecode can be executed.@@5	70.0	522.7	363.0	378.0##
+JVMs are available for many hardware and software platforms (i.e. JVM is @@5	71.7	524.3	377.0	392.0##
+
+platform dependent).@@5	71.7	193.0	392.0	404.3##
+What is JVM @@5	143.7	223.3	419.3	431.7##
+It is: @@5	70.0	100.0	448.3	461.3##
+1. A specification where working of Java Virtual Machine is specified.@@5	89.3	521.7	475.3	490.3##
+But implementation provider is independent to choose the algorithm. @@5	106.3	522.7	489.3	504.3##
+Its implementation has been provided by Sun and other companies.@@5	105.3	506.0	502.7	517.3##
+2. An implementation Its implementation is known as JRE (Java @@5	87.7	524.3	516.7	531.7##
+Runtime Environment).@@5	107.3	245.3	530.7	545.7##
+
+3. Runtime Instance Whenever you write java command on the @@5	87.7	524.3	544.7	559.7##
+command prompt to run the java class, an instance of JVM is created. @@5	106.3	521.7	560.3	575.3##
+
+What it does @@5	142.0	223.3	585.7	600.7##
+The JVM performs following operation: @@5	71.7	299.3	616.7	631.3##
+Loads code @@5	87.7	174.7	643.0	657.7##
+Verifies code @@5	87.7	183.3	657.7	672.7##
+Executes code @@5	90.3	192.3	675.0	684.7##
+Provides runtime environment @@5	88.7	286.0	687.7	700.0##
+JVM provides definitions for the:@@5	71.7	263.0	715.7	728.0##
+Memory area @@5	88.7	185.0	743.7	756.0##
+Class file format @@5	92.0	203.7	757.7	770.0##
+
+Register set @@6	104.7	177.3	81.7	94.0##
+Garbage-collected heap @@6	105.3	95.7	97.3	107.0##
+Fatal error reporting etc. @@6	103.0	252.7	107.7	122.7##
+JAVA VIRTUAL MACHINE @@6	71.0	232.0	137.7	149.0##
+Java’s Magic: The Bytecode output of a Java compiler is not executable @@6	71.0	523.7	507.7	520.0##
+code. Rather, it is bytecode. Bytecode is a highly optimized set of @@6	71.0	525.3	522.0	534.0##
+instructions designed to be executed by the Java run-time system, which is @@6	71.0	523.7	535.0	547.3##
+
+called the Java Virtual Machine (JVM).@@6	71.0	297.7	549.0	561.3##
+
+Java complier translates the java source code into byte code or intermediate @@6	71.7	523.7	578.0	590.3##
+
+code ,not the executable file .JVM @@6	71.7	288.7	592.0	604.3##
+ take the byte code and convert into @@6	283.3	524.3	592.0	604.3##
+
+executable code corresponding to Operating system @@6	70.0	376.7	604.3	619.3##
+Because of the above feature java is portable @@6	71.7	334.0	634.0	646.3##
+
+II.CLASS, OBJECT AND METHODS @@6	189.7	405.7	662.3	674.3##
+Java program is a collection of objects that communicate via invoking each @@6	70.0	524.3	689.3	704.3##
+
+other's methods. We now briefly look into@@6	71.7	342.0	704.3	716.7##
+ class, object, methods, and@@6	335.7	522.7	704.3	716.7##
+
+Class −A class can be defined as a template/blueprint that describes the @@7	71.7	524.3	81.7	96.3##
+
+behavior/state that the object of its type supports.@@7	71.0	367.7	94.7	109.7##
+
+A class is declared by use of the class keyword. A simplified general form of @@7	70.0	524.3	122.7	137.7##
+
+The data, or variables, defined within a class are called instance variables.@@7	71.0	522.7	425.3	440.3##
+The code is contained within methods. Collectively, the methods and @@7	71.0	524.3	439.3	454.3##
+variables defined within a class are called members of the class. In most @@7	71.7	523.7	455.3	467.3##
+classes, the instance variables are acted upon and accessed by the methods @@7	71.0	524.3	468.3	483.3##
+
+Simple Class @@7	71.0	152.3	622.0	637.7##
+Class Sample @@7	71.7	152.3	648.0	663.0##
+{@@7	68.3	79.7	675.3	689.3##
+ int len, float ht @@7	77.0	178.0	700.7	715.7##
+ void get()@@7	76.7	134.0	725.3	741.0##
+ {//body @@7	72.7	138.3	752.7	768.3##
+
+Object in Java @@8	71.7	166.7	145.7	160.7##
+Object is the physical as well as logical entity whereas class is the logical @@8	71.7	523.7	176.3	191.3##
+
+An object has three characteristics: @@8	72.7	280.0	219.3	231.7##
+state: represents data (value)of an object.@@8	103.7	356.0	247.3	259.7##
+@@8	90.3	107.3	251.0	258.0##
+behavior: represents the behavior (functionality)of an object such as @@8	86.0	524.3	259.7	274.7##
+identity: Object identity is typically implemented via a unique ID. The@@8	103.7	522.7	289.3	301.7##
+@@8	90.3	107.3	292.0	299.0##
+value of the ID is not visible to the external user. But, it is used @@8	107.3	523.7	304.3	316.7##
+internally by the JVM to identify each object uniquely.@@8	107.3	425.3	318.3	330.7##
+Object is an instance of a class. Class is a template or blueprint from@@8	72.7	522.7	345.7	358.0##
+which objects are created. So object is the instance(result)of a class.@@8	72.7	474.0	360.3	372.7##
+
+Object Definitions: @@8	72.7	190.3	388.7	400.7##
+Object is a real world entity. Object is a run time entity. @@8	88.7	445.7	415.0	429.7##
+Object is an entity which has state and behavior.@@8	88.7	392.3	429.0	443.7##
+Object is an instance of a class. @@8	87.0	293.3	443.0	457.7##
+Sample s=new Sample()@@8	71.0	215.3	471.0	486.0##
+ here s is an object for the class Sample @@8	207.3	460.7	471.0	486.0##
+
+new operator is used to create an object @@8	71.7	311.0	500.7	513.0##
+
+Methods −A method is basically a behavior. A class can contain many @@8	70.0	523.7	554.3	569.3##
+methods. It is in methods where the logics are written, data is manipulated @@8	70.0	523.7	570.0	585.0##
+
+To compile: javac Sample.java @@9	70.0	254.3	80.7	95.7##
+To execute: java Sample @@9	71.7	219.7	108.0	120.0##
+
+Java Identifiers @@9	70.0	172.0	145.7	160.3##
+All Java components require names. Names used for classes, variables, and @@9	71.0	524.3	174.7	189.3##
+
+In Java, there are several points to remember about identifiers. They are as @@9	69.0	525.3	215.7	230.7##
+follows −@@9	70.7	123.3	230.3	243.7##
+All identifiers should begin with a letter (A to Z or a to z), currency @@9	91.3	524.3	258.0	272.7##
+After the first character, identifiers can have any combination of @@9	102.7	526.3	287.7	302.7##
+
+A key word cannot be used as an identifier. @@9	104.7	363.3	315.7	330.7##
+Most importantly, identifiers are case sensitive. @@9	104.7	386.3	329.7	344.7##
+Examples of legal identifiers: age, $salary, _value, __1_value.@@9	106.3	463.3	344.7	359.7##
+Examples of illegal identifiers: 123abc, -salary. @@9	106.3	382.7	358.7	373.7##
+@@9	90.0	104.7	364.3	370.3##
+Java Modifiers: There are two categories of modifiers −@@9	71.7	396.0	387.7	400.0##
+Access Modifiers −default, public , protected, private@@9	107.3	426.0	415.7	428.0##
+@@9	89.0	104.7	419.7	425.7##
+Non-access Modifiers −final, abstract, strictfp @@9	103.7	386.3	429.7	442.0##
+@@9	89.0	106.7	433.7	439.7##
+
+III DATA TYPES @@9	247.3	348.0	513.0	525.3##
+There are two data types available in Java −@@9	70.0	329.7	539.3	554.3##
+Primitive Data Types @@9	102.0	106.7	570.2	581.2##
+Non Primitive Types @@9	87.0	226.0	581.3	596.3##
+
+Primitive Data Types @@10	70.0	204.7	388.3	402.7##
+There are eight primitive data types supported by Java. Primitive data types @@10	71.0	525.3	420.0	435.0##
+are predefined by the language and named by a keyword. Let us now look @@10	70.0	525.3	434.0	449.0##
+
+into the eight primitive data types in detail.@@10	71.0	325.0	450.0	462.3##
+byte @@10	142.7	174.0	474.3	490.0##
+Byte data type is an 8-bit signed two's complement integer @@10	105.3	452.7	503.3	518.3##
+Maximum value is 127 (inclusive)(2^7 -1)@@10	106.3	351.7	532.3	547.3##
+
+Byte data type is used to save space in large arrays, mainly in place of @@10	105.3	526.3	560.3	576.3##
+integers, since a byte is four times smaller than an integer. @@10	105.3	454.3	575.3	590.3##
+
+Example: byte a =100, byte b =-50 @@10	106.3	319.7	589.3	604.3##
+short @@10	141.7	179.0	617.3	630.7##
+Short data type is a 16-bit signed two's complement integer @@10	106.3	459.0	645.7	660.3##
+Maximum value is 32,767 (inclusive)(2^15 -1)@@10	107.3	381.7	674.3	686.7##
+short is 2 times smaller than an integer @@10	105.3	343.0	700.7	715.7##
+Example: short s =10000, short r =-20000 @@10	107.3	365.0	730.7	743.0##
+
+Minimum value is -32,768 (-2^15)@@10	105.3	309.3	657.7	672.7##
+
+Short data type can also be used to save memory as byte data type. A @@10	106.3	524.3	687.7	702.7##
+
+int @@11	141.7	164.0	80.7	94.7##
+Int data type is a 32-bit signed two's complement integer.@@11	88.7	444.7	108.7	123.7##
+Minimum value is -2,147,483,648 (-2^31)@@11	102.0	358.7	122.0	136.7##
+ @@11	94.7	107.3	127.3	133.3##
+Maximum value is 2,147,483,647(inclusive)(2^31 -1)@@11	104.7	422.7	138.7	151.0##
+@@11	89.0	106.7	142.3	148.7##
+Integer is generally used as the default data type for integral values @@11	103.7	524.3	151.7	166.7##
+
+unless there is a concern about memory.@@11	106.3	347.3	165.0	179.7##
+The default value is 0 @@11	107.3	235.7	180.7	193.0##
+Example: int a =100000, int b =-200000 @@11	104.7	353.3	194.0	208.7##
+
+long @@11	140.7	174.0	219.7	235.7##
+Long data type is a 64-bit signed two's complement integer @@11	104.7	453.7	250.0	265.0##
+Minimum value is -9,223,372,036,854,775,808(-2^63)@@11	106.3	428.0	265.0	277.0##
+Maximum value is 9,223,372,036,854,775,807 (inclusive)(2^63 -1)@@11	105.3	500.7	278.0	293.0##
+This type is used when a wider range than int is needed @@11	106.3	436.7	292.0	307.0##
+Example: long a =100000L, long b =-200000L @@11	103.7	385.3	319.3	336.7##
+
+float @@11	141.7	175.3	347.3	363.0##
+Float data type is a single-precision 32-bit IEEE 754 floating point @@11	91.3	498.0	376.3	391.3##
+Float is mainly used to save memory in large arrays of floating point @@11	104.7	524.3	389.3	405.3##
+numbers @@11	107.3	163.0	404.3	419.3##
+Default value is 0.0f @@11	106.3	226.7	419.3	431.7##
+Example: float f1 =234.5f @@11	107.3	261.3	448.3	460.3##
+double @@11	142.7	187.0	473.7	489.3##
+double data type is a double-precision 64-bit IEEE 754 floating point @@11	90.3	514.0	501.7	516.7##
+This data type is generally used as the default data type for decimal @@11	105.3	524.3	516.7	531.7##
+Double data type should never be used for precise values such as @@11	104.7	524.3	545.7	560.3##
+currency @@11	107.7	161.3	559.3	572.7##
+Default value is 0.0d @@11	104.3	231.0	572.7	587.7##
+Example: double d1 =123.4 @@11	106.3	273.7	587.7	602.7##
+boolean @@11	141.3	193.3	613.7	628.7##
+boolean data type represents one bit of information @@11	103.7	410.3	643.0	660.3##
+@@11	94.0	107.3	648.0	654.3##
+There are only two possible values: true and false @@11	105.3	399.7	657.0	671.7##
+
+Float data type is never used for precise values such as currency @@11	104.7	490.0	430.7	448.3##
+
+values, generally the default choice @@11	106.3	316.3	530.7	545.7##
+
+This data type is used for simple flags that track true/false conditions@@11	105.3	519.0	671.0	686.0##
+
+Java Literals @@12	71.0	153.3	151.0	165.7##
+A literal is a source code representation of a fixed value. Literals can be @@12	70.0	524.3	180.7	195.7##
+
+byte, int, long, and short can be expressed in decimal(base 10), @@12	71.7	523.7	251.0	265.7##
+hexadecimal(base 16)or octal(base 8)number systems as well. @@12	71.0	440.3	266.7	281.7##
+Prefix 0 is used to indicate octal, and prefix 0x indicates hexadecimal when @@12	71.0	524.3	293.0	308.0##
+
+using these number systems for literals. For example −@@12	71.0	394.3	308.7	323.7##
+int decimal =100; int octal =0144; int hexa =0x64; @@12	71.7	405.7	337.7	350.0##
+String literals in Java are specified like they are in most other languages by @@12	71.7	523.7	364.0	379.0##
+enclosing a sequence of characters between a pair of double quotes. @@12	71.0	523.7	379.0	393.7##
+
+String and char types of literals can contain any Unicode characters. For @@12	71.7	524.3	463.0	478.0##
+
+Java language supports few special escape sequences for String and char @@12	69.0	504.0	503.3	521.0##
+
+Notation Character represented @@12	63.0	270.3	534.0	549.0##
+\n Newline (0x0a)@@12	63.7	217.0	563.2	579.7##
+\r Carriage return (0x0d)@@12	63.7	261.3	592.8	609.5##
+\f Formfeed (0x0c)@@12	63.0	224.3	621.8	638.0##
+\b Backspace (0x08)@@12	63.7	233.0	651.7	667.5##
+\s Space (0x20)@@12	63.7	204.7	681.3	697.2##
+\t Tab @@12	63.0	152.3	710.3	725.7##
+\"Double quote @@12	63.0	209.3	738.5	754.7##
+
+3. int i=50; @@13	87.7	158.7	252.7	267.7##
+4. int j=60; @@13	87.7	159.3	268.3	283.3##
+5. int k=a+b; @@13	88.7	169.3	283.3	295.7##
+ 6. System.out.println(k); @@13	87.7	237.3	295.7	310.3##
+7. }}@@13	87.7	125.0	310.3	326.3##
+Java Variable Example: Widening @@13	141.7	352.7	338.7	353.3##
+1. class Sample{@@13	89.7	189.7	366.7	379.7##
+ 2. public static void main(String[]args){@@13	87.0	326.0	379.7	394.7##
+
+3. int j=10; @@13	87.7	159.3	394.7	409.7##
+ 4. float k=a; @@13	87.0	165.0	407.7	422.7##
+ 5. System.out.println(i); @@13	87.0	234.0	421.7	436.7##
+6. System.out.println(j); @@13	87.7	234.0	437.7	452.7##
+7. }}@@13	88.3	118.3	448.3	464.3##
+Unicode System @@13	70.0	173.7	488.3	503.3##
+Unicode is a universal international standard character encoding that is @@13	71.0	524.3	507.0	522.0##
+capable of representing most of the world's written languages. @@13	70.0	436.7	522.7	540.3##
+Before Unicode, there were many language standards: @@13	71.0	390.7	554.3	569.3##
+
+ASCII (American Standard Code for Information Interchange)for the @@13	103.7	524.3	581.3	596.3##
+
+ ISO 8859-1 for Western European Language. @@13	104.7	375.7	609.7	624.3##
+GB18030 and BIG-5 for chinese, and so on.@@13	104.7	368.7	638.3	653.3##
+
+Java Tokens @@14	71.0	151.3	81.7	94.0##
+Java Tokens are the smallest individual building block or smallest unit of a @@14	71.7	523.7	108.0	120.0##
+Java program, it is used by the Java compiler for constructing expressions @@14	70.0	524.3	123.7	138.7##
+and statements. Java program is collection different types of tokens, @@14	70.0	524.3	139.3	154.3##
+
+throws Transient @@14	71.0	182.7	462.2	475.7##
+Null @@14	70.0	97.3	496.3	509.7##
+Variable @@14	71.0	123.0	523.7	536.0##
+Variable is name of reserved area allocated in memory. In other words, it is @@14	70.0	525.3	553.3	568.3##
+a name of memory location. It is a combination of "vary +able"that means @@14	69.0	526.3	567.3	582.3##
+
+A variable which is declared inside the method is called local variable.@@15	71.0	479.3	267.7	279.7##
+
+A variable which is declared inside the class but outside the method, is @@15	71.0	524.3	326.3	338.7##
+
+called instance variable . It is not declared as static.@@15	71.0	375.7	341.3	352.7##
+
+A variable that is declared as static is called static variable. It cannot be @@15	71.0	523.7	399.0	411.3##
+local.@@15	71.0	102.7	413.0	425.3##
+We will have detailed learning of these variables in next chapters.@@15	71.7	454.3	441.3	453.3##
+
+IV OPERATORS &IF, Switch, loop Statements @@15	152.3	443.0	479.7	492.0##
+Operators in java @@15	71.7	180.0	520.0	532.3##
+Operator in java is a symbol that is used to perform operations. For@@15	71.7	522.7	549.0	561.3##
+
+There are many types of operators in java which are given below: @@15	71.0	452.7	591.0	606.0##
+
+Java If-else Statement @@16	71.0	213.7	81.7	94.0##
+The Java if statement is used to test the condition. It checks boolean @@16	71.7	524.3	112.3	124.7##
+condition: true or false. There are various types of if statement in java. @@16	70.0	484.7	124.7	138.7##
+ if-else statement @@16	242.0	341.0	153.3	165.7##
+ if-else-if ladder @@16	104.0	198.7	165.7	180.7##
+ nested if statement @@16	240.0	355.3	168.3	180.7##
+Java IF Statement @@16	71.7	188.7	196.3	208.7##
+The Java if statement tests the condition. It executes the if block if condition @@16	69.0	524.3	224.7	239.3##
+
+2.3.  int k=35; @@16	89.0	181.7	351.2	364.8##
+4.  if(k>18){@@16	88.7	174.0	365.2	378.8##
+ System.out.print("Hello");@@16	197.7	346.3	367.3	379.7##
+5.  }}}@@16	88.7	156.0	380.2	394.7##
+ IF-else Statement @@16	73.7	188.7	407.7	420.0##
+The if-else statement in java tests the condition. It executes the if block if @@16	69.0	526.3	435.0	450.0##
+
+IF-else-if ladder Statement @@17	71.0	240.0	81.7	93.0##
+The if-else-if ladder statement executes one condition from multiple @@17	69.0	524.3	107.0	122.0##
+
+3. }else if(condition2){@@17	88.7	219.7	207.0	222.0##
+3.  int marks=70; @@17	88.7	207.3	418.8	431.2##
+ System.out.println("C grade"); @@17	172.7	351.7	545.7	560.3##
+
+ Switch Statement @@18	74.3	189.7	79.7	93.0##
+The switch statement in java executes one statement from multiple @@18	71.7	524.3	112.3	124.7##
+
+3.  int k=20; @@18	88.7	179.0	420.5	434.2##
+4.  switch(k){@@18	88.7	181.7	436.0	447.8##
+5.@@18	88.7	101.0	449.0	461.3##
+ case 10: System.out.println("10");break; @@18	123.0	358.0	450.0	462.3##
+6.@@18	89.3	101.0	463.0	475.3##
+ case 20: System.out.println("20");break; @@18	121.3	359.7	463.0	478.0##
+7. @@18	89.3	102.0	477.0	489.3##
+ case 30: System.out.println("30");break; @@18	121.3	359.7	477.0	492.0##
+ default:System.out.println("Not in 10, 20 or 30"); @@18	120.7	411.0	489.3	504.3##
+8. @@18	89.3	102.0	491.3	503.3##
+9.  }}@@18	88.7	146.3	505.3	518.3##
+ 10. }@@18	89.3	150.7	519.2	532.8##
+
+Java For Loop @@18	69.3	162.3	555.0	570.0##
+The Java for loop is used to iterate a part of the program several times. If the @@18	70.0	524.3	586.0	601.7##
+number of iteration is fixed, it is recommended to use for loop. @@18	70.0	438.7	600.7	615.7##
+
+Java Simple For Loop @@19	69.3	208.3	79.7	94.7##
+The simple for loop is same as C/C++. We can initialize variable, check @@19	71.7	523.7	111.3	123.7##
+
+3.  int j=1; @@19	90.0	167.3	572.8	585.7##
+4.  while(j<=10){@@19	89.3	200.3	586.7	600.3##
+ System.out.println(j); @@19	136.7	265.0	600.0	614.7##
+5. @@19	88.7	102.0	600.7	614.0##
+6.  j++; @@19	89.3	146.3	616.2	628.8##
+7. @@19	89.3	102.0	629.7	641.0##
+ }8. }}@@19	87.3	126.0	641.7	657.7##
+
+Java do-while Loop @@19	69.3	193.3	678.7	694.7##
+The Java do-while loop is used to iterate a part of the program several times.@@19	70.0	522.7	710.3	726.3##
+ If the number of iteration is not fixed and you must have to execute the loop @@19	69.0	524.3	724.3	739.3##
+at least once, it is recommended to use do-while loop.The Java do-while loop @@19	69.0	524.7	738.3	753.3##
+is executed at least once because condition is checked after loop body.@@19	69.0	484.7	753.3	768.3##
+
+Java Break Statement @@20	70.0	212.7	353.3	368.3##
+The Java break is used to break loop or switch statement. It breaks the @@20	69.0	524.3	384.0	399.0##
+current flow of the program at specified condition. In case of inner loop, it @@20	70.0	525.3	400.0	415.0##
+
+Example: @@20	71.7	130.3	722.7	735.0##
+1. public class Sample {@@20	88.7	234.7	748.0	763.0##
+
+2. public static void main(String[]args){@@21	86.7	331.3	79.0	96.3##
+3. for(int k=1;k<=10;k++){@@21	88.7	260.3	94.7	108.3##
+4.  if(k==5){@@21	88.7	189.0	107.8	122.3##
+5. continue; @@21	88.7	211.0	123.2	137.7##
+6.}@@21	88.7	144.3	139.0	150.0##
+7. @@21	89.3	102.0	151.0	164.0##
+ System.out.println(k); @@21	138.3	268.3	152.7	165.0##
+8.@@21	89.3	101.0	165.7	178.0##
+ 9. }@@21	88.7	113.7	177.0	191.7##
+10. }@@21	90.3	148.0	196.5	205.7##
+V ARRAYS &COMMENTS in JAVA @@21	190.3	404.0	272.7	285.0##
+Array in java @@21	71.0	153.3	312.3	327.0##
+Array is group of elements of similar types occupying contiguous memory @@21	70.0	524.3	341.0	356.0##
+locations @@21	71.0	125.7	358.0	370.0##
+Advantage of Java Array @@21	142.0	297.0	383.3	398.0##
+ Random access @@21	241.0	343.0	413.0	425.3##
+Code Optimization @@21	107.3	247.3	414.0	425.3##
+
+Disadvantage of Java Array is it has fixed size it cannot grow @@21	141.7	502.3	440.3	455.3##
+
+Single Dimensional Array in java @@21	143.7	349.0	540.3	552.7##
+Syntax to Declare an Array in java @@21	141.7	360.7	552.7	567.3##
+1. datatype[]arrayname (or)@@21	87.7	259.7	579.0	596.3##
+ 2. datatype []arrayname; (or)@@21	87.7	261.3	593.7	609.7##
+3. datatype arrayname[]; @@21	87.7	237.3	608.7	623.7##
+ Array initialization in java @@21	146.3	314.7	636.7	651.7##
+1. arrayname=new datatype[size]; @@21	88.7	290.7	664.7	679.7##
+Example @@21	142.7	199.3	693.7	708.7##
+Let's see the simple example of java array, where we are going to declare, @@21	70.0	523.7	721.0	736.0##
+
+instantiate, initialize and traverse an array. @@21	69.0	327.7	735.0	750.0##
+
+1. class Testarray{@@22	88.0	202.0	79.7	94.7##
+2. public static void main(String args[]){@@22	88.7	325.0	95.7	110.7##
+3. int a[]=new int[5];//declaration and instantiation@@22	89.3	396.0	110.7	122.7##
+4. a[0]=10; a[1]=20; a[2]=70; a[3]=40; a[4]=50;@@22	87.7	406.7	122.7	137.7##
+ 5. for(int i=0;i<a.length;i++)//length is the property of array @@22	87.0	451.0	136.0	151.7##
+7. }}@@22	87.3	126.0	163.7	179.7##
+Declaration, Instantiation and Initialization of Java Array@@22	70.0	434.0	193.7	208.7##
+We can declare, instantiate and initialize the java array together by: @@22	70.0	469.7	221.0	236.0##
+1. int a[]={33,3,4,5};//declaration, instantiation and initialization @@22	89.7	475.0	249.0	264.0##
+Let's see the simple example to print this array. @@22	70.0	351.7	276.3	293.7##
+
+6. System.out.println(a[i]); @@22	87.7	248.0	150.7	165.7##
+1. class Testarray1{@@22	88.7	209.0	305.3	320.0##
+2. public static void main(String args[]){@@22	87.7	326.0	319.3	334.0##
+3.@@22	88.7	101.0	335.0	347.3##
+4. int a[]={33,3,4,5};//declaration, instantiation and initialization @@22	87.0	475.0	347.3	362.3##
+5.@@22	88.7	101.0	363.0	375.3##
+6. //printing array @@22	87.7	205.7	376.3	392.0##
+ 7. for(int i=0;i<a.length;i++)//length is the property of array@@22	87.7	442.0	389.3	405.3##
+9. @@22	88.7	104.7	417.3	432.3##
+10. }}@@22	89.3	154.0	432.8	447.7##
+Multidimensional array in java@@22	141.7	335.7	460.3	475.3##
+In such case, data is stored in row and column based index (also known as @@22	70.0	524.3	488.7	503.3##
+
+8. System.out.println(a[i]); @@22	87.7	248.0	404.3	419.3##
+matrix form). @@22	70.3	150.0	502.3	517.3##
+Syntax to Declare Multidimensional Array in java@@22	143.7	451.7	534.0	546.3##
+1. dataType[][]arrayRefVar; (or)dataType [][]arrayRefVar; (or)@@22	88.7	455.3	557.7	575.3##
+2. dataType arrayRefVar[][]; (or)dataType []arrayRefVar[]; @@22	88.7	436.0	573.7	591.0##
+Example to instantiate Multidimensional Array in java@@22	143.7	484.7	601.7	616.7##
+1. int[][]arr=new int[3][3];//3 row and 3 column @@22	90.3	376.7	629.7	644.7##
+Example to initialize Multidimensional Array in java @@22	142.7	472.3	657.0	671.7##
+1. arr[0][0]=1; @@22	88.7	174.7	686.0	700.7##
+2. arr[0][1]=2; @@22	87.7	174.7	700.0	714.7##
+3. arr[0][2]=3; @@22	87.7	174.7	714.0	729.0##
+4. arr[1][0]=4; @@22	88.0	174.7	726.0	742.0##
+5. arr[1][1]=5; @@22	88.7	174.7	742.0	757.0##
+6. arr[1][2]=6; @@22	88.0	174.7	755.0	770.0##
+
+7. arr[2][0]=7; @@23	88.7	174.7	79.7	94.7##
+8. arr[2][1]=8; @@23	88.0	175.7	93.0	108.7##
+9. arr[2][2]=9; @@23	87.7	175.3	108.7	125.3##
+Example of Multidimensional java array @@23	141.7	393.3	136.0	151.7##
+Let's see the simple example to declare, instantiate, initialize and print the @@23	70.0	524.3	164.0	179.0##
+
+Example: @@24	70.3	131.3	107.0	122.7##
+1. public class Sample{@@24	89.3	230.3	136.7	151.7##
+2. public static void main(String[]args){@@24	87.7	330.3	151.0	165.7##
+ int j=10;//Here, i is a variable @@24	121.3	302.0	165.0	179.7##
+3. @@24	89.3	102.0	165.7	178.0##
+4. System.out.println(j); @@24	89.3	249.0	179.3	192.7##
+ 5. }@@24	88.0	116.3	190.0	206.7##
+6. }@@24	87.7	115.3	208.0	222.0##
+2)Java Multi Line Comment @@24	70.0	251.7	234.0	249.0##
+The multi line comment is used to comment multiple lines of code.@@24	69.0	462.3	262.3	277.0##
+Syntax: @@24	69.7	120.7	290.0	306.0##
+1. /*@@24	88.7	123.0	318.3	335.0##
+ 2. This @@24	87.7	135.7	331.7	347.3##
+3. is @@24	87.7	120.3	346.3	362.3##
+4. multi line @@24	87.7	165.7	361.3	376.3##
+5. comment @@24	87.7	164.7	374.7	390.3##
+6. */@@24	87.7	122.7	387.3	403.0##
+Example: @@24	70.3	131.3	444.7	460.3##
+1. public class CommentExample2 {@@24	89.3	306.7	473.7	488.7##
+2. public static void main(String[]args){@@24	88.7	330.3	488.7	503.3##
+3. /*Let's declare and @@24	87.7	225.0	502.7	517.3##
+4. print variable in java. */@@24	87.7	254.3	516.7	531.7##
+5.  int j=10; @@24	89.3	173.7	531.2	544.3##
+6.  System.out.println(j); @@24	89.3	249.0	545.2	558.3##
+ 7. }@@24	87.7	116.3	556.7	572.3##
+8. }@@24	87.7	114.7	571.7	585.7##
+3)Java Documentation Comment @@24	71.7	282.7	602.7	615.0##
+The documentation comment is used to create documentation API. To create @@24	70.0	524.3	628.0	643.0##
+
+6. */@@25	87.7	122.3	79.7	95.7##
+VI CONSTRUCTORS @@25	71.7	196.7	120.0	131.7##
+Constructor is special member function ,it has the same name as class @@25	71.7	523.7	151.0	163.0##
+name. It is called when an instance of object is created and memory is @@25	70.0	524.3	162.3	177.0##
+
+It is a special type of method which is used to initialize the object @@25	70.0	455.3	205.3	220.0##
+Rules for creating java constructor @@25	143.7	363.3	235.0	247.3##
+There are basically two rules defined for the constructor. @@25	70.0	405.0	260.3	275.3##
+1. Constructor name must be same as its class name @@25	88.7	406.7	288.7	303.3##
+2. Constructor must have no explicit return type @@25	87.7	379.3	303.3	318.3##
+Types of java constructors @@25	143.7	310.0	333.3	345.7##
+There are two types of constructors in java:@@25	71.7	325.0	361.3	373.7##
+1. Default constructor (no-arg constructor)@@25	88.7	344.7	387.7	401.7##
+2. Parameterized constructor @@25	89.3	264.0	403.3	415.7##
+A constructor is called "Default Constructor"when it doesn't have any @@25	69.0	524.7	550.7	565.7##
+
+1. class Student4{@@26	87.7	202.0	79.0	93.7##
+2. int id; @@26	88.7	159.3	94.7	108.0##
+3. String name; @@26	88.7	202.0	108.2	122.8##
+4. Student4(int i,String n){@@26	88.7	265.0	123.2	136.3##
+5. id =i; @@26	88.7	160.3	136.3	150.8##
+6. name =n; @@26	89.3	184.3	150.8	164.3##
+7. @@26	89.3	102.0	165.7	178.0##
+ void display(){System.out.println(id+""+name);}@@26	121.3	400.3	178.0	195.7##
+8. @@26	88.7	102.0	179.7	192.0##
+9. @@26	88.7	102.0	194.0	206.0##
+10. @@26	89.3	109.0	207.0	221.0##
+ public static void main(String args[]){@@26	158.7	377.3	208.0	222.7##
+11. @@26	89.3	109.0	221.0	235.0##
+ Student4 s1 =new Student4(111,"Karan"); @@26	158.7	411.0	221.0	236.0##
+ Student4 s2 =new Student4(222,"Aryan"); @@26	156.0	411.0	232.3	250.0##
+12. @@26	89.3	109.0	235.0	249.0##
+13.  s1.display(); @@26	89.3	231.3	248.5	263.0##
+14.  s2.display(); @@26	89.3	231.3	262.5	277.5##
+15.  }@@26	89.3	160.3	279.7	290.8##
+16. }@@26	90.3	149.7	294.3	304.8##
+ Difference between constructor and method in java@@26	73.7	397.7	318.3	333.3##
+There are many differences between constructors and methods. They are @@26	68.3	525.3	345.7	363.0##
+
+Java static keyword @@26	69.0	198.3	588.7	603.3##
+The static keyword in java is used for memory management mainly. We can@@26	71.7	522.7	620.0	632.3##
+apply java static keyword with variables, methods, blocks and nested class.@@26	70.0	522.7	633.3	648.3##
+The static keyword belongs to the class than instance of the class.@@26	71.7	459.7	648.0	660.3##
+
+1. variable (also known as class variable)@@26	90.3	331.3	732.3	744.7##
+2. method (also known as class method)@@26	89.3	328.7	746.3	758.7##
+
+3. block @@27	87.7	141.7	79.7	94.7##
+4. nested class @@27	88.7	180.7	95.7	108.0##
+1)Java static variable @@27	72.7	210.0	123.7	136.0##
+If you declare any variable as static, it is known static variable.@@27	71.7	441.3	154.3	166.7##
+The static variable can be used to refer the common property of all @@27	106.3	524.3	181.7	196.3##
+objects (that is not unique for each object)e.g. company name of @@27	106.3	527.0	194.7	212.3##
+The static variable gets memory only once in class area at the time of @@27	106.3	526.3	223.7	238.7##
+
+employees,college name of students etc. @@27	105.3	342.7	209.7	224.7##
+
+ void display (){System.out.println(rollno+""+name+""+college);}@@27	81.7	452.7	407.0	422.0##
+
+2)Java static method@@27	70.0	208.0	581.7	596.3##
+If you apply static keyword with any method, it is known as static method.@@27	70.0	508.7	612.3	627.0##
+A static method belongs to the class rather than object of a class.@@27	103.7	490.0	641.0	653.3##
+ @@27	97.3	107.3	644.7	650.7##
+A static method can be invoked without the need for creating an @@27	102.7	524.3	653.3	668.3##
+@@27	90.3	104.7	658.7	664.7##
+instance of a class.@@27	107.3	219.7	669.3	681.3##
+value of it.@@27	107.3	169.3	697.3	709.7##
+Example of static method@@27	143.7	304.7	725.3	737.7##
+
+ static method can access static data member and can change the @@27	87.7	524.3	681.3	696.3##
+
+1. //Program of changing the common property of all objects(static field).@@28	90.3	521.7	80.7	95.7##
+2. @@28	88.7	102.0	108.7	122.0##
+ 3. class Stud{@@28	86.7	177.3	121.0	138.7##
+4.  int rollno; @@28	88.7	186.0	136.8	150.8##
+5. String name; @@28	88.7	205.7	150.5	164.8##
+6. @@28	88.7	102.0	165.7	178.0##
+ static String college ="BEC"; @@28	125.7	297.7	165.7	180.7##
+7. @@28	89.3	102.0	179.7	192.0##
+8.  static void change(){@@28	88.7	245.3	193.5	207.0##
+9. college ="JBIEIT"; @@28	88.7	237.3	207.5	221.3##
+10.  }@@28	89.3	166.0	223.2	234.5##
+ Stud(int r, String n){@@28	160.7	284.3	234.0	249.0##
+11. @@28	89.3	109.0	235.0	249.0##
+12.  rollno =r; @@28	89.3	223.3	248.5	263.0##
+13.  name =n; @@28	89.3	223.3	264.3	277.5##
+14.  }@@28	89.3	168.3	278.8	290.8##
+15. @@28	89.3	109.0	291.3	305.3##
+ void display (){System.out.println(rollno+""+name+""+college@@28	160.3	522.7	303.3	321.0##
+16. @@28	89.3	109.0	305.3	319.3##
+);}@@28	106.3	121.3	320.0	336.0##
+ public static void main(String args[]){@@28	164.0	384.7	332.3	350.0##
+17. @@28	90.3	109.0	335.0	347.3##
+ Stud.change(); @@28	157.0	245.7	346.3	361.3##
+18. @@28	89.3	110.0	347.3	361.3##
+ Stud s1 =new Stud (11,"Kiran"); @@28	163.0	359.7	359.7	377.0##
+19. @@28	89.3	109.0	361.3	375.3##
+20. @@28	88.7	110.0	376.3	390.3##
+ Stud s2 =new Stud (22,"Arjun"); @@28	157.7	352.7	376.3	391.3##
+ Stud s3 =new Stud (33,"srinu"); @@28	157.0	351.0	389.3	404.3##
+21. @@28	88.7	109.0	390.3	404.3##
+22. @@28	88.7	109.0	404.3	418.3##
+ s1.display(); @@28	164.0	239.3	404.3	419.3##
+23.  s2.display(); @@28	88.7	231.3	417.8	432.3##
+24.  s3.display(); @@28	88.7	231.3	431.8	446.8##
+25.  }@@28	88.7	167.0	446.0	460.0##
+26. }@@28	88.7	149.7	462.2	474.2##
+this keyword in java @@28	71.0	199.3	499.0	514.0##
+There can be a lot of usage of java this keyword. In java, this is a reference @@28	70.0	524.3	529.0	543.7##
+
+variable that refers to the current object.@@28	71.0	312.7	544.7	557.0##
+Usage of java this keyword @@28	70.0	240.0	571.0	586.0##
+Here is given the 6 usage of java this keyword.@@28	71.7	343.0	601.7	616.7##
+1. this can be used to refer current class instance variable.@@28	90.3	437.7	630.7	643.0##
+ 2. this can be used to invoke current class method (implicitly)@@28	87.7	456.3	643.0	657.7##
+3. this()can be used to invoke current class constructor. @@28	88.7	426.0	657.7	672.7##
+4. this can be passed as an argument in the method call.@@28	87.7	428.0	671.0	686.0##
+ 5. this can be passed as argument in the constructor call. @@28	87.0	433.3	684.0	701.7##
+6. this can be used to return the current class instance from the method.@@28	87.7	522.7	699.0	714.0##
+
+The this keyword can be used to refer current class instance variable. If @@29	71.0	525.3	79.7	94.7##
+there is ambiguity between the instance variables and parameters, this@@29	71.7	522.7	95.7	108.0##
+
+keyword resolves the problem of ambiguity.@@29	71.0	326.0	109.7	124.7##
+
+ public static void main(String args[]){@@29	79.0	297.7	306.0	321.0##
+ Student s1=new Student(111,"ankit",5000f); @@29	79.0	340.3	319.3	334.3##
+ Student s2=new Student(112,"sumit",6000f); @@29	77.0	343.7	333.3	348.3##
+
+ s1.display(); @@29	78.0	150.7	348.3	363.0##
+ s2.display(); }}@@29	78.0	170.0	362.3	377.0##
+2)this: to invoke current class method @@29	141.7	389.7	376.3	391.3##
+You may invoke the method of the current class by using the this keyword.@@29	70.0	521.7	403.3	419.3##
+If you don't use the this keyword, compiler automatically adds this keyword @@29	70.0	524.3	419.3	434.0##
+
+3. void n(){@@29	87.0	156.0	487.7	502.3##
+11. B b=new B(); @@29	89.3	219.7	601.2	615.8##
+constructor chaining. @@29	70.0	198.3	742.0	757.0##
+
+Calling default constructor from parameterized constructor:@@30	71.7	449.0	81.7	94.0##
+1. class B{@@30	89.3	156.0	108.0	122.7##
+ 2. B(){System.out.println("hello ");}@@30	86.0	295.0	121.0	138.7##
+4. this(); @@30	87.3	143.7	148.0	163.7##
+ 5. System.out.println(x); @@30	87.0	236.7	164.0	179.0##
+6. }@@30	88.7	115.7	177.7	191.7##
+7. }@@30	88.7	115.3	193.0	207.0##
+ 8. class Sample{@@30	87.0	190.7	206.0	221.0##
+10. B a=new B(10); @@30	89.3	234.0	234.5	249.0##
+11. }}@@30	88.7	153.3	249.5	263.5##
+1. class Student{@@30	89.3	193.0	277.0	292.0##
+2. int rollno; @@30	87.0	167.7	290.3	305.0##
+ 3. String name,course; @@30	87.0	228.7	304.3	319.0##
+4. float fee; @@30	87.0	159.7	317.3	333.0##
+ 5. Student(int rollno,String name,String course){@@30	87.0	379.3	333.3	348.3##
+
+3. B(int x){@@30	87.0	156.0	135.0	150.7##
+ 9. public static void main(String args[]){@@30	86.0	327.0	219.3	236.7##
+
+6. this.rollno=rollno; @@30	87.7	214.3	347.3	362.3##
+7. this.name=name; @@30	88.0	212.7	360.3	375.3##
+ 8. this.course=course; @@30	87.0	225.0	374.3	389.3##
+9. }@@30	88.7	114.7	388.3	402.3##
+Student(int rollno,String name,String course,float fee){@@30	142.7	465.0	403.3	419.3##
+10. @@30	89.3	110.7	404.3	418.3##
+this(rollno,name,course);//reusing constructor @@30	141.7	421.7	417.3	432.3##
+11. @@30	89.3	109.0	418.3	432.3##
+12. this.fee=fee; @@30	89.3	216.3	431.0	445.8##
+13. }@@30	89.3	149.7	447.7	460.0##
+14. @@30	89.3	109.0	460.3	474.7##
+void display(){System.out.println(rollno+""+name+"@@30	142.7	449.0	461.3	473.7##
+ "+course+"@@30	443.7	508.3	464.0	473.7##
+
+1. class S2{@@30	90.3	161.3	686.7	699.0##
+2.  void m(S2 obj){@@30	89.3	204.7	699.3	713.0##
+ System.out.println("method is invoked"); @@30	112.7	354.3	713.0	728.0##
+3. @@30	89.3	102.7	714.7	726.3##
+4.  }@@30	88.7	121.3	729.3	741.5##
+5.  void p(){@@30	88.7	164.0	743.0	756.5##
+6.  m(this); @@30	89.3	163.0	757.3	770.7##
+
+7.  }@@31	89.3	116.0	82.5	92.5##
+ public static void main(String args[]){@@31	111.7	333.0	93.0	110.7##
+8. @@31	89.3	102.0	95.7	107.0##
+9.  S2 s1 =new S2(); @@31	89.3	219.0	107.8	121.8##
+10.  s1.p(); @@31	89.3	189.7	122.7	137.7##
+11.  }@@31	89.3	159.3	136.8	151.0##
+12. }@@31	89.3	152.3	151.8	165.3##
+5)this: to pass as argument in the constructor call @@31	143.7	463.3	180.7	193.0##
+We can pass the this keyword in the constructor also. It is useful if we have @@31	69.0	525.3	205.3	222.7##
+to use one object in multiple classes. Let's see the example: @@31	69.0	420.7	221.0	236.0##
+
+1. class B{@@31	88.7	156.0	248.3	264.0##
+2.  A4 obj; @@31	89.3	159.7	262.5	276.7##
+3.  B(A4 obj){@@31	89.3	175.7	276.7	290.2##
+4.  this.obj=obj; @@31	89.3	197.7	290.7	304.7##
+5. }@@31	89.3	118.7	308.2	318.0##
+6. void display(){@@31	89.3	198.7	318.7	332.8##
+ System.out.println(obj.data);//using data member of A4 class @@31	119.7	489.0	331.7	349.0##
+7. @@31	89.3	102.0	334.3	346.3##
+8. }@@31	89.3	119.7	349.5	360.0##
+ 9. }@@31	88.7	114.7	360.0	374.0##
+10. @@31	89.3	110.7	376.3	390.3##
+11.  class A4{@@31	89.3	198.7	388.3	403.3##
+12.  int data=10; @@31	89.3	225.0	403.8	418.8##
+13.  A4(){@@31	89.3	181.0	417.3	432.2##
+14. @@31	89.3	109.0	432.3	446.3##
+ B b=new B(this); @@31	152.3	254.3	432.3	447.3##
+15.  b.display(); @@31	89.3	221.7	445.3	460.3##
+16. @@31	89.3	109.0	460.3	474.7##
+ }public static void main(String args[]){@@31	148.0	369.3	472.7	490.3##
+17. @@31	89.3	109.0	474.7	488.7##
+ A4 a=new A4(); @@31	152.7	244.7	487.7	502.3##
+18. @@31	89.3	109.0	488.7	502.7##
+19.  }@@31	89.3	156.7	504.0	516.2##
+20. }@@31	88.7	150.7	518.5	528.8##
+6)this keyword can be used to return current class instance @@31	143.7	521.7	574.3	586.7##
+We can return this keyword as an statement from the method. In such case,@@31	70.0	522.7	600.0	614.7##
+return type of the method must be the class type (non-primitive). Let's see @@31	70.0	524.3	615.7	630.7##
+
+Example of this keyword that you return as a statement @@32	141.7	523.7	193.0	208.0##
+from the method @@32	142.7	250.7	208.7	221.0##
+1. class A{@@32	88.7	156.0	234.3	249.0##
+ 2. A getA(){@@32	87.0	159.7	248.0	264.0##
+ 3. return this; @@32	87.0	177.3	261.3	277.0##
+4. }@@32	87.7	116.0	276.3	293.0##
+ 5. void msg(){System.out.println("Hello java");}@@32	86.7	363.3	290.3	308.0##
+6. }@@32	87.7	116.0	304.3	321.0##
+7. class Test1{@@32	88.7	178.0	319.3	334.3##
+ 8. public static void main(String args[]){@@32	87.0	326.0	333.3	349.0##
+9. new A().getA().msg(); @@32	87.0	227.7	347.3	363.0##
+10. }@@32	89.3	150.7	363.2	376.7##
+11. }@@32	89.3	150.7	376.3	390.3##
+
+UNIT -II @@33	271.0	325.0	241.3	256.0##
+VII. Inheritance @@33	246.3	348.3	270.0	282.3##
+Inheritance can be defined as the procedure or mechanism of acquiring all @@33	71.7	524.3	299.0	311.3##
+the properties and behavior of one class to another, i.e. acquiring the @@33	71.0	525.3	312.3	327.0##
+properties and behavior of child class from the parent class. This concept @@33	70.0	525.3	326.3	341.3##
+was built in order to achieve the advantage of creating a new class that gets @@33	70.0	525.3	340.3	355.3##
+built upon an already existing class(es). It is mainly used for code reusability @@33	70.0	525.3	354.3	369.3##
+within a Java program. The class that gets inherited taking the properties of @@33	70.0	527.0	368.3	383.3##
+another class is the subclass or derived class or child class. Again, the class @@33	70.0	525.3	382.3	397.3##
+whose properties get inherited is the superclass or base class or parent @@33	70.0	525.3	397.3	412.3##
+class. The keyword extends is used to inherit the properties of the base @@33	70.0	525.3	411.3	426.3##
+class to derived class. The structure of using this keyword looks something @@33	69.0	525.3	423.7	438.7##
+like this: @@33	69.3	124.3	438.3	451.7##
+class base @@33	69.3	134.7	465.7	480.3##
+{@@33	70.0	78.0	484.0	493.7##
+
+ System.out.println("Teaching subjects"); @@34	78.0	316.3	396.3	411.3##
+
+ System.out.println("Listening to teacher"); @@34	77.0	327.0	467.3	482.3##
+
+In this type of inheritance, a derived class gets created from another derived @@34	70.0	524.3	622.7	637.7##
+
+class and can have any number of levels.@@34	71.7	312.7	637.7	650.0##
+
+ System.out.println("Teaching subject"); @@34	78.0	311.0	693.0	707.7##
+
+In this type of inheritance, there are more than 1 derived classes which get @@35	70.0	524.3	320.0	335.0##
+
+ System.out.println("Teaching subject"); @@35	77.0	309.3	390.3	405.3##
+
+class CheckForInheritance {@@35	71.7	237.3	574.3	586.7##
+ public static void main(String argu[]){@@35	74.3	301.3	587.7	602.7##
+ Principal p =new Principal(); @@35	76.3	250.0	600.7	615.7##
+ p.evaluate(); @@35	77.0	152.3	616.7	631.3##
+ p.teach(); @@35	77.0	135.7	630.7	645.7##
+//p.listen(); will produce an error@@35	79.7	279.0	645.7	657.7##
+}@@35	69.0	79.7	673.7	686.0##
+Let us imagine a situation where there are three classes: A, B and C. The C @@35	71.7	523.7	701.7	714.0##
+class inherits A and B classes. In case, class A and class B have a method @@35	71.7	523.7	715.7	728.0##
+with same name and type and as a programmer, you have to call that @@35	69.0	525.3	729.0	743.7##
+
+method from child class's (C)object, there-there will be ambiguity as which@@36	72.7	522.7	82.3	94.7##
+
+method will be called either of A or of B class. @@36	71.0	340.3	94.7	109.7##
+
+So Java reduces this hectic situation by the use of interfaces which@@36	71.7	522.7	123.7	138.7##
+implements this concept and reduce this problem; as compile-time errors @@36	72.7	523.7	139.3	151.7##
+
+are tolerable than runtime faults in the program. @@36	70.0	359.7	151.7	166.7##
+
+VIII Polymorphism@@36	239.3	356.0	180.7	193.0##
+The word polymorphism means having multiple forms. The term@@36	71.7	522.7	208.7	223.7##
+Polymorphism gets derived from the Greek word where poly +morphos @@36	71.7	524.3	222.7	237.7##
+
+where poly means many and morphos means forms. @@36	71.7	377.3	236.7	251.7##
+
+Polymorphism is another special feature of object-oriented programming @@36	71.0	524.3	263.0	278.0##
+(OOPs). The approach which lies beneath this concept is "single interface @@36	72.7	524.3	279.0	293.7##
+with multiple implementations."This offers a single interface for controlling @@36	71.7	524.3	293.0	308.0##
+
+access to a general class of actions.@@36	71.0	280.0	307.0	322.0##
+
+Polymorphism can be achieved in two of the following ways: @@36	71.0	422.7	334.0	349.0##
+Method Overloading(Compile time Polymorphism)@@36	89.3	406.7	363.0	378.0##
+Method Overriding(Run time Polymorphism)@@36	103.7	374.0	379.0	391.3##
+@@36	90.0	106.7	382.7	389.7##
+Static Polymorphism is in other words termed as compile-time binding @@36	88.7	524.3	403.3	419.3##
+Static binding occurs at compile time. Method overloading is a case of @@36	90.3	524.3	433.3	448.3##
+static binding and in this case binding of method call to its definition @@36	108.0	524.3	447.3	462.3##
+
+happens at the time of compilation.@@36	108.0	315.3	463.0	475.3##
+
+To call an overloaded method in Java, it is must use the type and/or @@36	90.3	524.3	489.3	504.3##
+the number of arguments to determine which version of the @@36	107.3	524.3	503.3	518.3##
+The overloaded methods may have varied return types and the return @@36	106.3	523.7	532.3	547.3##
+@@36	94.0	105.3	536.0	542.0##
+type single-handedly is insufficient to make out two versions of a @@36	105.3	527.0	544.7	562.3##
+method.@@36	107.3	155.0	561.3	573.7##
+method, it simply executes the version of the method whose @@36	105.3	525.3	586.0	603.3##
+It permits the user to obtain compile time polymorphism with name@@36	105.3	521.7	617.3	629.7##
+An overloaded method is able to throw different kinds of exceptions.@@36	90.3	503.3	644.7	657.0##
+A method which is overloaded can contain different access modifiers.@@36	89.3	510.3	659.7	672.0##
+
+overloaded method to actually call.@@36	108.0	311.0	517.3	529.7##
+
+As and when Java compiler encounters a call to an overloaded @@36	89.3	524.3	573.7	588.7##
+parameters match the arguments used in the call. @@36	106.3	403.0	602.7	617.3##
+
+Overloading method's argument lists might differ in: @@36	71.0	380.0	685.0	700.7##
+Number of parameters passed @@36	88.7	286.0	714.7	729.7##
+Data type of actual parameters@@36	104.7	289.7	729.0	743.7##
+Sequence of data type of actual parameters @@36	89.7	362.3	742.0	757.0##
+
+ System.out.println("Sum of two="+(a *b)); @@37	76.3	334.0	135.0	152.7##
+
+ System.out.println("Sum of three="+(a *b *c)); @@37	76.3	363.3	191.3	208.7##
+
+Argument list: The argument list at the time of overriding method @@37	104.7	524.3	362.3	377.0##
+need to be same as that of the method of the parent class. The data @@37	105.3	524.3	375.3	390.3##
+types of the arguments along with their sequence must have to be @@37	107.3	524.3	391.3	406.0##
+Access Modifier: The Access Modifier present in the overriding @@37	106.3	525.3	419.3	434.0##
+method (method of subclass)cannot be more restrictive than that of @@37	106.3	526.3	433.3	448.3##
+The private, static and final methods can't be overridden as they are @@37	105.3	524.3	460.3	475.3##
+Any method which is overriding is able to throw any unchecked @@37	106.3	523.7	489.3	504.3##
+exceptions, in spite of whether the overridden method usually method @@37	106.3	524.3	503.3	518.3##
+
+preserved as it is in the overriding method.@@37	105.3	358.7	405.3	420.0##
+
+an overridden method of the parent class.@@37	106.3	352.7	447.3	462.3##
+
+of parent class might throw an exception or not. @@37	107.3	390.7	517.3	532.3##
+
+ System.out.println("Parent is under retirement from work."); @@37	77.0	434.0	586.7	601.7##
+
+Advantage of method overriding @@38	70.0	274.7	79.7	94.7##
+One major advantage of method overriding is that a class can give its own @@38	71.0	523.7	108.0	122.7##
+specific execution to an inherited method without having the modification in @@38	71.0	524.3	123.7	138.7##
+
+super keyword in java @@38	71.0	209.0	175.3	191.3##
+The super keyword in java is a reference variable which is used to refer @@38	70.0	524.3	204.3	219.3##
+
+Whenever you create the instance of subclass, an instance of parent class is @@38	71.7	523.7	249.0	261.3##
+created implicitly which is referred by super reference variable.@@38	70.0	441.0	262.3	277.3##
+
+Usage of java super Keyword @@38	71.0	251.7	290.3	305.3##
+1. super can be used to refer immediate parent class instance variable. @@38	88.7	509.3	319.3	336.7##
+2. super can be used to invoke immediate parent class method.@@38	87.0	465.0	332.3	350.0##
+3. super()can be used to invoke immediate parent class constructor.@@38	88.7	495.3	349.0	364.0##
+1)super is used to refer immediate parent class instance variable.@@38	71.7	484.7	377.0	392.0##
+We can use super keyword to access the data member or field of parent @@38	70.0	524.3	403.3	418.3##
+class. It is used if parent class and child class have same fields.@@38	72.7	444.7	420.0	432.3##
+
+1. class Animal{@@38	88.7	187.7	446.3	461.3##
+2. String color="white"; @@38	87.7	229.3	460.3	475.3##
+3. }@@38	88.7	115.3	475.3	488.7##
+4. class Dog extends Animal{@@38	87.7	264.0	488.7	503.3##
+5. String color="black"; @@38	87.7	230.3	501.7	519.3##
+6. void printColor(){@@38	88.7	208.3	517.3	532.3##
+7. System.out.println(color);//prints color of Dog class @@38	87.0	415.7	529.0	546.3##
+ ystem.out.println(super.color);//prints color of Animal class @@38	87.0	471.3	543.0	560.3##
+8. S9. }@@38	88.7	114.7	557.3	571.3##
+10. }@@38	89.3	146.3	573.2	587.2##
+11. class TestSuper1{@@38	89.3	249.7	587.2	601.7##
+12. @@38	89.3	109.0	600.7	615.0##
+public static void main(String args[]){@@38	141.7	361.3	600.7	615.7##
+
+13. Dog d=new Dog(); @@38	90.3	248.0	616.2	629.8##
+14. d.printColor(); @@38	89.3	227.7	628.8	643.3##
+15. }}@@38	89.3	152.3	644.2	657.7##
+2)super can be used to invoke parent class method@@38	72.7	393.3	729.7	742.0##
+
+The super keyword can also be used to invoke parent class method. It @@39	71.0	524.3	79.0	94.0##
+should be used if subclass contains the same method as parent class. In @@39	71.7	524.3	95.7	108.0##
+
+other words, it is used if method is overridden.@@39	71.0	345.7	108.7	123.7##
+
+1. class Animal{@@39	89.3	187.7	136.0	151.0##
+2. void eat(){System.out.println("eating...");}@@39	87.7	346.3	151.0	165.7##
+3. }@@39	88.7	115.3	165.0	179.0##
+4. class Dog extends Animal{@@39	87.7	264.0	179.0	194.0##
+ 5. void eat(){System.out.println("eating bread...");}@@39	86.7	383.7	192.0	209.7##
+6. void bark(){System.out.println("barking...");}@@39	87.0	365.0	206.0	221.0##
+7. void work(){@@39	88.0	177.3	219.0	235.0##
+8. super.eat(); @@39	86.3	176.3	232.3	250.7##
+9. bark(); @@39	87.3	148.3	246.3	262.0##
+10. }@@39	89.3	150.7	264.0	277.5##
+11. }@@39	89.3	149.7	278.0	290.8##
+12. class TestSuper2{@@39	89.3	250.0	290.8	305.7##
+ public static void main(String args[]){@@39	141.0	361.3	303.3	321.0##
+13. @@39	89.3	109.0	305.3	319.3##
+14. Dog d=new Dog(); @@39	89.3	248.0	319.7	334.2##
+15. d.work(); @@39	89.3	197.0	332.3	347.7##
+16. }}@@39	89.3	153.3	348.3	362.7##
+3)super is used to invoke parent class constructor.@@39	71.7	392.3	406.0	418.3##
+The super keyword can also be used to invoke the parent class constructor. @@39	70.0	524.3	431.7	449.0##
+
+Let's see a simple example:@@39	71.0	230.3	448.3	460.3##
+1. class Animal{@@39	90.3	187.0	475.3	487.7##
+ 2. Animal(){System.out.println("animal is created");}@@39	87.0	396.0	487.7	502.7##
+3. }@@39	87.7	114.3	502.7	516.7##
+ 4. class Dog extends Animal{@@39	86.0	264.0	514.0	531.3##
+5. Dog(){@@39	87.3	144.7	528.7	544.3##
+ 6. super(); @@39	87.0	153.3	543.7	559.3##
+8. }@@39	87.7	114.3	572.7	586.7##
+9. }@@39	88.7	114.7	583.7	599.7##
+10. class TestSuper3{@@39	89.3	249.7	601.7	615.8##
+11. @@39	89.3	109.0	615.0	629.0##
+public static void main(String args[]){@@39	142.7	362.3	615.7	630.7##
+13. }}@@39	89.3	152.3	644.2	658.2##
+1. class Person{@@39	88.7	187.0	699.0	714.0##
+2. int id; @@39	87.3	145.3	712.0	727.7##
+ 3. String name; @@39	87.3	185.3	726.0	741.7##
+ 4. Person(int id,String name){@@39	87.0	267.7	741.0	756.0##
+5. this.id=id; @@39	87.0	169.3	754.3	769.0##
+
+6. this.name=name; @@40	88.7	211.7	79.7	94.7##
+7. }@@40	88.7	114.7	92.7	106.7##
+8. }@@40	87.7	114.3	108.7	122.7##
+ 9. class Emp extends Person{@@40	87.7	265.7	122.0	136.7##
+10. float salary; @@40	89.3	214.7	136.2	150.8##
+11. @@40	89.3	110.0	151.0	165.0##
+Emp(int id,String name,float salary){@@40	143.7	358.7	151.0	165.7##
+super(id,name);//reusing parent constructor @@40	141.0	410.3	164.0	181.7##
+12. @@40	89.3	109.0	165.0	179.7##
+13. this.salary=salary; @@40	89.3	253.3	179.0	193.3##
+14. }@@40	89.3	149.7	194.7	206.2##
+15. @@40	89.3	109.0	207.0	221.0##
+void display(){System.out.println(id+""+name+""+salary);}@@40	141.0	482.0	208.0	222.7##
+16. }@@40	89.3	149.7	222.8	234.2##
+17.  class TestSuper5{@@40	89.3	250.0	234.2	249.0##
+18. @@40	89.3	109.0	249.0	263.0##
+public static void main(String[]args){@@40	141.7	361.3	250.0	265.0##
+19. @@40	89.3	109.0	263.0	277.0##
+Emp e1=new Emp(1,"ankit",45000f); @@40	142.7	358.7	264.0	279.0##
+21. }}@@40	88.7	153.3	291.7	306.2##
+Method Overloading in Java@@40	71.7	247.3	331.7	343.7##
+If a class has multiple methods having same name but different in @@40	70.0	525.3	360.3	375.3##
+
+20. e1.display(); @@40	88.7	216.3	276.2	291.2##
+parameters, it is known as Method Overloading.@@40	70.0	361.3	374.7	389.3##
+Advantage of method overloading @@40	71.0	283.3	402.7	417.3##
+
+Method overloading increases the readability of the program.@@40	70.0	424.3	431.3	446.3##
+Different ways to overload the method @@40	141.0	387.3	458.7	476.3##
+There are two ways to overload the method in java @@40	70.0	366.7	487.7	502.7##
+1. By changing number of arguments @@40	90.3	313.7	517.3	532.3##
+2. By changing the data type @@40	87.7	263.3	530.7	545.3##
+1)Method Overloading: changing no. of arguments@@40	145.3	460.7	589.3	601.7##
+In this example, we have created two methods, first add()method performs @@40	71.0	523.7	615.7	630.7##
+addition of two numbers and second add method performs addition of three @@40	71.0	524.3	629.7	644.7##
+numbers.@@40	70.0	128.3	643.7	658.7##
+In this example, we are creating static methods so that we don't need to @@40	71.0	524.3	672.0	686.7##
+
+5. class TestOverloading1{@@41	87.7	248.0	79.7	94.7##
+6. public static void main(String[]args){@@41	88.7	326.0	94.7	109.7##
+7. System.out.println(Adder.add(11,11)); @@41	88.7	330.3	109.7	124.7##
+8. System.out.println(Adder.add(11,11,11)); @@41	88.7	349.0	123.7	138.7##
+9. }}@@41	88.7	117.3	136.7	150.7##
+2)Method Overloading: changing data type of arguments@@41	141.7	499.7	193.7	208.7##
+In this example, we have created two methods that differs in data type. The@@41	71.7	521.7	223.7	236.0##
+first add method receives two integer arguments and second add method @@41	70.0	525.3	236.0	253.3##
+
+receives two double arguments.@@41	70.0	256.0	250.0	265.0##
+1. class Adder{@@41	88.7	181.7	276.3	291.0##
+2. static int add(int a, int b){return a+b;}@@41	87.0	329.7	291.3	306.0##
+3. static double add(double a, double b){return a+b;}@@41	87.0	399.7	305.3	320.0##
+4. }@@41	88.7	115.3	320.0	334.3##
+ 5. class TestOverloading2{@@41	87.0	249.0	332.3	350.0##
+6. public static void main(String[]args){@@41	89.3	325.0	350.0	362.3##
+ 7. System.out.println(Adder.add(11,11)); @@41	87.0	331.3	360.3	378.0##
+8. System.out.println(Adder.add(12.3,12.6)); @@41	87.7	353.3	376.3	391.0##
+9. }}@@41	89.3	117.3	390.0	404.0##
+Method Overriding in Java @@41	71.0	239.3	485.0	500.0##
+If subclass (child class)has the same method as declared in the parent @@41	71.0	524.3	515.7	530.7##
+
+class, it is known as method overriding in java.@@41	72.7	358.7	531.7	543.7##
+
+In other words, If subclass provides the specific implementation of the @@41	71.0	523.7	557.7	572.7##
+method that has been provided by one of its parent class, it is known as @@41	71.0	524.3	571.0	586.0##
+
+method overriding.@@41	70.3	182.7	583.0	599.0##
+Usage of Java Method Overriding @@41	141.7	352.7	614.0	629.0##
+Method overriding is used to provide specific implementation of a @@41	88.7	523.7	641.0	656.0##
+method that is already provided by its super class.@@41	108.0	403.0	657.7	670.0##
+Method overriding is used for runtime polymorphism@@41	89.3	417.3	672.7	685.0##
+
+Rules for Java Method Overriding @@41	70.0	271.0	697.3	712.0##
+
+1. method must have same name as in the parent class @@41	88.7	420.0	727.0	742.0##
+2. method must have same parameter as in the parent class.@@41	87.7	449.3	742.0	757.0##
+3. must be IS-A relationship (inheritance).@@41	88.7	339.3	757.0	769.3##
+
+1. class Vehicle{@@42	89.3	188.7	109.7	122.0##
+2. void run(){System.out.println("Vehicle is running");}@@42	88.7	409.3	123.7	138.7##
+3. }@@42	88.7	115.7	136.7	149.7##
+4. class Bike2 extends Vehicle{@@42	87.7	275.7	151.0	165.7##
+ 5. void run(){System.out.println("Bike is running safely");}@@42	86.0	431.3	164.0	181.7##
+6. @@42	88.7	102.0	180.7	193.0##
+ 7. public static void main(String args[]){@@42	87.0	327.0	191.0	208.7##
+8. Bike2 obj =new Bike2(); @@42	87.7	250.7	206.0	221.0##
+9. obj.run(); @@42	88.7	163.0	222.0	236.7##
+10. }@@42	90.3	150.7	237.7	250.0##
+IX ABSTRACTION @@42	275.7	391.7	265.0	277.0##
+Abstraction in Java@@42	144.3	265.7	322.0	334.3##
+Abstraction is a process of hiding the implementation details and showing @@42	70.0	526.3	346.3	364.0##
+
+Another way, it shows only important things to the user and hides the @@42	72.7	523.7	392.0	404.3##
+internal details for example sending sms, you just type the text and send the @@42	71.0	524.3	405.3	420.0##
+message. You don't know the internal processing about the message @@42	70.0	524.3	418.3	436.0##
+delivery.@@42	71.7	120.7	432.0	445.3##
+Abstraction lets you focus on what the object does instead of how it does it. @@42	71.7	514.7	461.3	476.3##
+
+Ways to achieve Abstraction @@42	143.7	321.7	489.3	504.3##
+There are two ways to achieve abstraction in java @@42	71.0	361.3	517.3	532.3##
+1. Abstract class (0 to 100%)@@42	88.7	262.3	544.7	559.7##
+2. Interface (100%)@@42	87.7	204.7	558.7	573.7##
+Abstract class in Java @@42	142.7	281.7	586.7	601.7##
+A class that is declared as abstract is known as abstract class. It needs to @@42	71.7	523.7	617.3	629.7##
+be extended and its method implemented. It cannot be instantiated.@@42	71.7	468.7	631.3	643.7##
+Example abstract class @@42	142.7	288.0	657.7	672.7##
+1. abstract class A{}@@42	89.3	213.7	686.0	700.7##
+abstract method @@42	143.7	248.0	731.3	743.7##
+A method that is declared as abstract and does not have implementation is@@42	71.0	522.7	748.0	760.3##
+
+Example abstract method @@43	142.7	304.7	110.7	125.3##
+1. abstract void printStatus();//no body and abstract @@43	88.7	406.7	138.7	153.3##
+Example of abstract class that has abstract method @@43	142.7	467.0	166.7	181.7##
+In this example, Bike the abstract class that contains only one abstract @@43	71.0	525.3	195.7	210.7##
+method run. It implementation is provided by the Honda class.@@43	71.0	440.3	211.3	223.7##
+
+1. abstract class Bike{@@43	88.7	225.0	236.7	251.7##
+2.  abstract void run(); @@43	89.3	229.7	252.0	265.3##
+3. }@@43	88.7	114.3	266.7	279.7##
+4. class Honda4 extends Bike{@@43	88.7	270.3	280.7	293.0##
+5. void run(){System.out.println("running safely..");}@@43	87.7	395.0	294.7	309.7##
+6. public static void main(String args[]){@@43	87.7	326.0	308.0	322.7##
+7. Bike obj =new Honda4(); @@43	87.7	259.7	321.0	336.0##
+8. obj.run(); @@43	88.0	167.7	335.0	349.7##
+9. }@@43	88.7	116.3	349.7	362.7##
+10. }@@43	89.3	148.7	366.2	377.2##
+1. abstract class Shape{@@43	87.7	235.7	419.3	434.0##
+2. abstract void draw(); @@43	87.0	230.3	434.0	449.0##
+3. }@@43	88.7	114.7	448.0	462.0##
+4. //In real scenario, implementation is provided by others i.e. unknown@@43	87.7	521.0	463.0	478.0##
+ by end user @@43	110.7	181.7	479.0	491.3##
+ 5. class Rectangle extends Shape{@@43	87.0	293.3	490.3	505.3##
+7. }@@43	89.3	114.3	520.0	533.3##
+ 8. class Circle1 extends Shape{@@43	87.0	276.3	532.3	548.0##
+ 9. void draw(){System.out.println("drawing circle");}@@43	86.0	392.3	545.7	563.0##
+10. @@43	89.3	109.0	561.3	575.3##
+11. @@43	89.3	110.0	575.3	589.3##
+//In real scenario, method is called by programmer or user @@43	142.7	493.3	575.3	590.3##
+12. @@43	89.3	110.0	589.3	603.3##
+class TestAbstraction1{@@43	143.7	281.7	591.0	603.3##
+13. @@43	89.3	110.0	603.3	617.3##
+public static void main(String args[]){@@43	141.7	362.3	603.3	618.3##
+14. @@43	89.3	110.0	617.3	631.3##
+ugh method e.g. getShape()method @@43	104.7	318.0	630.7	648.0##
+16. }@@43	88.7	148.7	662.2	673.2##
+17. }@@43	89.3	149.7	675.7	686.8##
+
+ 6. void draw(){System.out.println("drawing rectangle");}@@43	86.0	415.7	503.3	521.0##
+
+ Shape s=new Circle1();//In real scenario, object is provided thro@@43	141.0	522.7	615.7	633.3##
+15.s.draw(); @@43	90.3	195.7	646.8	660.0##
+
+Interface in Java @@44	71.0	178.0	82.3	94.7##
+An interface in java is a blueprint of a class. It has static constants and@@44	72.7	522.7	112.3	124.7##
+
+The interface in java is a mechanism to achieve abstraction. There can be @@44	72.7	523.7	155.3	167.7##
+only abstract methods in the java interface not method body. It is used to @@44	72.7	524.3	169.3	181.7##
+
+achieve abstraction and multiple inheritance in Java.@@44	71.7	383.7	184.3	196.3##
+Java Interface also represents IS-A relationship.@@44	70.0	363.3	209.7	224.7##
+It cannot be instantiated just like abstract class.@@44	70.0	356.0	237.7	252.7##
+
+Why use Java interface? @@44	72.7	225.0	267.7	279.7##
+There are mainly three reasons to use interface. They are given below.@@44	70.0	481.0	295.7	310.3##
+
+It is used to achieve abstraction.@@44	88.7	298.7	326.3	338.7##
+It can be used to achieve loose coupling @@44	87.0	343.0	352.7	367.3##
+
+By interface, we can support the functionality of multiple inheritance.@@44	87.7	516.3	339.3	354.3##
+
+Java Interface Example@@44	72.7	218.7	382.3	394.7##
+In this example, Printable interface has only one method, its implementation @@44	70.0	523.7	408.7	423.7##
+
+Abstract class @@44	70.3	160.3	649.0	664.0##
+methods. @@44	71.0	127.7	697.3	709.7##
+multiple inheritance. @@44	71.0	195.0	728.0	740.3##
+
+3)Abstract class can have final, Interface has only static and final @@44	71.7	523.7	745.7	757.7##
+
+5)The abstract keyword is used The interface keyword is used to declare @@45	71.0	523.7	145.7	158.0##
+
+Package in java can be categorized in two form, built-in package and user-@@45	70.0	523.7	625.3	640.3##
+
+There are many built-in packages such as java, lang, awt, javax, swing, net, @@45	69.0	524.3	667.3	682.3##
+
+Here, we will have the detailed learning of creating and using user-defined @@45	71.0	523.7	710.3	725.3##
+packages.@@45	71.0	129.3	727.0	739.3##
+
+Advantage of Java Package @@46	71.7	241.0	81.7	96.3##
+1)Java package is used to categorize the classes and interfaces so that they @@46	71.7	523.7	111.3	126.3##
+
+can be easily maintained.@@46	72.7	221.3	127.3	139.3##
+2)Java package provides access protection.@@46	72.7	327.0	154.3	169.3##
+3)Java package removes naming collision.@@46	73.7	319.7	183.3	195.7##
+Simple example of java package @@46	71.7	271.0	210.7	225.3##
+The package keyword is used to create a package in java.@@46	71.0	412.0	236.7	251.7##
+
+1. //save as Simple.java @@46	89.3	238.3	265.7	280.7##
+2. package mypack; @@46	87.7	210.0	279.7	294.7##
+3. public class Simple{@@46	88.7	226.7	295.7	308.0##
+4. public static void main(String args[]){@@46	87.7	329.7	308.7	323.7##
+ System.out.println("Welcome to package"); @@46	119.7	373.0	322.0	336.7##
+5. @@46	89.3	103.7	323.7	335.0##
+6. }@@46	88.3	126.0	335.7	349.0##
+7. }@@46	88.7	115.3	351.7	365.0##
+How to compile java package @@46	71.0	253.3	379.0	393.7##
+If you are not using any IDE, you need to follow the syntax given below:@@46	71.7	493.3	408.7	421.0##
+
+1. javac -d directory javafilename@@46	90.3	287.0	435.0	450.0##
+For example @@46	71.0	148.7	463.0	478.0##
+1. javac -d . Simple.java @@46	89.3	234.0	491.3	506.0##
+The -d switch specifies the destination where to put the generated class file.@@46	70.0	522.7	518.3	533.3##
+You can use any directory name like /home (in case of Linux), d:/abc (in @@46	69.0	523.7	532.3	547.3##
+case of windows)etc. If you want to keep the package within the same @@46	71.7	523.7	549.0	561.3##
+
+How to access package from another package? @@46	71.0	364.0	588.7	603.3##
+There are three ways to access the package from outside the package.@@46	70.0	480.3	619.3	634.0##
+
+1. import package.*; @@46	88.7	212.7	646.3	662.0##
+2. import package.classname; @@46	87.7	269.3	662.3	677.0##
+3. fully qualified name.@@46	87.7	227.7	676.3	691.0##
+1)Using packagename.*@@46	72.7	213.7	704.3	719.3##
+
+If you use package.*then all the classes and interfaces of this package will @@46	71.0	523.7	735.0	750.0##
+
+be accessible but not subpackages.@@46	70.0	279.0	748.0	763.0##
+
+The import keyword is used to make the classes and interface of another @@47	71.0	524.3	80.7	95.7##
+
+package accessible to the current package.@@47	70.0	323.3	93.7	109.7##
+Example of package that import the packagename.*@@47	71.0	397.0	122.7	137.7##
+
+1. //save by A.java @@47	90.3	206.3	154.3	166.7##
+2. package pack; @@47	87.0	193.3	164.7	182.3##
+ 3. public class A{@@47	87.0	196.0	179.7	195.7##
+4. @@47	89.7	104.0	195.0	206.3##
+5. }@@47	88.7	114.3	209.7	222.7##
+1. //save by B.java @@47	88.7	208.3	236.0	250.7##
+ 2. package mypack; @@47	86.0	211.7	249.0	266.7##
+3. import pack.*; @@47	87.0	193.3	264.0	279.7##
+4. @@47	88.7	102.0	279.7	292.0##
+5. class B{@@47	88.7	155.0	294.7	307.0##
+ public static void main(String args[]){@@47	110.7	335.0	306.0	323.7##
+6.@@47	89.3	101.0	308.7	321.0##
+7. A obj =new A(); @@47	89.3	212.7	321.3	335.0##
+8. obj.msg(); @@47	89.3	178.0	336.3	350.3##
+9.  }@@47	89.3	118.7	353.0	362.2##
+10. }@@47	89.3	149.7	365.3	377.2##
+2)Using packagename.classname @@47	71.0	271.0	419.3	434.0##
+
+ public void msg(){System.out.println("Hello");}@@47	96.7	383.7	193.0	210.3##
+
+If you import package.classname then only declared class of this package @@47	69.0	524.3	447.3	462.3##
+
+Example of package by import package.classname @@47	71.0	385.3	490.3	505.3##
+1. //save by A.java @@47	88.7	208.3	520.0	535.0##
+2.@@47	88.7	101.0	536.0	548.3##
+3. package pack; @@47	87.7	193.0	549.0	564.0##
+4. public class A{@@47	87.7	195.0	563.0	578.0##
+5. @@47	89.3	102.0	578.0	590.3##
+ public void msg(){System.out.println("Hello");}@@47	103.7	382.7	578.0	593.0##
+6. }@@47	88.7	114.3	592.0	605.3##
+1. //save by B.java @@47	88.7	208.3	618.3	633.3##
+ 2. package mypack; @@47	86.0	211.7	631.3	649.0##
+3. import pack.A; @@47	87.0	196.0	646.3	662.0##
+4.@@47	88.7	101.0	662.3	674.3##
+5. class B{@@47	87.7	156.0	675.3	690.3##
+ public static void main(String args[]){@@47	110.7	334.0	688.3	706.0##
+6.@@47	89.3	101.0	691.0	702.7##
+7. A obj =new A(); @@47	89.3	212.7	703.5	717.0##
+8. obj.msg(); @@47	88.7	177.3	718.3	731.8##
+9. @@47	88.7	102.0	732.3	744.7##
+10. }@@47	90.3	148.7	747.7	759.5##
+
+If you use fully qualified name then only declared class of this package will @@48	71.0	524.3	111.3	126.3##
+be accessible. Now there is no need to import. But you need to use fully@@48	71.7	522.7	126.3	138.7##
+qualified name every time when you are accessing the class or interface.@@48	71.7	494.3	139.3	154.3##
+It is generally used when two packages have same class name e.g. java.util @@48	71.7	524.3	167.7	182.3##
+
+and java.sql packages contain Date class. @@48	71.7	318.0	182.3	197.3##
+Example of package by import fully qualified name @@48	71.7	390.7	210.7	225.3##
+
+1. //save by A.java @@48	88.7	207.3	239.3	254.3##
+2. package pack; @@48	87.7	193.0	254.3	269.3##
+3. public class A{@@48	87.7	195.0	268.3	283.3##
+ 4. public void msg(){System.out.println("Hello");}@@48	86.0	383.7	279.7	297.3##
+5. }@@48	87.7	115.3	296.3	310.3##
+6. @@48	86.7	102.7	309.7	324.7##
+1. //save by B.java @@48	88.0	208.3	336.7	351.7##
+2. package mypack; @@48	87.0	211.0	351.7	367.3##
+3. class B{@@48	87.7	155.0	365.7	380.7##
+ public static void main(String args[]){@@48	97.3	334.0	379.7	395.7##
+4. @@48	89.3	103.7	381.7	393.0##
+pack.A obj =new pack.A();//using fully qualified name @@48	113.3	442.0	394.7	409.7##
+5. @@48	88.7	103.7	395.7	407.0##
+ @@48	106.3	117.7	399.0	406.0##
+6.  obj.msg(); @@48	89.3	178.0	409.7	422.8##
+7. }@@48	87.3	121.7	421.7	434.7##
+8. }@@48	88.7	116.3	435.7	448.7##
+Access Modifiers in java @@48	72.7	222.3	477.0	489.3##
+There are two types of modifiers in java: access modifiers and non-access @@48	69.0	525.3	503.3	521.0##
+
+The access modifiers in java specifies accessibility (scope)of a data member,@@48	71.7	522.7	549.0	561.3##
+
+method, constructor or class.@@48	71.0	243.7	563.0	575.3##
+There are 4 types of java access modifiers: @@48	70.0	320.0	588.7	603.3##
+
+1. private @@48	88.7	149.7	617.3	632.3##
+2. default @@48	87.7	151.3	631.3	646.3##
+3. protected @@48	87.7	165.7	646.3	661.3##
+4. public @@48	87.7	146.3	660.3	675.3##
+
+Understanding all java access modifiers @@49	143.7	391.7	109.7	122.0##
+XI. STRING HANDLING in JAVA @@49	198.3	397.0	337.7	350.0##
+A string is a sequence of character in Java, widely used as an object.@@49	71.7	475.0	368.3	380.7##
+In java, string is basically an object that represents sequence of char values.@@49	71.7	521.0	396.3	408.7##
+An array of characters works same as java string. For example: @@49	70.0	444.0	408.7	423.7##
+1. char[]ch={'j','a','v','a','t','p','o','i','n','t'}; @@49	87.7	325.0	435.0	452.7##
+2. String s=new String(ch); @@49	87.0	250.7	449.0	466.7##
+is same as: @@49	71.0	138.3	480.7	493.0##
+1. String s="javatpoint"; @@49	88.7	234.0	506.0	522.0##
+Java String class provides a lot of methods to perform operations on string @@49	71.0	524.3	536.0	550.7##
+such as compare(), concat(), equals(), split(), length(), replace(), compareTo(), @@49	70.0	523.7	549.0	564.0##
+
+What is String in java @@49	142.0	280.0	590.3	605.0##
+Generally, string is a sequence of characters. But in java, string is an object @@49	71.0	524.3	620.0	635.0##
+that represents a sequence of characters. The java.lang.String class is used @@49	71.0	523.7	633.3	648.0##
+
+How to create String object? @@49	142.7	324.3	676.3	691.0##
+There are two ways to create String object: @@49	70.0	322.3	692.0	707.0##
+1. By string literal @@49	88.7	201.0	722.0	737.7##
+2. By new keyword @@49	89.3	203.7	738.7	750.7##
+
+1)String Literal @@50	143.7	244.7	80.7	95.7##
+Java String literal is created by using double quotes. For Example:@@50	71.7	462.3	110.7	122.7##
+
+1. String s="welcome"; @@50	88.7	225.0	136.0	150.7##
+Each time you create a string literal, the JVM checks the string constant @@50	71.0	524.3	165.0	179.7##
+pool first. If the string already exists in the pool, a reference to the pooled @@50	71.0	524.3	179.0	194.0##
+instance is returned. If string doesn't exist in the pool, a new string instance @@50	71.0	524.3	193.0	208.0##
+
+is created and placed in the pool. For example: @@50	71.0	347.3	208.0	222.7##
+1. String s1="Welcome";@@50	89.3	233.0	234.3	249.0##
+2. String s2="Welcome";//will not create new instance @@50	88.7	412.0	249.0	264.0##
+2)By new keyword @@50	142.7	262.3	278.0	293.0##
+1. String s=new String("Welcome");//creates two objects and one referen@@50	89.3	517.3	305.3	320.0##
+ce variable @@50	106.3	171.0	321.0	334.3##
+1. public class StringExample{@@50	89.3	273.7	347.3	362.3##
+ 2. public static void main(String args[]){@@50	87.0	327.0	359.7	377.0##
+ 3. String s1="java";//creating string by java string literal @@50	87.7	426.0	374.7	392.0##
+ 5. String s2=new String(ch);//converting char array to string @@50	87.0	453.7	401.7	419.3##
+ 6. String s3=new String("example");//creating java string by new keywor @@50	87.0	519.0	416.7	434.0##
+d @@50	107.3	118.7	432.3	444.7##
+7. System.out.println(s1); @@50	88.7	243.7	446.3	461.3##
+8. System.out.println(s2); @@50	87.7	243.7	458.7	474.3##
+9. System.out.println(s3); @@50	89.3	243.7	474.7	489.3##
+10. }}@@50	91.3	152.3	490.3	502.0##
+Java String class methods @@50	143.7	308.3	544.7	559.7##
+The java.lang.String class provides many useful methods to perform @@50	71.0	523.7	573.7	588.7##
+
+4. char ch[]={'s','t','r','i','n','g','s'}; @@50	87.7	279.0	388.7	404.3##
+operations on sequence of char values.@@50	70.0	299.3	588.7	603.3##
+Description @@50	351.7	427.0	617.3	632.3##
+returns char value for the @@50	351.7	524.3	645.7	660.3##
+particular index @@50	350.7	449.0	663.0	679.0##
+returns string length@@50	351.7	475.0	693.7	706.0##
+static String format(String format, Object..@@50	95.7	345.7	722.7	735.0##
+. returns formatted string @@50	349.3	497.0	728.0	742.7##
+
+No. Method @@50	70.0	144.3	616.7	631.3##
+1 char charAt(int index)@@50	72.7	223.3	656.5	667.0##
+
+5 String substring(int beginIndex)@@51	71.7	282.7	136.7	147.7##
+
+10 boolean equals(Object another)@@51	73.7	277.3	396.0	407.5##
+
+17 String[]split(String regex, int limit)@@51	73.7	300.3	681.5	693.8##
+
+19 int indexOf(int ch)@@52	73.7	202.0	91.7	102.2##
+20 int indexOf(int ch, int fromIndex)@@52	70.0	289.7	142.0	157.0##
+
+28 static String valueOf(int value)@@52	71.7	273.7	500.0	511.3##
+
+public class Sample {@@52	71.0	197.7	536.7	549.0##
+ public static void main(String args[]){@@52	86.0	310.0	564.0	579.0##
+ char[]nameArray ={'A', 'l', 'e', 'x'}; @@52	99.3	302.0	575.3	593.0##
+ String name =new String(nameArray); @@52	101.0	329.7	592.0	607.0##
+ System.out.println(name); @@52	100.0	257.7	605.0	620.0##
+ }}@@52	84.0	104.7	620.0	635.0##
+concat()method can be used to attach strings. @@52	71.0	347.3	647.3	662.3##
+
+Java toUpperCase()and toLowerCase()method is used to change string @@53	69.0	525.3	164.0	181.7##
+case. @@53	70.7	102.3	179.7	192.7##
+public class Sample {@@53	70.0	198.3	208.0	223.7##
+
+method), reference matching (by ==operator)etc. @@53	70.0	370.3	712.3	727.0##
+There are three ways to compare string in java: @@53	70.0	348.3	739.3	755.0##
+
+1. By equals()method @@54	88.7	222.3	79.0	96.3##
+2. By ==operator @@54	87.0	200.3	93.7	108.7##
+3. By compareTo()method @@54	88.7	248.0	108.7	123.7##
+1)String compare by equals()method @@54	71.0	307.3	165.0	179.7##
+The String equals()method compares the original content of the string. It @@54	71.0	524.3	193.0	208.0##
+compares values of string for equality. String class provides two methods: @@54	71.7	505.0	208.0	222.7##
+public boolean equals(Object another)compares this string to the @@54	102.0	525.3	234.3	251.7##
+public boolean equalsIgnoreCase(String another)compares this @@54	105.3	525.3	262.3	279.7##
+
+3)String compare by compareTo()method @@55	71.0	336.7	109.7	124.7##
+The String compareTo()method compares values lexicographically and @@55	71.0	523.7	137.7	152.7##
+returns an integer value that describes if first string is less than, equal to or @@55	71.0	524.3	151.7	166.7##
+
+greater than second string. @@55	70.0	231.0	165.0	182.3##
+Suppose s1 and s2 are two string variables. If: @@55	71.7	344.7	194.0	208.7##
+
+1. class TestStringConcatenation1{@@55	88.7	300.3	614.7	629.7##
+2. public static void main(String args[]){@@55	87.0	329.7	629.0	644.7##
+3. @@55	90.0	103.7	642.3	654.0##
+String s="Sachin"+"Tendulkar"; @@55	116.0	307.3	643.7	658.7##
+ @@55	107.3	117.7	648.0	654.3##
+4.  @@55	89.3	118.7	659.2	669.7##
+System.out.println(s);//Sachin Tendulkar@@55	117.7	366.0	659.7	672.0##
+5. }@@55	88.0	118.3	669.7	683.7##
+6. }@@55	88.7	115.7	685.7	698.7##
+2)String Concatenation by concat()method @@55	141.7	419.0	714.0	729.0##
+The String concat()method concatenates the specified string to the end of @@55	72.7	524.3	743.7	756.0##
+
+current string. Syntax:@@55	71.7	205.7	758.7	771.0##
+
+1. public String concat(String another)@@56	90.3	319.0	81.7	96.3##
+Let's see the example of String concat()method.@@56	72.7	350.0	110.7	122.7##
+1. class TestStringConcatenation3{@@56	88.7	298.7	136.0	151.7##
+2. public static void main(String args[]){@@56	87.7	328.7	151.0	165.7##
+3. String s1="Sachin ";  @@56	89.3	117.7	167.2	177.5##
+4.   String s2="Tendulkar"; @@56	89.3	255.0	180.2	192.5##
+5.  String s3=s1.concat(s2); @@56	89.3	262.3	194.3	207.3##
+System.out.println(s3);//Sachin Tendulkar @@56	116.0	374.0	209.7	222.0##
+6.  @@56	89.3	117.7	210.5	218.8##
+7. }}@@56	87.3	134.0	220.7	235.7##
+Substring in Java @@56	71.0	182.3	260.3	275.3##
+A part of string is called substring. In other words, substring is a subset of @@56	71.0	525.3	290.3	305.3##
+another string. In case of substring startIndex is inclusive and endIndex is @@56	70.0	524.3	304.3	319.3##
+
+exclusive. Note: Index starts from 0.@@56	71.7	294.0	320.0	332.3##
+
+You can get substring from the given string object by one of the two @@56	70.0	524.3	345.7	360.3##
+methods: @@56	71.0	127.7	362.3	374.7##
+1. public String substring(int startIndex): This method returns new @@56	89.3	523.7	390.3	402.7##
+String object containing the substring of the given string from @@56	106.3	524.3	401.7	416.7##
+2. public String substring(int startIndex, int endIndex): This method @@56	87.7	524.3	430.7	445.7##
+returns new String object containing the substring of the given string @@56	106.3	524.3	443.7	458.7##
+
+from specified startIndex to endIndex.@@56	106.3	329.7	457.7	472.7##
+
+startIndex: inclusive endIndex: exclusive @@56	89.3	374.7	516.7	529.0##
+Let's understand the startIndex and endIndex by the code given below.@@56	71.0	486.3	543.7	558.7##
+
+1. String s="hello"; @@56	90.3	203.7	572.7	585.0##
+2. System.out.println(s.substring(0,2));//he @@56	88.7	350.7	586.0	600.7##
+In the above substring, 0 points to h but 2 points to e (because end index is @@56	71.0	523.7	613.0	628.0##
+
+Example of java substring @@56	71.0	234.0	711.3	726.3##
+1. public class TestSubstring{@@56	89.3	268.3	740.3	755.3##
+2. public static void main(String args[]){@@56	87.7	329.7	754.3	769.3##
+
+tokens. It is simple way to break string.@@57	71.0	304.0	219.3	234.0##
+
+It doesn't provide the facility to differentiate numbers, quoted strings, @@57	69.0	523.7	247.3	262.3##
+identifiers etc. like StreamTokenizer class. We will discuss about the @@57	71.0	524.3	262.3	277.0##
+
+StreamTokenizer class in I/O chapter.@@57	71.7	296.0	277.0	289.3##
+Constructors of StringTokenizer class @@57	72.7	293.3	306.0	318.3##
+
+There are 3 constructors defined in the StringTokenizer class@@57	71.7	429.7	336.0	348.3##
+There are 3 constructors defined in the StringTokenizer class.@@57	70.0	433.3	361.3	376.3##
+Description @@57	244.7	319.0	393.0	408.0##
+creates StringTokenizer with specified string.@@57	224.3	509.3	421.0	438.7##
+StringTokenizer(String str)@@57	71.0	232.0	422.0	436.7##
+StringTokenizer(String @@57	71.0	206.3	450.0	464.7##
+str, creates StringTokenizer with specified string @@57	220.7	524.3	451.7	466.7##
+
+Constructor @@57	71.7	148.7	393.0	408.0##
+and delimeter. @@57	244.0	330.7	466.3	481.3##
+
+creates StringTokenizer with specified string, @@57	243.7	524.3	496.3	511.3##
+StringTokenizer(String @@57	70.0	208.3	511.3	527.0##
+str, delimeter and returnValue. If return value is @@57	200.3	524.3	513.0	528.0##
+boolean true, delimiter characters are considered to be@@57	196.7	522.7	529.0	541.0##
+String delim,@@57	71.3	170.0	529.2	542.3##
+returnValue)@@57	71.0	148.0	545.7	560.3##
+
+tokens. If it is false, delimiter characters serve @@57	246.3	523.7	546.3	558.7##
+
+delim)@@58	69.7	110.0	141.0	156.7##
+boolean hasMoreElements()same as hasMoreTokens()method.@@58	71.0	444.0	172.7	187.7##
+
+1. import java.util.StringTokenizer; @@58	88.7	299.3	288.7	303.3##
+2. public class Simple{@@58	86.0	227.7	301.7	319.3##
+ public static void main(String args[]){@@58	98.3	330.3	318.3	333.3##
+3. @@58	89.3	102.7	319.3	330.7##
+4.@@58	88.7	101.0	332.3	344.7##
+ StringTokenizer st =new StringTokenizer("my name is khan",""); @@58	117.7	501.3	332.3	347.3##
+5.@@58	88.7	101.0	345.7	359.7##
+ System.out.println(st.nextToken()); @@58	141.0	347.3	359.7	374.3##
+6.@@58	88.7	101.0	360.3	373.7##
+7.@@58	89.3	101.0	374.7	387.7##
+8.@@58	89.3	101.0	388.7	401.7##
+9. }@@58	88.7	113.3	402.7	415.7##
+Example @@58	142.0	201.3	429.7	444.7##
+of nextToken(String @@58	216.0	363.3	431.5	443.8##
+delim)method of @@58	381.0	525.3	432.3	444.2##
+
+1. import java.util.*; @@58	89.3	212.7	472.7	487.7##
+2.@@58	88.7	101.0	486.7	500.0##
+3. public class Test {@@58	87.7	216.0	500.7	515.7##
+ public static void main(String[]args){@@58	117.7	342.0	515.7	530.7##
+4.@@58	89.3	101.0	516.7	528.0##
+5.@@58	88.7	101.0	529.0	543.0##
+ StringTokenizer st =new StringTokenizer("my,name,is,khan"); @@58	133.0	498.7	529.0	543.7##
+6.@@58	89.3	101.0	543.0	557.0##
+7.  //printing next token @@58	89.3	264.0	557.3	571.8##
+8.@@58	88.7	101.0	571.0	584.0##
+ System.out.println("Next token is : "+st.nextToken(",")); @@58	130.3	460.7	572.0	586.7##
+9.@@58	88.7	101.0	585.0	598.3##
+10. }@@58	90.3	149.7	601.7	613.0##
+ XII JAVA I/O TUTORIAL @@58	75.3	228.7	638.7	650.7##
+Java I/O (Input and Output)is used to process the input and produce the @@58	71.0	503.3	668.3	683.3##
+output. @@58	71.0	112.7	684.0	696.3##
+Java uses the concept of stream to make I/O operation fast. The java.io@@58	71.7	491.7	711.3	723.7##
+package contains all the classes required for input and output operations.@@58	70.0	506.0	725.3	740.3##
+We can perform file handling in java by Java I/O API.@@58	71.0	392.3	752.7	767.3##
+
+Stream @@59	71.0	117.0	81.7	94.0##
+A stream is a sequence of data.In Java a stream is composed of bytes. It's @@59	71.0	504.0	112.3	124.7##
+called a stream because it is like a stream of water that continues to flow.@@59	71.7	504.0	126.3	138.7##
+In java, 3 streams are created for us automatically. All these streams are @@59	71.7	499.7	154.3	166.7##
+
+attached with console.@@59	71.7	203.0	168.3	180.7##
+1)System.out: standard output stream @@59	71.0	309.3	194.7	209.7##
+2)System.in: standard input stream@@59	71.0	290.7	223.7	236.0##
+3)System.err: standard error stream @@59	72.7	295.0	252.7	265.0##
+
+Byte Streams Java byte streams are used to perform input and output of 8-@@59	71.0	522.7	587.7	602.7##
+bit bytes. Though there are many classes related to byte streams but the @@59	71.0	524.3	600.7	615.7##
+most frequently used classes are, FileInputStream and FileOutputStream. @@59	70.0	523.7	614.7	629.7##
+Following is an example which makes use of these two classes to copy an @@59	70.0	524.3	629.7	644.7##
+
+ public static void main(String args[])throws IOException @@59	83.3	417.3	722.7	737.7##
+
+}@@60	71.7	76.3	527.0	531.7##
+Character Streams Java Byte streams are used to perform input and output @@60	71.7	523.7	550.0	562.3##
+of 8-bit bytes, whereas Java Character streams are used to perform input @@60	71.7	524.3	564.0	576.3##
+and output for 16-bit unicode. Though there are many classes related to @@60	71.0	525.3	577.0	592.0##
+character streams but the most frequently used classes are, FileReader and @@60	71.7	523.7	591.0	603.3##
+FileWriter. Though internally FileReader uses FileInputStream and @@60	71.7	523.7	606.0	618.3##
+FileWriter uses FileOutputStream but here the major difference is that @@60	70.0	525.3	619.3	634.0##
+FileReader reads two bytes at a time and FileWriter writes two bytes at a @@60	71.0	524.3	633.3	645.7##
+time. @@60	71.0	102.0	648.0	661.3##
+import java.io.*; @@60	71.0	167.3	676.3	691.0##
+public class CopyFile {@@60	70.0	205.3	703.3	719.3##
+
+ public static void main(String args[])throws IOException @@60	82.3	417.3	732.3	747.3##
+
+Java BufferedInputStream Class @@62	71.0	273.7	457.0	469.3##
+Java BufferedInputStream class is used to read information from stream. It @@62	71.7	516.3	487.7	500.0##
+internally uses buffer mechanism to make the performance fast.@@62	71.0	448.3	501.7	514.0##
+
+1. import java.io.*; @@62	88.7	203.7	555.0	570.0##
+2. public class BufferedInputStreamExample{@@62	87.7	362.3	570.0	585.0##
+ public static void main(String args[]){@@62	106.3	329.7	583.3	598.0##
+3. @@62	89.3	102.0	585.0	597.3##
+4. try{@@62	89.3	138.3	600.0	612.2##
+5.@@62	88.7	101.0	613.0	626.3##
+ FileInputStream fin=new FileInputStream("D:\\testout.txt"); @@62	121.3	478.3	613.0	628.0##
+ BufferedInputStream bin=new BufferedInputStream(fin); @@62	121.3	457.0	625.3	640.3##
+6.@@62	86.0	98.0	629.0	642.0##
+7. int i; @@62	88.7	153.3	640.7	654.7##
+8. while((i=bin.read())!=-1){@@62	88.7	264.0	655.2	668.8##
+9.@@62	88.7	101.0	669.3	682.3##
+ System.out.print((char)i); @@62	125.7	275.7	669.3	684.0##
+10.  }@@62	89.3	164.7	684.7	696.5##
+11.  bin.close(); @@62	90.3	223.3	696.3	711.3##
+12.  fin.close(); @@62	89.3	220.7	710.3	725.8##
+13. @@62	89.3	109.0	725.3	740.3##
+ }catch(Exception e){System.out.println(e);}@@62	149.7	397.7	726.3	741.0##
+14.  }@@62	89.3	154.0	740.2	753.3##
+15. }@@62	89.3	151.3	754.3	767.3##
+
+UNIT III @@63	271.0	323.3	443.7	456.0##
+XIII EXCEPTION HANDLING IN JAVA @@63	181.7	413.0	507.7	520.0##
+The exception handling in java is one of the powerful mechanism to handle @@63	69.0	521.7	536.0	550.7##
+the runtime errors so that normal flow of the application can be maintained. @@63	71.0	516.3	551.7	566.7##
+Exception is an abnormal condition. Exception Handling is a mechanism to @@63	69.0	517.3	564.7	579.7##
+
+Hierarchy of Java Exception classes @@64	71.7	299.3	82.3	94.0##
+
+There are mainly two types of exceptions: checked and unchecked where @@64	70.0	499.7	615.0	629.7##
+error is considered as unchecked exception. The sun microsystem says there @@64	70.0	524.3	628.0	643.0##
+
+The classes that extend Throwable class except RuntimeException and Error @@65	71.7	522.7	81.7	96.3##
+are known as checked exceptions e.g.IOException, SQLException etc.@@65	71.7	478.3	94.7	109.7##
+Checked exceptions are checked at compile-time.@@65	72.7	360.7	110.7	125.3##
+2)Unchecked Exception @@65	143.7	296.0	139.3	151.7##
+The classes that extend RuntimeException are known as unchecked @@65	71.7	473.0	165.7	180.7##
+exceptions e.g. ArithmeticException, NullPointerException, @@65	72.7	417.3	179.7	194.7##
+ArrayIndexOutOfBoundsException etc. Unchecked exceptions are not @@65	71.0	482.0	193.7	208.7##
+checked at compile-time rather they are checked at runtime.@@65	71.0	427.0	208.0	222.7##
+
+3)Error @@65	142.7	194.0	236.0	251.0##
+Error is irrecoverable e.g. OutOfMemoryError, VirtualMachineError, @@65	71.0	471.3	264.0	279.0##
+
+AssertionError etc.@@65	71.7	182.3	280.7	293.0##
+Java Exception Handling Keywords @@65	71.7	293.3	307.0	322.0##
+There are 5 keywords used in java exception handling.@@65	71.0	391.7	334.0	349.0##
+1. Try catch finally throw throws@@65	89.3	319.0	363.0	378.0##
+Java try-catch @@65	71.0	164.0	400.7	415.7##
+Java try block @@65	71.0	163.0	427.0	442.0##
+Java try block is used to enclose the code that might throw an exception. It@@65	71.7	513.0	458.0	470.0##
+
+Java try block must be followed by either catch or finally block.@@65	72.7	442.0	500.7	513.0##
+
+Java Multi catch block @@66	71.7	215.3	82.3	94.7##
+If you have to perform different tasks at the occurrence of different@@66	71.7	462.3	109.7	122.0##
+
+Java finally block is always executed whether exception is handled or not.@@66	71.0	505.0	538.7	553.3##
+
+Java finally block follows try or catch block.@@66	71.7	328.7	568.3	583.3##
+
+Why use java finally @@66	71.0	197.7	595.7	610.3##
+Finally block in java can be used to put "cleanup"code such as @@66	105.3	480.3	622.7	637.7##
+@@66	94.0	107.3	628.0	634.0##
+closing a file, closing connection etc.@@66	106.3	321.7	637.7	652.7##
+Case 1 @@66	143.7	187.0	667.3	679.7##
+Let's see the java finally example where exception doesn't occur.@@66	70.0	459.0	693.7	708.7##
+
+1. class TestFinallyBlock{@@66	87.7	243.7	721.0	736.0##
+ public static void main(String args[]){@@66	97.7	334.0	735.0	750.0##
+2. @@66	89.3	103.7	737.7	749.0##
+3.  try{@@66	89.3	137.3	752.2	763.8##
+
+1. public class TestFinallyBlock2{@@67	89.3	291.3	289.3	304.3##
+ public static void main(String args[]){@@67	104.7	334.0	302.7	318.3##
+2. @@67	89.3	102.0	304.3	316.7##
+3.  try{@@67	88.7	137.3	318.3	331.0##
+4.  int data=25/0; @@67	89.3	207.3	332.0	345.0##
+5.  System.out.println(data); @@67	89.3	268.3	346.3	360.0##
+6. }@@67	89.3	119.7	362.2	372.3##
+ catch(ArithmeticException e){System.out.println(e);}@@67	112.7	420.0	373.7	388.7##
+7. @@67	89.3	102.7	374.7	386.0##
+8. @@67	89.3	102.0	388.7	400.0##
+ finally{System.out.println("finally block is always executed");}@@67	114.3	473.0	388.7	403.3##
+9. @@67	89.3	102.0	402.7	414.0##
+ 10.  }@@67	89.3	157.7	416.2	430.2##
+11. }@@67	89.3	152.3	430.7	444.2##
+Java throw keyword@@67	71.0	196.7	458.7	471.0##
+The Java throw keyword is used to explicitly throw an exception.@@67	71.7	449.0	487.7	500.0##
+We can throw either checked or uncheked exception in java by throw @@67	71.7	477.7	515.0	529.7##
+keyword. The throw keyword is mainly used to throw custom exception. We @@67	71.0	515.7	528.0	543.0##
+
+ System.out.println("rest of the code..."); @@67	113.3	349.0	400.7	415.7##
+
+will see custom exceptions later.@@67	71.7	261.3	544.7	557.0##
+The syntax of java throw keyword is given below. @@67	71.0	358.0	571.0	586.0##
+
+1. throw exception; @@67	89.3	206.3	599.0	614.0##
+1. public class TestThrow1{@@67	88.7	256.0	627.0	642.0##
+ static void validate(int age){@@67	117.0	281.7	639.3	657.0##
+2.@@67	88.7	101.0	642.0	654.3##
+3. if(age<18)@@67	88.7	185.0	655.3	669.7##
+4.@@67	88.7	101.0	669.3	683.3##
+throw new ArithmeticException("not valid"); @@67	128.3	387.0	669.3	684.0##
+5. else @@67	88.7	152.0	682.7	696.2##
+6.@@67	88.7	101.0	698.0	710.3##
+ System.out.println("welcome to vote"); @@67	129.3	354.3	698.0	713.0##
+7.@@67	89.3	101.0	712.3	724.3##
+ public static void main(String args[]){@@67	117.7	338.3	724.3	742.0##
+8.@@67	88.7	101.0	726.3	738.7##
+9. validate(13); @@67	88.7	203.7	739.8	754.0##
+10. @@67	89.3	109.0	753.3	767.3##
+ System.out.println("rest of the code..."); @@67	165.7	399.7	754.3	769.3##
+
+Java throws keyword @@68	71.0	205.7	133.3	148.3##
+The Java throws keyword is used to declare an exception. It gives an @@68	70.0	483.7	162.3	177.0##
+information to the programmer that there may occur an exception so it is @@68	70.0	503.3	178.0	193.0##
+better for the programmer to provide the exception handling code so that @@68	71.0	500.7	192.0	207.0##
+
+ System.out.println("normal flow..."); @@68	93.0	307.3	569.3	584.0##
+
+Java Custom Exception@@68	71.7	219.7	623.7	636.0##
+If you are creating your own Exception that is known as custom exception or @@68	71.0	525.3	652.7	667.3##
+user-defined exception. Java custom exceptions are used to customize the @@68	72.7	507.7	667.3	679.7##
+
+exception according to user need.@@68	71.7	267.7	682.3	694.7##
+Let's see a simple example of java custom exception.@@68	71.7	377.3	709.7	722.0##
+1. class InvalidAgeException extends Exception{@@68	90.3	374.7	737.7	750.0##
+2. InvalidAgeException(String s){@@68	87.7	289.0	750.0	764.7##
+
+3.  super(s); @@69	89.3	167.7	80.7	93.8##
+4. }@@69	88.3	118.0	93.7	106.7##
+5. }@@69	88.7	115.3	109.7	123.7##
+1. class TestCustomException1{@@69	87.7	282.7	136.0	151.0##
+2. @@69	88.7	102.0	151.7	165.0##
+ static void validate(int age)throws InvalidAgeException{@@69	118.0	443.0	164.0	179.0##
+3.@@69	89.3	101.0	165.0	178.0##
+4. if(age<18)@@69	89.3	185.0	179.7	193.3##
+5.@@69	89.3	101.0	194.0	207.0##
+ throw new InvalidAgeException("not valid"); @@69	128.3	386.3	194.0	208.7##
+6. else @@69	89.3	151.3	208.0	221.5##
+7. @@69	89.3	102.0	222.0	234.3##
+ System.out.println("welcome to vote"); @@69	129.3	354.3	222.0	236.7##
+8.@@69	89.3	101.0	236.0	248.3##
+9.@@69	88.7	101.0	250.0	262.3##
+ 10. @@69	89.3	109.0	263.0	277.0##
+ public static void main(String args[]){@@69	154.0	373.0	264.0	279.0##
+11.  try{@@69	90.3	189.7	279.0	292.2##
+12. @@69	89.3	109.0	291.3	306.0##
+ validate(13); @@69	165.7	240.0	292.0	307.0##
+13. @@69	89.3	109.0	306.0	320.0##
+ }catch(Exception m){System.out.println("Exception occured:@@69	166.7	516.3	308.0	320.0##
+"+m);}@@69	109.0	143.0	318.0	333.0##
+14. @@69	89.3	110.0	334.3	348.3##
+15. @@69	89.3	109.0	348.3	362.3##
+ System.out.println("rest of the code..."); }}@@69	165.7	414.7	348.3	363.0##
+
+XIV MULTI THREADING IN JAVA @@69	195.0	400.3	467.3	479.7##
+Multithreading in java is a process of executing multiple threads @@69	71.0	524.3	497.3	512.3##
+simultaneously. Thread is basically a lightweight sub-process, a smallest @@69	71.0	526.3	511.3	526.3##
+unit of processing. Multiprocessing and multithreading, both are used to @@69	71.7	524.3	527.0	539.3##
+
+achieve multitasking. @@69	69.3	198.7	538.3	553.3##
+Advantages of Java Multithreading @@69	141.7	363.3	566.7	581.3##
+1)It doesn't block the user because threads are independent and you can @@69	71.0	524.3	594.7	609.7##
+
+perform multiple operations at same time. @@69	70.0	319.7	610.3	625.3##
+2)You can perform many operations together so it saves time.@@69	71.0	435.0	637.7	652.7##
+3)Threads are independent so it doesn't affect other threads if exception@@69	71.7	522.7	666.7	679.0##
+
+occur in a single thread.@@69	71.7	214.3	682.3	694.7##
+What is Thread in java @@69	70.0	212.7	707.0	721.7##
+A thread is a lightweight sub process, a smallest unit of processing. It is a @@69	71.0	524.3	736.7	751.7##
+
+Threads are independent, if there occurs exception in one thread, it doesn't @@70	71.0	524.3	80.7	95.7##
+
+affect other threads. It shares a common memory area.@@70	70.0	394.3	93.7	108.7##
+
+Life cycle of a Thread (Thread States)@@70	71.7	306.7	134.3	146.3##
+1. New @@70	124.7	171.3	161.0	176.0##
+2. Runnable @@70	125.0	202.0	178.0	190.3##
+Running 3. @@70	142.3	138.3	190.7	203.7##
+4. @@70	125.7	140.0	204.7	216.0##
+Non-Runnable (Blocked)@@70	143.7	287.0	206.0	218.3##
+5. Terminated @@70	125.7	211.7	220.5	232.0##
+A thread can be in one of the five states. According to sun, there is only 4 @@70	71.7	503.3	249.0	261.3##
+states in thread life cycle in java new, runnable, non-runnable and @@70	71.7	476.7	263.0	275.3##
+
+terminated. There is no running state. @@70	70.0	296.7	274.3	289.3##
+
+But for better understanding the threads, we are explaining it in the 5 @@70	70.0	485.3	302.7	317.3##
+states.@@70	71.7	110.0	321.0	330.7##
+The life cycle of the thread in java is controlled by JVM.@@70	71.7	397.0	347.3	359.7##
+
+The java thread states are as follows: @@70	71.0	290.7	424.7	439.3##
+
+1. New @@70	89.0	135.0	453.3	466.3##
+2. Runnable @@70	87.7	166.7	468.3	483.3##
+3. Running @@70	87.0	161.3	481.3	496.3##
+4. Non-Runnable (Blocked)@@70	87.0	252.7	495.7	510.3##
+5. Terminated @@70	87.0	177.3	509.3	524.3##
+
+1)New @@71	144.3	186.0	443.0	456.0##
+The thread is in new state if you create an instance of Thread class but @@71	71.7	490.0	471.0	483.3##
+
+before the invocation of start()method. @@71	70.0	300.3	484.0	499.0##
+2)Runnable @@71	142.7	220.7	501.7	514.0##
+The thread is in runnable state after invocation of start()method, but the @@71	71.0	502.3	529.7	542.0##
+thread scheduler has not selected it to be the running thread.@@71	70.0	434.0	542.0	557.0##
+
+3)Running @@71	141.0	215.3	569.0	584.0##
+The thread is in running state if the thread scheduler has selected it.@@71	71.7	475.7	600.0	612.3##
+4)Non-Runnable (Blocked)@@71	143.7	309.3	628.0	640.3##
+This is the state when the thread is still alive, but is currently not eligible to@@71	71.0	517.3	655.3	667.3##
+run. @@71	71.0	97.3	671.0	683.3##
+5)Terminated @@71	143.7	233.0	698.0	710.3##
+A thread is in terminated or dead state when its run()method exits.@@71	71.0	467.7	726.3	738.7##
+
+How to create thread @@72	70.0	205.3	81.7	96.7##
+There are two ways to create a thread: @@72	72.7	296.7	113.0	125.3##
+1. By extending Thread class@@72	90.3	262.3	141.3	153.3##
+2. By implementing Runnable interface.@@72	87.7	326.0	153.3	168.3##
+Thread class:@@72	144.3	226.0	183.3	195.7##
+Thread class provide constructors and methods to create and perform@@72	71.7	482.0	198.3	213.0##
+operations on a thread. Thread class extends Object class and implements@@72	71.7	509.3	215.0	229.7##
+
+Commonly used methods of Thread class:@@72	144.3	403.0	350.0	362.3##
+public void run(): is used to perform action for a thread.@@72	107.3	441.3	365.0	379.7##
+public void start(): starts the execution of the thread.JVM calls the @@72	106.3	506.7	393.0	408.0##
+
+public void sleep(long miliseconds): Causes the currently executing@@72	107.3	516.3	435.0	450.0##
+thread to sleep (temporarily cease execution)for the specified number @@72	106.3	517.3	448.3	463.0##
+
+public void join(): waits for a thread to die.@@72	106.3	364.0	492.0	507.0##
+
+public void join(long miliseconds): waits for a thread to die for the@@72	108.0	506.7	520.0	532.3##
+
+public int getPriority(): returns the priority of the thread.@@72	106.3	451.0	562.3	577.0##
+public int setPriority(int priority): changes the priority of the @@72	106.3	479.3	589.3	604.3##
+thread.@@72	107.3	149.7	605.3	617.3##
+public String getName(): returns the name of the thread.@@72	106.3	448.3	633.3	647.3##
+public void setName(String name): changes the name of the thread.@@72	108.0	515.7	662.3	674.3##
+ public Thread currentThread(): returns the current thread. @@72	107.3	468.7	688.7	703.3##
+public int getId(): returns the id of the thread.@@72	106.3	384.3	716.7	731.7##
+
+public Thread.State getState(): returns the state of the thread.@@73	106.3	484.7	85.0	100.0##
+public boolean isAlive(): tests if the thread is alive.@@73	106.3	412.0	113.0	128.0##
+public void yield(): causes the currently executing thread object to@@73	109.0	503.3	142.0	154.3##
+temporarily pause and allow other threads to execute.@@73	107.3	424.3	155.3	170.3##
+public void suspend(): is used to suspend the thread(depricated).@@73	109.0	493.3	184.3	196.3##
+public void resume(): is used to resume the suspended @@73	108.0	437.7	210.7	225.3##
+
+public void stop(): is used to stop the thread(depricated).@@73	106.3	445.7	253.3	268.3##
+public boolean isDaemon(): tests if the thread is a daemon thread. @@73	106.3	505.0	281.7	296.3##
+public void setDaemon(boolean b): marks the thread as daemon or @@73	108.0	511.3	310.3	322.7##
+
+public void interrupt(): interrupts the thread.@@73	106.3	381.7	351.7	366.7##
+public boolean isInterrupted(): tests if the thread has been @@73	106.3	462.3	379.7	394.7##
+
+public static boolean interrupted(): tests if the current thread has@@73	108.0	506.0	422.7	435.0##
+
+been interrupted.@@73	105.7	210.0	435.0	450.0##
+Runnable interface:@@73	141.7	266.7	452.7	465.0##
+The Runnable interface should be implemented by any class whose @@73	70.0	467.0	467.3	482.3##
+instances are intended to be executed by a thread. Runnable interface have @@73	71.7	515.7	486.0	498.3##
+
+1. public void run(): is used to perform action for a thread.@@73	91.3	439.3	533.3	545.7##
+Starting a thread: @@73	141.7	256.0	560.3	575.3##
+start()method of Thread class is used to start a newly created thread. It @@73	71.7	501.3	578.0	593.0##
+
+4. }@@74	88.7	114.3	80.7	94.0##
+ 5. public static void main(String args[]){@@74	86.7	326.0	93.0	110.7##
+6. Multi t1=new Multi(); @@74	87.7	233.0	108.0	122.7##
+7. t1.start(); @@74	88.7	164.0	122.7	137.7##
+8. }@@74	87.7	119.0	134.7	150.3##
+9. }@@74	88.7	115.3	151.0	165.0##
+2)Java Thread Example by implementing Runnable @@74	141.7	467.7	234.0	249.0##
+interface @@74	142.7	201.0	251.0	263.0##
+1. class Sample implements Runnable{@@74	89.3	327.0	277.0	292.0##
+2. public void run(){@@74	87.0	211.0	290.3	306.0##
+ 3. System.out.println("Thread is running..."); @@74	87.0	358.0	303.3	321.0##
+4. }@@74	88.7	114.3	319.3	333.3##
+5. @@74	90.0	103.7	331.7	345.0##
+ 6. public static void main(String args[]){@@74	87.0	327.0	345.7	363.0##
+7. Sample s=new Sample(); @@74	87.7	255.3	360.3	375.3##
+ 8. Thread t1 =new Thread(s); @@74	87.7	263.3	374.3	389.3##
+9. t1.start(); @@74	88.0	164.0	388.3	404.3##
+10.  }@@74	89.3	154.0	405.7	417.8##
+11. }@@74	88.7	151.3	419.2	432.0##
+Sleep method in java @@74	71.0	204.7	456.0	471.0##
+The sleep()method of Thread class is used to sleep a thread for the specified @@74	71.0	521.0	486.7	501.7##
+
+amount of time.@@74	70.0	164.0	501.7	514.0##
+Syntax of sleep()method in java @@74	71.0	273.7	529.0	543.7##
+The Thread class provides two methods for sleeping a thread:@@74	71.7	431.3	560.3	572.7##
+public static void sleep(long miliseconds)throws InterruptedException @@74	104.7	517.3	586.7	601.7##
+public static void sleep(long miliseconds, int nanos)throws @@74	106.3	451.7	601.7	616.7##
+
+6. }@@75	89.3	119.7	83.3	93.0##
+7.  }@@75	89.3	117.0	96.8	107.8##
+ public static void main(String args[]){@@75	104.7	330.3	106.0	124.7##
+8. @@75	89.3	102.7	110.7	122.0##
+9.  Ex t1=new Ex(); @@75	89.3	212.7	122.8	135.8##
+10.  Ex t2=new Ex(); @@75	89.3	245.3	136.3	150.8##
+11. @@75	89.3	110.0	151.0	165.0##
+12.  t1.start(); @@75	89.3	208.3	164.0	178.8##
+13.  t2.start(); @@75	89.3	208.3	178.5	192.8##
+14.  }@@75	89.3	152.3	195.2	206.5##
+15. }@@75	89.3	149.7	208.3	220.5##
+The join()method @@75	70.0	185.0	244.7	259.7##
+The join()method waits for a thread to die. In other words, it causes the @@75	70.0	495.3	274.7	289.3##
+currently running threads to stop executing until the thread it joins with @@75	72.7	499.7	291.3	303.3##
+
+Example of join()method @@75	71.0	231.3	431.7	446.3##
+1. class Sample extends Thread{@@75	90.3	283.3	463.0	475.3##
+2.  public void run(){@@75	89.3	214.3	476.7	490.2##
+3.  for(int i=1;i<=5;i++){@@75	89.3	234.0	490.7	504.2##
+4.  try{@@75	89.3	141.7	505.7	518.3##
+5. Thread.sleep(500); @@75	88.7	233.0	518.8	532.5##
+ }catch(Exception e){System.out.println(e);}@@75	117.7	365.0	533.3	548.3##
+6.@@75	89.3	101.0	534.0	545.7##
+7.  System.out.println(i); @@75	89.3	242.0	546.5	560.5##
+8. }@@75	89.3	121.3	563.2	572.8##
+ }9. public static void main(String args[]){@@75	86.7	327.0	573.7	591.0##
+ Sample t1=new Sample (); @@75	146.3	301.3	588.3	603.3##
+10. @@75	89.3	110.0	589.3	603.3##
+ Sample t2=new Sample (); @@75	145.3	302.0	600.7	618.3##
+11. @@75	89.3	110.0	602.7	616.7##
+ Sample t3=new Sample (); @@75	145.3	301.3	615.7	630.7##
+12. @@75	89.3	110.0	616.7	630.7##
+13.  t1.start(); @@75	89.3	204.0	630.2	644.5##
+14.  try{@@75	89.3	171.3	645.0	659.3##
+15.  t1.join(); @@75	89.3	202.0	659.7	674.0##
+ }catch(Exception e){System.out.println(e);}@@75	145.3	393.3	672.7	688.3##
+16. @@75	89.3	110.0	673.7	687.7##
+17.  t2.start(); @@75	89.3	204.0	686.7	701.7##
+18.  t3.start(); @@75	89.3	204.0	700.7	715.7##
+19.  }}@@75	89.3	169.3	716.2	730.2##
+getName(),setName(String)and getId()method: @@75	142.7	436.7	744.7	759.7##
+
+1. class Sample1 extends Thread{@@76	89.3	294.0	240.3	252.7##
+2.  public void run(){@@76	89.3	218.0	253.8	267.0##
+3. @@76	88.7	102.0	268.3	279.7##
+ System.out.println("running...");@@76	117.7	308.3	269.3	281.7##
+4.  }@@76	89.3	119.7	283.7	293.3##
+ public static void main(String args[]){@@76	104.7	330.3	293.7	311.3##
+5. @@76	89.3	102.7	297.3	308.7##
+6.  Sample1t1=new Sample1 (); @@76	89.3	276.3	310.5	323.3##
+ Sample1 t2=new Sample1 (); @@76	113.3	284.3	322.7	337.7##
+7. @@76	89.3	102.7	324.7	335.0##
+ System.out.println("Name of t1:"+t1.getName()); @@76	114.3	395.0	337.7	352.7##
+8. @@76	89.3	102.0	338.7	350.0##
+9. @@76	89.3	102.7	352.7	364.0##
+ System.out.println("Name of t2:"+t2.getName()); @@76	114.3	395.0	352.7	367.3##
+10. @@76	89.3	110.0	365.7	379.7##
+ System.out.println("id of t1:"+t1.getId()); @@76	149.7	387.0	366.7	381.7##
+11.  t1.start(); @@76	89.3	206.3	380.7	393.7##
+12.  t2.start(); @@76	89.3	208.3	394.2	408.8##
+13. @@76	89.3	110.0	408.0	422.0##
+ t1.setName("Sonoo Jaiswal");@@76	150.7	321.7	409.7	422.0##
+14. @@76	89.3	110.0	422.0	436.0##
+ System.out.println("After changing name of t1:"+t1.getName());@@76	151.3	518.3	424.7	436.7##
+15.  }}@@76	89.3	160.3	450.7	464.8##
+Priority of a Thread (Thread Priority): @@76	70.0	308.3	487.7	502.7##
+Each thread have a priority. Priorities are represented by a number between @@76	70.0	520.0	506.0	521.0##
+1 and 10. In most cases, thread schedular schedules the threads according @@76	71.7	516.3	523.7	538.7##
+to their priority (known as preemptive scheduling). But it is not guaranteed @@76	71.7	513.7	541.0	553.3##
+because it depends on JVM specification that which scheduling it chooses.@@76	71.0	510.3	556.0	571.0##
+
+3 constants defined in Thread class:@@76	70.0	296.7	594.7	607.0##
+1. public static int MIN_PRIORITY @@76	90.3	292.3	614.0	626.3##
+2. public static int NORM_PRIORITY @@76	88.7	307.3	627.0	642.0##
+3. public static int MAX_PRIORITY @@76	87.7	296.7	641.0	656.0##
+Default priority of a thread is 5 (NORM_PRIORITY). The value of @@76	71.0	449.0	673.7	688.7##
+MIN_PRIORITY is 1 and the value of MAX_PRIORITY is 10.@@76	71.7	413.7	691.0	702.7##
+
+Example of priority of a Thread: @@77	143.7	344.7	81.7	94.0##
+1. class TestMultiPriority1 extends Thread{@@77	88.7	346.3	107.0	122.0##
+2. public void run(){@@77	87.7	213.7	122.7	137.7##
+System.out.println("running thread name is:"+Thread.currentThread@@77	116.0	524.3	136.7	151.7##
+3.  @@77	89.3	117.7	139.0	147.7##
+().getName()); @@77	106.3	185.0	151.0	165.7##
+4.@@77	90.3	100.0	167.7	176.3##
+ad().getPriority()); @@77	107.3	209.0	179.7	194.7##
+5. @@77	89.3	102.0	194.0	206.0##
+6.  }@@77	89.3	119.7	209.3	219.2##
+ public static void main(String args[]){@@77	109.0	330.3	219.3	236.7##
+7. @@77	90.3	102.7	222.7	233.3##
+ TestMultiPriority1 m1=new TestMultiPriority1(); @@77	111.7	396.0	234.0	249.0##
+8. @@77	89.3	102.0	236.0	247.3##
+ TestMultiPriority1 m2=new TestMultiPriority1(); @@77	111.7	397.7	246.3	264.0##
+9. @@77	89.3	102.0	250.0	261.3##
+ m1.setPriority(Thread.MIN_PRIORITY); @@77	149.7	378.3	262.3	277.0##
+10. @@77	89.3	110.0	263.0	277.0##
+11. @@77	89.3	110.0	277.0	291.3##
+ m2.setPriority(Thread.MAX_PRIORITY); @@77	149.7	382.7	277.0	292.0##
+
+ System.out.println("running thread priority is:"+Thread.currentThre@@77	116.0	520.0	163.0	180.7##
+
+12.  m1.start(); @@77	89.3	214.3	291.7	306.2##
+13.  m2.start(); @@77	89.3	214.3	305.7	320.2##
+14. @@77	89.3	110.0	319.3	333.3##
+15. @@77	89.3	109.0	333.3	348.3##
+16. @@77	89.3	109.0	348.3	362.3##
+
+ThreadGroup in Java @@77	71.7	203.7	387.7	400.0##
+Java provides a convenient way to group multiple threads in a single object.@@77	71.0	517.3	416.7	431.7##
+In such way, we can suspend, resume or interrupt group of threads by a @@77	69.0	499.7	429.7	444.7##
+
+Constructors of ThreadGroup class @@77	70.0	290.7	500.0	514.7##
+There are only two constructors of ThreadGroup class.@@77	71.7	390.7	529.7	542.0##
+Description @@77	383.0	459.0	557.7	573.3##
+No. @@77	71.0	93.0	559.7	572.7##
+Constructor @@77	168.3	244.7	560.3	572.7##
+creates a thread group with given @@77	318.0	517.3	576.3	591.0##
+name.@@77	319.0	356.0	593.0	605.3##
+ThreadGroup(ThreadGroup parent,@@77	94.0	302.0	605.0	622.7##
+creates a thread group with given @@77	319.0	517.3	607.7	622.7##
+parent group and name. @@77	317.0	463.3	622.7	637.7##
+
+ThreadGroup Example@@78	71.0	211.0	81.7	94.0##
+File: ThreadGroupDemo.java @@78	70.0	242.0	107.0	122.0##
+
+1. public class ThreadGroupDemo implements Runnable{@@78	89.3	431.3	136.7	151.7##
+2.  public void run()@@78	89.3	221.3	151.3	164.8##
+3.  {@@78	88.7	129.3	166.7	177.2##
+ System.out.println(Thread.currentThread().getName()); @@78	145.3	467.0	179.0	194.0##
+4.@@78	88.7	101.0	179.7	192.0##
+5.@@78	88.7	101.0	194.0	206.0##
+6.@@78	89.3	101.0	208.0	220.0##
+ public static void main(String[]args)@@78	117.0	333.0	208.0	222.7##
+7. @@78	89.3	102.0	222.0	234.3##
+8. @@78	88.7	102.0	235.0	248.3##
+ ThreadGroupDemo runnable =new ThreadGroupDemo(); @@78	129.3	467.0	235.0	250.0##
+9. @@78	88.7	102.0	250.0	262.3##
+ ThreadGroup tg1 =new ThreadGroup("Parent ThreadGroup"); @@78	145.3	510.3	250.0	265.0##
+10. @@78	89.3	109.0	263.0	277.0##
+11. @@78	89.3	109.0	277.0	291.3##
+12. @@78	89.3	109.0	291.3	305.3##
+13. @@78	89.3	109.0	305.3	319.3##
+14. @@78	89.3	110.0	319.3	333.3##
+15. @@78	89.3	109.0	333.3	348.3##
+16. @@78	89.3	109.0	347.3	362.3##
+17. @@78	89.3	110.0	361.3	375.3##
+18. @@78	89.3	110.0	375.3	389.3##
+); @@78	106.3	117.0	391.3	404.3##
+19. @@78	89.3	110.0	404.3	418.3##
+20. @@78	88.7	110.0	418.3	432.3##
+21. @@78	88.7	109.0	431.7	446.3##
+22. @@78	88.7	109.0	446.3	460.3##
+1. class TestMultitasking1 extends Thread{@@78	88.7	346.3	473.7	488.7##
+2.  public void run(){@@78	89.3	212.7	490.3	502.2##
+ System.out.println("task one"); @@78	117.0	300.3	502.7	518.3##
+3.@@78	89.3	101.0	503.3	515.0##
+4. }@@78	89.3	116.0	519.2	529.0##
+ public static void main(String args[]){@@78	109.0	329.7	530.7	545.7##
+5. @@78	89.3	102.0	532.3	543.7##
+ TestMultitasking1 t1=new TestMultitasking1(); @@78	112.7	389.7	543.7	558.7##
+6.@@78	90.3	100.0	547.3	556.0##
+ TestMultitasking1 t2=new TestMultitasking1(); @@78	113.3	390.0	557.7	572.7##
+7. @@78	89.3	102.0	559.7	571.0##
+ TestMultitasking1 t3=new TestMultitasking1(); @@78	113.3	390.7	571.7	586.7##
+8. @@78	90.0	102.7	572.0	583.7##
+9. @@78	89.3	105.3	584.3	600.0##
+10.  t1.start(); @@78	90.3	208.3	600.8	614.8##
+11.  t2.start(); @@78	89.3	208.3	613.8	628.8##
+12.  t3.start(); @@78	89.3	208.3	629.2	643.7##
+13.  }@@78	89.3	152.3	645.5	656.8##
+14. }@@78	89.3	149.7	659.0	671.5##
+Synchronization in Java @@78	71.7	226.0	697.3	709.7##
+Synchronization in java is the capability to control the access of multiple @@78	71.0	491.7	726.3	741.0##
+
+ Thread t1 =new Thread(tg1, runnable,"one"); @@78	180.0	448.3	274.3	292.0##
+ t1.start(); @@78	179.3	238.3	290.0	305.0##
+ Thread t2 =new Thread(tg1, runnable,"two"); @@78	179.0	448.3	304.3	320.0##
+ Thread t3 =new Thread(tg1, runnable,"three"); @@78	178.0	458.0	331.3	349.0##
+
+Java Synchronization is better option where we want to allow only one@@79	71.0	484.7	80.7	94.7##
+
+thread to access the shared resource. @@79	71.0	292.3	94.7	109.7##
+Why use Synchronization @@79	143.7	304.0	123.7	138.7##
+The synchronization is mainly used to @@79	71.0	296.0	151.0	165.7##
+1. To prevent thread interference.@@79	90.3	287.0	180.7	193.0##
+2. To prevent consistency problem.@@79	89.3	296.0	195.7	208.0##
+Types of Synchronization@@79	145.3	303.0	223.7	236.0##
+There are two types of synchronization @@79	71.0	299.3	250.0	265.0##
+1. Process Synchronization@@79	91.3	249.7	278.0	290.3##
+2. Thread Synchronization@@79	90.3	248.0	293.7	306.0##
+Thread Synchronization @@79	142.7	296.0	333.3	348.0##
+There are two types of thread synchronization mutual exclusive and inter-@@79	71.7	506.0	363.0	378.0##
+
+sharing data. This can be done by three ways in java:@@79	72.7	384.3	533.3	545.7##
+1. by synchronized method @@79	88.7	252.3	558.7	574.7##
+2. by synchronized block @@79	88.7	240.0	573.7	588.7##
+3. by static synchronization @@79	88.7	257.0	587.7	602.7##
+Concept of Lock in Java @@79	142.7	296.0	614.7	629.7##
+Synchronization is built around an internal entity known as the lock or@@79	72.7	490.7	644.7	657.0##
+monitor. Every object has an lock associated with it. By convention, a thread @@79	70.0	524.3	658.7	673.7##
+that needs consistent access to an object's fields has to acquire the object's@@79	71.7	513.7	672.7	687.7##
+lock before accessing them, and then release the lock when it's done with @@79	70.0	503.3	685.0	700.0##
+them.@@79	71.3	105.7	699.7	712.7##
+From Java 5 the package java.util.concurrent.locks contains several lock @@79	71.7	501.3	729.0	743.7##
+
+1. //example of java synchronized method @@80	89.3	343.7	79.7	94.7##
+2. class Table{@@80	87.7	178.0	94.0	108.7##
+ synchronized void printTable(int n){//synchronized method @@80	108.0	461.7	108.7	123.7##
+3. @@80	89.3	102.7	109.7	121.0##
+4.  for(int i=1;i<=5;i++){@@80	88.7	237.7	122.3	135.5##
+5.  System.out.println(n*i); @@80	88.7	266.7	136.7	150.8##
+6.  try{@@80	88.7	148.7	151.7	164.8##
+7.  Thread.sleep(400); @@80	89.3	240.0	166.2	178.5##
+ }catch(Exception e){System.out.println(e);}@@80	125.0	373.0	178.0	193.7##
+8. @@80	88.7	102.0	179.0	192.0##
+9. @@80	88.7	102.0	194.0	206.0##
+10. @@80	89.3	110.0	207.0	221.0##
+11. @@80	89.3	110.0	221.0	235.0##
+12. @@80	89.3	110.0	235.0	249.0##
+13. @@80	89.3	110.0	249.0	263.0##
+14. @@80	89.3	110.0	263.0	277.0##
+ class MyThread1 extends Thread{@@80	142.7	343.0	263.0	278.0##
+15. Table t; @@80	89.3	190.3	277.0	291.7##
+ MyThread1(Table t){@@80	141.7	263.0	290.3	306.0##
+16. @@80	89.3	109.0	291.3	305.3##
+17. this.t=t; @@80	89.3	192.3	304.3	319.2##
+18. @@80	90.0	109.7	318.0	332.0##
+19. public void run(){@@80	89.3	246.3	333.8	348.2##
+20. t.printTable(5); @@80	88.7	233.0	347.8	362.2##
+21.}@@80	88.7	149.7	363.5	375.3##
+22. @@80	88.7	109.0	376.3	390.3##
+23. }@@80	88.7	149.7	391.7	403.5##
+24. @@80	88.7	109.0	404.3	418.3##
+class MyThread2 extends Thread{@@80	142.7	341.0	405.3	417.3##
+25. Table t; @@80	88.7	190.3	418.3	432.8##
+26. @@80	88.7	109.0	432.3	446.3##
+MyThread2(Table t){@@80	141.7	262.3	432.3	447.3##
+27. this.t=t; @@80	88.7	193.0	446.3	460.8##
+28. }@@80	88.7	149.7	461.7	473.7##
+29.  public void run(){@@80	88.7	246.3	474.2	490.0##
+30.  t.printTable(100); @@80	88.7	248.0	488.8	503.0##
+31.@@80	88.7	108.0	502.7	516.7##
+32.}@@80	88.7	149.7	518.0	530.2##
+33. @@80	88.7	109.0	530.7	544.7##
+34. @@80	88.7	109.0	545.7	558.7##
+public class TestSynchronization2{@@80	141.7	350.0	545.7	560.3##
+35. @@80	88.7	109.0	559.7	572.7##
+public static void main(String args[]){@@80	142.7	362.3	559.7	574.3##
+36. @@80	88.7	109.0	573.7	586.7##
+Table obj =new Table();//only one object @@80	142.7	386.3	573.7	588.7##
+MyThread1 t1=new MyThread1(obj); @@80	141.7	356.3	586.7	601.7##
+37. @@80	88.7	109.0	587.7	601.7##
+MyThread2 t2=new MyThread2(obj); @@80	141.7	356.0	600.7	615.7##
+38. @@80	88.7	109.0	601.7	615.7##
+39. t1.start(); @@80	88.7	200.3	615.2	629.7##
+40. t2.start(); @@80	88.7	200.3	629.2	643.7##
+41. }@@80	88.7	151.7	644.5	655.5##
+42. }@@80	88.7	150.7	658.2	672.0##
+Inter-thread communication in Java@@80	70.0	299.3	697.3	709.7##
+Inter-thread communication or Co-operation is all about allowing @@80	68.3	475.7	723.7	741.0##
+synchronized threads to communicate with each other.@@80	71.7	395.0	742.0	754.3##
+
+Cooperation (Inter-thread communication)is a mechanism in which a@@81	72.7	480.0	82.3	94.7##
+thread is paused running in its critical section and another thread is @@81	72.7	476.7	96.3	108.7##
+allowed to enter (or lock)in the same critical section to be executed.It is @@81	71.0	492.7	108.7	123.7##
+
+implemented by following methods of Object class:@@81	71.7	370.3	124.7	136.7##
+wait()@@81	87.7	139.7	152.7	166.0##
+notify()@@81	102.7	105.3	168.3	179.3##
+notifyAll()@@81	88.7	164.7	181.7	194.0##
+
+1)wait()method @@81	143.7	247.3	223.7	238.7##
+Causes current thread to release the lock and wait until either another@@81	72.7	487.3	252.7	265.0##
+thread invokes the notify()method or the notifyAll()method for this object,@@81	71.7	506.0	266.7	279.0##
+
+or a specified amount of time has elapsed.@@81	71.0	319.7	279.7	294.7##
+
+The current thread must own this object's monitor, so it must be called from@@81	71.7	521.7	309.7	322.0##
+the synchronized method only otherwise it will throw exception. @@81	70.0	446.7	322.0	336.7##
+Method @@81	187.0	237.3	352.7	367.3##
+Description @@81	401.3	476.7	352.7	367.3##
+
+InterruptedException @@81	71.0	197.7	443.7	458.7##
+2)notify()method @@81	142.7	258.7	472.7	487.7##
+Wakes up a single thread that is waiting on this object's monitor. If any @@81	69.0	493.3	498.3	515.7##
+threads are waiting on this object, one of them is chosen to be awakened.@@81	71.0	502.3	515.0	529.7##
+The choice is arbitrary and occurs at the discretion of the implementation. @@81	71.0	507.7	529.0	543.7##
+Syntax:@@81	71.7	116.0	544.7	557.0##
+public final void notify()@@81	71.0	211.7	571.0	586.0##
+
+3)notifyAll()method @@81	143.7	274.7	599.0	614.0##
+Wakes up all threads that are waiting on this object's monitor. Syntax: @@81	71.0	487.3	626.3	641.0##
+
+Java Applet @@82	71.7	146.3	82.3	94.7##
+Applet is a special type of program that is embedded in the webpage to @@82	71.7	487.3	113.0	125.3##
+generate the dynamic content. It runs inside the browser and works at client @@82	70.0	524.3	126.3	141.3##
+side.@@82	71.0	99.3	140.3	153.3##
+Advantage of Applet @@82	142.7	271.0	168.3	183.3##
+There are many advantages of applet. They are as follows:@@82	71.0	411.0	196.3	211.3##
+It works at client side so less response time.@@82	102.0	366.0	222.7	237.7##
+@@82	91.3	107.3	227.0	234.3##
+Secured @@82	106.3	156.7	239.3	251.7##
+It can be executed by browsers running under many plateforms,@@82	103.7	485.3	251.7	266.7##
+
+including Linux, Windows, Mac Os etc. @@82	105.3	337.7	265.7	280.7##
+Drawback of Applet @@82	141.7	266.7	293.0	308.7##
+ Plugin is required at client browser to execute applet.@@82	95.7	420.7	322.7	337.7##
+
+Do You Know @@82	71.7	151.3	384.0	396.3##
+Who is responsible to manage the life cycle of an applet ? @@82	106.3	444.7	413.0	428.0##
+How to perform animation in applet ? @@82	106.3	329.7	428.0	443.0##
+@@82	91.3	95.7	433.3	437.7##
+How to paint like paint brush in applet ? @@82	106.3	349.0	442.0	457.0##
+How to display digital clock in applet ? @@82	107.3	335.7	457.0	469.3##
+How to display analog clock in applet ? @@82	106.3	338.3	470.0	485.0##
+How to communicate two applets ? @@82	103.7	314.3	485.0	497.3##
+
+Hierarchy of Applet @@82	141.7	267.7	536.7	552.7##
+
+Displaying Graphics in Applet@@83	70.0	257.7	362.3	377.0##
+java.awt.Graphics class provides many methods for graphics programming.@@83	69.0	513.0	392.0	407.0##
+
+Commonly used methods of Graphics class: @@83	71.0	344.7	419.3	434.0##
+
+1. public abstract void drawString(String str, int x, int y): is used to @@83	88.7	513.0	450.0	465.0##
+draw the specified string.@@83	105.3	256.0	464.0	479.0##
+
+2. public void drawRect(int x, int y, int width, int height): draws a @@83	89.3	505.0	479.7	492.0##
+rectangle with the specified width and height.@@83	107.3	374.0	493.7	506.0##
+3. public abstract void fillRect(int x, int y, int width, int height): is @@83	88.7	511.3	507.0	522.0##
+used to fill rectangle with the default color and specified width and @@83	107.3	500.7	522.0	534.0##
+height.@@83	107.3	147.0	536.0	548.3##
+4. public abstract void drawOval(int x, int y, int width, int height): is @@83	88.7	522.7	549.0	564.0##
+used to draw oval with the specified width and height.@@83	107.3	424.3	565.0	577.0##
+ 5. public abstract void fillOval(int x, int y, int width, int height): is @@83	87.0	510.3	576.3	591.0##
+used to fill oval with the default color and specified width and height.@@83	106.3	513.7	591.0	606.0##
+6. public abstract void drawLine(int x1, int y1, int x2, int y2): is @@83	89.3	492.7	607.0	619.3##
+used to draw line between the points(x1, y1)and (x2, y2).@@83	107.3	443.0	621.0	633.3##
+ 7. public abstract boolean drawImage(Image img, int x, int y, @@83	87.7	474.0	632.3	647.3##
+ImageObserver observer): is used draw the specified image. @@83	105.3	464.3	647.3	662.3##
+8. public abstract void drawArc(int x, int y, int width, int height, int@@83	88.7	519.0	662.3	674.3##
+startAngle, int arcAngle): is used draw a circular or elliptical arc.@@83	107.3	497.0	677.0	689.3##
+9. public abstract void fillArc(int x, int y, int width, int height, int @@83	89.3	507.7	691.0	703.3##
+startAngle, int arcAngle): is used to fill a circular or elliptical arc. @@83	105.3	498.7	704.3	719.3##
+public abstract void setColor(Color c): is used to set the @@83	141.0	485.3	718.3	733.3##
+10.@@83	91.3	108.0	719.3	730.7##
+graphics current color to the specified color.@@83	106.3	366.7	733.3	748.3##
+
+public abstract void setFont(Font font): is used to set the @@84	141.0	496.0	80.7	95.7##
+11. @@84	90.3	109.0	81.7	94.0##
+graphics current font to the specified font.@@84	105.3	355.3	94.7	110.7##
+
+1. import java.applet.Applet; @@84	88.7	260.3	169.3	184.3##
+2. import java.awt.*; @@84	87.0	214.3	182.3	197.3##
+3.@@84	88.7	101.0	197.3	209.7##
+ 4. public class GraphicsDemo extends Applet{@@84	87.0	364.0	210.3	225.3##
+5.@@84	88.7	101.0	226.3	238.7##
+6. public void paint(Graphics g){ @@84	90.0	106.3	241.9	250.9##
+7. g.setColor(Color.red); @@84	87.7	233.0	253.3	268.3##
+ 8. g.drawString("Welcome",50, 50); @@84	86.7	298.7	266.7	284.3##
+9. g.drawLine(20,30,20,300); @@84	86.0	264.0	279.7	297.3##
+ g.drawRect(70,100,30,30); @@84	141.0	300.3	293.7	311.3##
+10. @@84	89.3	110.0	295.7	309.7##
+11. @@84	89.3	109.0	309.7	323.7##
+g.fillRect(170,100,30,30); @@84	140.7	293.3	310.7	325.3##
+12. @@84	89.3	109.0	323.7	337.7##
+g.drawOval(70,200,30,30); @@84	140.7	300.3	324.7	339.3##
+13. @@84	89.3	110.0	337.7	351.7##
+14. @@84	89.3	109.0	351.7	365.7##
+g.setColor(Color.pink); @@84	140.7	276.3	352.7	367.7##
+15. @@84	89.3	109.0	365.7	379.7##
+g.fillOval(170,200,30,30); @@84	140.7	294.0	366.7	381.7##
+ g.drawArc(90,150,30,30,30,270); @@84	140.0	340.0	379.7	397.3##
+16. @@84	90.3	109.0	381.7	393.7##
+17. @@84	89.3	109.0	393.7	408.0##
+g.fillArc(270,150,30,30,0,180);@@84	141.0	323.3	394.7	409.7##
+18. @@84	89.3	109.0	408.0	422.0##
+19. @@84	89.3	109.0	422.7	436.7##
+20. @@84	88.7	109.0	436.7	450.7##
+
+EventHandling in Applet @@84	71.0	226.7	531.7	546.3##
+As we perform event handling in AWT or Swing, we can perform it in applet @@84	71.0	513.7	550.0	565.0##
+also. Let's see the simple example of event handling in applet that prints a @@84	70.0	510.3	564.0	581.3##
+
+Example of EventHandling in applet: @@84	71.7	303.0	621.0	636.0##
+
+1. import java.applet.*; @@84	87.7	230.3	664.7	682.3##
+2. import java.awt.*; @@84	87.0	214.3	678.7	696.3##
+ 3. import java.awt.event.*; @@84	86.0	249.0	693.0	710.3##
+5. Button b; @@84	88.7	164.7	724.3	736.7##
+6. TextField tf; @@84	88.7	178.0	738.7	750.7##
+7. @@84	88.7	102.7	751.7	764.0##
+
+4. public class EventApplet extends Applet implements ActionListener{@@84	87.7	508.7	709.7	724.3##
+
+8. public void init(){@@85	87.7	209.0	79.0	94.0##
+ 9. tf=new TextField(); @@85	87.7	216.0	94.0	108.7##
+10. @@85	89.3	110.0	108.7	122.7##
+11. @@85	89.3	110.0	122.7	136.7##
+ b=new Button("Click"); @@85	142.0	278.3	135.0	150.0##
+12. @@85	89.3	109.0	136.0	151.0##
+13. @@85	90.3	109.0	150.0	165.0##
+ b.setBounds(80,150,60,50); @@85	141.7	308.3	150.0	165.0##
+14. @@85	89.3	110.0	165.0	179.0##
+15. add(b);add(tf); @@85	89.3	226.7	179.0	193.5##
+16. @@85	89.3	109.0	193.0	207.0##
+b.addActionListener(this);@@85	142.7	295.0	194.7	207.0##
+17. @@85	89.3	110.0	207.0	221.0##
+18. setLayout(null); @@85	89.3	235.7	221.8	235.0##
+19. }@@85	89.3	149.7	236.8	248.7##
+20. @@85	88.7	109.0	249.0	263.0##
+21. @@85	88.7	109.0	263.0	277.0##
+ public void actionPerformed(ActionEvent e){@@85	146.3	405.0	264.0	279.0##
+22. @@85	88.7	109.0	277.0	291.3##
+ tf.setText("Welcome"); @@85	148.0	280.0	277.0	292.0##
+23.  }@@85	88.7	152.3	293.8	304.8##
+24. }@@85	88.7	149.7	307.0	318.8##
+In the above example, we have created all the controls in init()method @@85	69.0	484.7	335.0	350.0##
+
+ de="EventApplet.class"width="300"height="300">@@85	85.0	466.0	433.3	453.3##
+Java AWT components are platform-dependent i.e. components are @@85	70.0	467.7	645.7	660.3##
+displayed according to the view of operating system. AWT is heavyweight i.e. @@85	71.0	519.0	661.3	676.3##
+
+its components are using the resources of OS.@@85	71.0	341.0	676.3	688.7##
+
+The java.awt package provides classes for AWT api such as TextField, Label,@@85	70.0	517.3	702.7	717.3##
+
+TextArea, RadioButton, CheckBox, Choice, List etc. @@85	71.0	374.0	716.7	731.3##
+
+Java AWT Hierarchy @@86	142.0	272.0	79.0	93.7##
+The hierarchy of Java AWT classes are given below.@@86	71.7	373.0	109.7	122.0##
+
+Java AWT Button @@86	70.0	181.7	613.0	625.3##
+The button class is used to create a labeled button that has platform @@86	69.0	476.7	642.0	657.0##
+independent implementation. The application result in some action when @@86	70.0	502.3	656.0	671.0##
+
+the button is pushed.@@86	70.0	198.3	671.0	686.0##
+AWT Button Class declaration @@86	71.0	259.7	699.0	711.3##
+1. public class Button extends Component implements Accessible @@86	89.3	481.0	729.7	744.7##
+
+Java AWT Button Example @@87	71.0	238.3	81.7	94.0##
+1. import java.awt.*; @@87	88.7	213.3	111.3	126.3##
+ 2. public class ButtonExample {@@87	87.0	283.7	123.7	138.7##
+ 3. public static void main(String[]args){@@87	87.0	331.3	137.7	153.3##
+4.@@87	89.3	101.0	153.3	165.7##
+ Frame f=new Frame("Button Example");@@87	122.3	356.0	153.3	165.7##
+5.@@87	89.3	101.0	167.7	179.7##
+ Button b=new Button("Click Here"); @@87	123.0	333.0	168.3	180.7##
+6.@@87	89.3	101.0	181.7	194.0##
+ b.setBounds(50,100,80,30);@@87	122.3	286.0	182.3	194.7##
+7. f.add(b); @@87	89.3	174.0	194.7	208.3##
+8. f.setSize(400,400); @@87	88.7	232.0	209.2	222.8##
+9.  f.setLayout(null); @@87	89.3	224.0	223.7	237.7##
+10. @@87	89.3	109.0	237.7	251.7##
+ f.setVisible(true); @@87	157.7	260.3	237.7	252.7##
+11. }@@87	89.3	148.0	254.3	264.0##
+12. @@87	88.7	110.0	265.7	279.7##
+Output: @@87	69.7	120.7	292.7	308.7##
+
+Java ActionListener Interface @@87	71.7	258.7	596.3	608.7##
+The Java ActionListener is notified whenever you click on the button or@@87	71.0	490.0	626.3	638.7##
+menu item. It is notified against ActionEvent. The ActionListener interface is@@87	71.0	520.0	641.0	653.3##
+found in java.awt.event package. It has only one method: actionPerformed().@@87	70.0	516.7	654.3	666.7##
+
+actionPerformed()method @@87	71.0	235.7	683.3	695.7##
+The actionPerformed()method is invoked automatically whenever you click @@87	71.0	511.3	713.0	728.0##
+
+1. public abstract void actionPerformed(ActionEvent e); @@87	89.7	417.3	754.3	769.3##
+
+1. import java.awt.*; @@88	89.3	213.7	110.7	125.3##
+2. import java.awt.event.*; @@88	87.7	249.0	124.7	139.3##
+ 3. public class ActionListenerExample {@@88	87.0	327.0	137.7	152.7##
+ 4. public static void main(String[]args){@@88	87.0	330.3	151.7	166.7##
+5.@@88	89.3	101.0	167.7	179.7##
+ Frame f=new Frame("ActionListener Example");@@88	123.0	399.7	168.3	180.7##
+6. @@88	89.3	102.0	181.7	194.0##
+ final TextField tf=new TextField(); @@88	122.3	318.0	182.3	194.7##
+7. @@88	89.3	102.0	195.7	208.0##
+ tf.setBounds(50,50, 150,20); @@88	123.0	292.3	196.3	208.7##
+8. @@88	89.3	102.0	209.7	222.0##
+ Button b=new Button("Click Here"); @@88	122.3	333.0	210.7	222.7##
+ b.setBounds(50,100,60,30); @@88	121.3	288.0	222.7	237.7##
+9. @@88	89.3	102.7	223.7	236.0##
+10. @@88	89.3	110.0	237.7	251.7##
+11. @@88	89.3	110.0	251.7	265.7##
+ b.addActionListener(new ActionListener(){@@88	158.7	404.0	253.3	265.7##
+12. @@88	89.3	110.0	265.7	279.7##
+ public void actionPerformed(ActionEvent e){@@88	157.7	417.3	266.7	281.7##
+ tf.setText("Welcome to Javatpoint."); @@88	188.0	403.0	279.0	293.7##
+14.  }@@88	89.3	164.7	295.0	307.0##
+15.  }); @@88	89.3	172.7	308.0	322.3##
+16. @@88	89.3	109.0	322.0	336.0##
+ f.add(b);f.add(tf); @@88	157.7	257.7	323.7	336.0##
+ f.setSize(400,400); @@88	156.0	269.3	335.0	350.0##
+17. @@88	89.3	110.0	336.0	350.0##
+ f.setLayout(null); @@88	156.0	260.7	349.0	364.0##
+18. @@88	89.3	109.0	350.0	364.0##
+19. @@88	89.3	109.0	364.0	378.0##
+ f.setVisible(true); @@88	156.0	259.7	364.0	379.0##
+20. @@88	88.7	109.0	378.0	392.0##
+21. @@88	88.7	110.0	392.0	406.0##
+Output: @@88	69.7	120.7	419.0	435.0##
+
+The LayoutManagers are used to arrange components in a particular @@89	71.0	477.7	81.7	96.3##
+manner. LayoutManager is an interface that is implemented by all the@@89	71.0	482.7	95.7	110.7##
+ classes of layout managers. There are following classes that represents the @@89	71.0	511.3	108.0	125.3##
+
+layout managers: @@89	72.0	173.7	124.7	137.7##
+1. java.awt.BorderLayout @@89	90.3	241.0	152.7	165.0##
+2. java.awt.FlowLayout @@89	87.7	229.3	165.7	180.7##
+3. java.awt.GridLayout @@89	86.0	229.7	177.0	194.7##
+4. java.awt.CardLayout @@89	87.7	230.3	194.0	208.7##
+5. java.awt.GridBagLayout @@89	86.7	250.7	206.0	223.7##
+6. javax.swing.BoxLayout @@89	87.7	244.7	222.0	236.7##
+7. javax.swing.GroupLayout @@89	87.7	259.7	235.0	252.7##
+8. javax.swing.ScrollPaneLayout @@89	87.7	284.3	249.0	266.7##
+9. javax.swing.SpringLayout etc.@@89	87.7	282.7	263.0	279.0##
+Java BorderLayout @@89	141.7	264.0	307.7	322.7##
+The BorderLayout is used to arrange the components in five regions: north,@@89	70.0	514.0	336.0	350.7##
+south, east, west and center. Each region (area)may contain one component@@89	71.7	521.7	352.7	365.0##
+only. It is the default layout of frame or window. The BorderLayout provides @@89	71.7	516.3	366.7	379.0##
+
+five constants for each region: @@89	71.0	249.0	380.7	393.0##
+1. public static final int NORTH @@89	88.7	291.3	407.0	422.0##
+2. public static final int SOUTH @@89	87.7	290.3	422.0	437.0##
+3. public static final int EAST @@89	87.7	280.0	435.0	450.0##
+4. public static final int WEST @@89	88.7	281.7	450.0	465.0##
+5. public static final int CENTER @@89	88.7	298.7	464.0	479.0##
+Constructors of BorderLayout class:@@89	142.7	367.7	492.0	504.3##
+BorderLayout(): creates a border layout but with no gaps between the @@89	87.0	521.0	519.3	534.0##
+JBorderLayout(int hgap, int vgap): creates a border layout with the @@89	102.0	514.7	548.3	563.0##
+@@89	91.3	107.3	552.7	559.7##
+given horizontal and vertical gaps between the components.@@89	108.0	457.0	564.0	576.3##
+
+Java GridBagLayout @@90	70.0	199.3	432.3	447.3##
+The Java GridBagLayout class is used to align components vertically,@@90	71.0	478.3	462.3	477.0##
+
+horizontally or along their baseline. @@90	70.0	280.0	477.0	492.0##
+
+The components may not be of same size. Each GridBagLayout object @@90	68.3	483.7	502.7	520.0##
+maintains a dynamic, rectangular grid of cells. Each component occupies @@90	69.0	505.0	518.3	533.3##
+one or more cells known as its display area. Each component associates an @@90	71.0	515.7	534.0	546.3##
+instance of GridBagConstraints. With the help of constraints object we @@90	71.0	487.3	548.3	560.3##
+arrange component's display area on the grid. The GridBagLayout manages @@90	70.0	517.3	561.3	576.3##
+each component's minimum and preferred sizes in order to determine @@90	71.0	482.7	575.3	590.3##
+
+Description @@90	447.3	523.7	633.3	648.0##
+Field @@90	373.0	407.7	634.0	646.3##
+It is used to @@90	445.0	519.3	661.3	676.0##
+hold the @@90	445.7	497.0	679.7	692.0##
+overrides to @@90	445.7	519.0	694.7	709.7##
+columnWeights @@90	335.7	427.0	696.3	708.7##
+the column @@90	447.3	515.7	712.3	724.3##
+weights.@@90	446.7	496.0	728.0	743.0##
+
+Useful Methods@@92	142.7	240.0	442.0	454.3##
+Method @@92	281.0	332.3	457.0	472.0##
+
+Description @@92	435.0	510.3	457.0	472.0##
+Modifier and Type @@92	72.7	189.7	458.0	472.7##
+
+void @@92	71.0	98.3	637.7	651.7##
+Component comp)@@92	191.7	302.3	644.7	659.3##
+
+Point @@94	69.7	105.7	268.0	284.0##
+getLayoutOrigin()@@94	191.3	295.7	270.0	286.0##
+
+double[][]@@94	70.7	128.0	377.0	393.7##
+getLayoutWeights()@@94	192.3	306.7	380.7	395.7##
+
+Example @@94	141.7	199.3	661.3	676.3##
+1. import java.awt.Button; @@94	88.7	250.0	688.3	703.3##
+ 2. import java.awt.GridBagConstraints; @@94	87.7	326.0	702.7	717.3##
+3. import java.awt.GridBagLayout; @@94	86.0	297.7	715.7	733.3##
+4.@@94	89.3	101.0	732.3	744.7##
+ 5. import javax.swing.*; @@94	87.0	234.0	744.7	760.3##
+
+6. public class GridBagLayoutExample extends JFrame{@@95	86.7	424.3	79.0	96.3##
+ public static void main(String[]args){@@95	122.3	345.7	94.7	109.7##
+7. @@95	89.3	102.0	95.7	108.0##
+ GridBagLayoutExample a =new GridBagLayoutExample(); @@95	152.3	497.0	108.0	122.7##
+8. @@95	88.7	102.0	108.7	122.0##
+9.  }@@95	88.7	144.3	124.5	135.5##
+10. @@95	89.3	109.0	136.7	151.0##
+ GridBagLayoutgrid =new GridBagLayout(); @@95	158.7	413.0	151.0	165.7##
+11.@@95	91.3	108.0	151.7	163.0##
+12. @@95	89.3	109.0	165.0	179.0##
+13. @@95	89.3	109.0	179.0	193.0##
+14. @@95	89.3	110.0	193.0	207.0##
+15. @@95	89.3	109.0	207.0	221.0##
+ this.setLayout(layout); @@95	157.7	291.7	220.0	235.0##
+16. @@95	89.3	109.0	221.0	235.0##
+17. @@95	89.3	110.0	235.0	249.0##
+ gbc.fill =GridBagConstraints.HORIZONTAL; @@95	157.7	419.0	235.0	250.0##
+18. @@95	89.3	110.0	249.0	263.0##
+ gbc.gridx =0; @@95	156.7	240.7	250.0	265.0##
+19. @@95	89.3	109.0	263.0	277.0##
+ gbc.gridy =0; @@95	157.7	241.0	264.0	279.0##
+20. @@95	88.7	110.0	277.0	291.3##
+ this.add(new Button("Button One"), gbc); @@95	157.0	400.3	277.0	292.0##
+21. @@95	88.7	110.0	291.3	305.3##
+ gbc.gridx =1; @@95	156.7	241.0	291.3	307.0##
+22. @@95	88.7	109.0	305.3	319.3##
+ gbc.gridy =0; @@95	156.7	241.0	305.3	321.0##
+23. @@95	89.0	109.3	318.0	333.0##
+ this.add(new Button("Button two"), gbc); @@95	157.0	397.0	319.3	334.0##
+ gbc.fill =GridBagConstraints.HORIZONTAL; @@95	156.7	419.0	332.3	350.0##
+24. @@95	88.7	110.0	333.3	348.3##
+25. @@95	89.0	109.3	346.0	361.0##
+ gbc.ipady =20; @@95	156.7	250.7	348.3	363.3##
+26. @@95	89.0	109.7	360.0	374.0##
+ gbc.gridx =0; @@95	156.7	241.7	362.3	377.3##
+27. @@95	88.7	109.0	376.3	390.3##
+ gbc.gridy =1; @@95	156.7	240.7	377.3	392.3##
+28. @@95	88.7	109.0	390.3	404.3##
+29. @@95	88.7	109.0	403.3	418.3##
+ gbc.gridx =1; @@95	156.7	240.7	405.3	420.3##
+30. @@95	88.7	109.0	418.3	432.3##
+ gbc.gridy =1; @@95	157.7	242.0	418.3	433.3##
+31. @@95	88.7	109.0	432.3	446.3##
+32. @@95	88.7	109.0	446.3	460.3##
+ gbc.gridx =0; @@95	156.7	241.0	446.3	462.3##
+33. @@95	88.7	109.0	460.3	474.7##
+ gbc.gridy =2; @@95	157.7	241.0	460.3	475.3##
+34. @@95	88.7	109.0	474.7	488.7##
+ gbc.fill =GridBagConstraints.HORIZONTAL; @@95	157.7	420.0	474.7	489.3##
+35. @@95	88.7	109.0	488.7	502.7##
+ gbc.gridwidth =2; @@95	157.7	266.7	488.7	504.3##
+36. @@95	88.7	109.0	502.7	516.7##
+ this.add(new Button("Button Five"), gbc); @@95	157.7	400.3	503.3	518.3##
+37. @@95	88.7	109.0	516.7	530.7##
+38. @@95	88.7	109.0	530.7	544.7##
+39. @@95	89.0	109.3	543.0	557.7##
+40. @@95	88.7	109.0	559.7	572.7##
+41. @@95	88.7	109.0	573.7	586.7##
+42. @@95	88.7	109.0	587.7	601.7##
+43. @@95	88.7	110.0	601.7	615.7##
+44. }@@95	88.7	148.7	617.8	628.8##
+Output: @@95	70.3	120.7	642.7	658.3##
+
+ GridBagConstraints gbc =new GridBagConstraints(); @@95	188.0	503.3	164.0	179.0##
+ setTitle("GridBag Layout Example"); @@95	188.0	400.3	191.3	208.7##
+ GridBagLayout layout =new GridBagLayout(); @@95	188.0	461.7	206.0	222.0##
+
+ this.add(new Button("Button Three"), gbc); @@95	157.0	410.3	389.3	404.3##
+
+ this.add(new Button("Button Four"), gbc); @@95	157.0	404.0	431.7	447.3##
+
+ setDefaultCloseOperation(EXIT_ON_CLOSE); @@95	188.7	453.7	559.7	574.3##
+
+Java Swing Tutorial @@96	70.0	197.7	421.0	436.0##
+Java Swing tutorial is a part of Java Foundation Classes (JFC)that is used @@96	72.7	521.0	451.7	464.0##
+to create window-based applications. It is built on the top of AWT (Abstract @@96	71.0	511.3	465.0	479.7##
+
+Windowing Toolkit)API and entirely written in java. @@96	70.0	374.0	479.0	493.7##
+
+Unlike AWT, Java Swing provides platform-independent and lightweight @@96	71.0	494.3	506.0	521.0##
+
+The javax.swing package provides classes for java swing API such as @@96	71.0	474.0	548.0	563.0##
+JButton, JTextField, JTextArea, JRadioButton, JCheckbox, JMenu,@@96	71.7	467.7	565.0	577.0##
+
+Difference between AWT and Swing @@96	141.7	366.0	630.7	645.3##
+There are many differences between java awt and swing that are given @@96	69.0	483.7	658.7	673.7##
+below. @@96	70.7	109.3	673.3	686.7##
+No. @@96	70.0	93.0	704.3	718.3##
+1)AWT components are platform-@@96	69.7	283.7	731.3	752.3##
+Java swing components are @@96	342.0	505.0	740.3	752.7##
+
+dependent.@@97	94.7	164.7	82.3	97.3##
+platform-independent.@@97	341.0	482.0	82.3	97.3##
+Swing components are @@97	341.0	476.7	111.3	126.3##
+2)AWT components are heavyweight.@@97	70.0	305.7	118.3	133.3##
+lightweight.@@97	341.0	416.3	128.0	143.0##
+AWT doesn't support pluggable look @@97	94.7	319.0	157.0	172.0##
+Swing supports pluggable @@97	341.0	499.7	157.0	172.0##
+look and feel.@@97	340.3	426.0	172.7	187.7##
+Swing provides more @@97	342.0	467.7	202.7	217.7##
+AWT provides less components than @@97	93.0	315.3	217.3	232.3##
+powerful components such @@97	340.0	510.0	217.7	235.0##
+as tables, lists, scrollpanes,@@97	341.0	503.3	235.0	250.0##
+colorchooser, tabbedpane etc.@@97	342.0	515.7	251.0	265.7##
+AWT doesn't follows MVC(Model View@@97	95.7	321.7	279.7	292.0##
+Controller)where model represents data, @@97	94.0	335.0	294.7	309.7##
+5)view represents presentation and @@97	71.7	291.3	312.7	326.3##
+controller acts as an interface between @@97	95.7	322.3	329.7	342.0##
+
+Java JButton @@97	71.0	156.0	415.0	427.0##
+The JButton class is used to create a labeled button that has platform @@97	71.7	484.7	444.7	457.0##
+independent implementation. The application result in some action when@@97	71.7	501.3	458.7	471.0##
+the button is pushed. It inherits AbstractButton class.@@97	71.7	390.7	473.7	486.0##
+
+JButton class declaration @@97	71.7	233.0	500.7	513.0##
+Let's see the declaration for javax.swing.JButton class.@@97	71.7	392.3	531.7	543.7##
+
+1. public class JButton extends AbstractButton implements Accessible @@97	91.3	509.3	559.7	572.0##
+Commonly used Constructors: @@97	142.7	335.7	585.0	600.7##
+Constructor @@97	84.0	162.0	603.3	615.7##
+Description @@97	281.0	355.3	604.3	616.7##
+It creates a button with no text and icon.@@97	174.7	414.7	633.3	645.7##
+JButton(String s)It creates a button with the specified text.@@97	71.0	419.0	661.3	676.3##
+
+Commonly used Methods of AbstractButton class:@@97	144.3	456.3	746.3	758.7##
+
+Methods @@98	155.0	212.7	82.3	97.3##
+Description @@98	374.0	448.3	84.3	96.3##
+It is used to set specified text on @@98	296.0	490.0	111.3	126.3##
+button @@98	298.0	340.3	128.0	140.0##
+It is used to return the text of the @@98	296.0	497.0	156.0	171.0##
+button.@@98	297.3	342.0	173.3	185.7##
+It is used to enable or disable the @@98	297.7	495.3	203.3	215.7##
+button.@@98	297.7	342.0	220.0	232.3##
+It is used to set the specified Icon on @@98	296.0	515.7	247.3	262.3##
+
+Java JRadioButton @@98	71.7	192.3	470.0	482.3##
+The JRadioButton class is used to create a radio button. It is used to choose @@98	71.7	521.0	500.7	513.0##
+one option from multiple options. It is widely used in exam systems or quiz.@@98	71.0	515.7	514.0	529.0##
+It should be added in ButtonGroup to select one radio button only. @@98	70.0	465.0	542.0	557.0##
+
+JRadioButton()@@98	70.3	162.3	722.7	737.7##
+
+Commonly used Methods:@@99	143.7	305.7	199.0	211.3##
+Methods @@99	155.0	211.7	214.0	229.0##
+void setText(String s)@@99	70.3	196.0	249.0	264.7##
+
+Description @@99	373.0	449.0	214.0	229.0##
+It is used to set specified text on @@99	296.0	490.0	243.0	258.0##
+button.@@99	297.3	342.0	259.3	272.7##
+It is used to return the text of the @@99	296.0	496.0	287.7	302.7##
+button.@@99	297.3	342.0	305.0	318.3##
+It is used to enable or disable the @@99	296.0	496.0	333.3	348.3##
+button. @@99	297.0	343.0	350.7	363.0##
+It is used to set the specified Icon on @@99	296.0	515.7	379.0	393.7##
+
+Java JRadioButton Example@@99	71.7	249.0	572.0	584.0##
+1. import javax.swing.*; @@99	90.3	233.0	602.7	615.0##
+ 2. public class RadioButtonExample {@@99	87.0	315.3	614.0	629.0##
+ 4. RadioButtonExample(){@@99	87.7	245.3	642.0	657.0##
+5. f=new JFrame(); @@99	87.0	204.0	656.0	671.0##
+ 6. JRadioButton r1=new JRadioButton("A)Male"); @@99	87.7	386.3	670.0	685.0##
+ 7. JRadioButton r2=new JRadioButton("B)Female"); @@99	87.7	401.3	684.0	699.0##
+ 9. r2.setBounds(75,100,100,30); @@99	87.7	285.3	713.0	728.0##
+10. @@99	89.3	110.0	728.0	741.0##
+ButtonGroup bg=new ButtonGroup(); @@99	142.7	365.0	728.0	743.0##
+11. @@99	89.3	110.0	742.0	755.3##
+bg.add(r1);bg.add(r2); @@99	143.7	272.0	742.0	757.0##
+12. f.add(r1);f.add(r2); @@99	89.3	251.7	755.5	770.0##
+
+3. JFrame f; @@99	87.7	166.7	629.0	643.7##
+8. r1.setBounds(75,50,100,30); @@99	87.0	278.3	698.0	713.0##
+
+13. f.setSize(300,300); @@100	89.3	252.3	79.7	94.3##
+14. f.setLayout(null); @@100	90.0	244.7	92.8	107.7##
+15. f.setVisible(true); @@100	89.3	244.7	108.2	122.7##
+16. }@@100	89.3	149.7	124.5	135.5##
+ public static void main(String[]args){@@100	141.0	367.7	136.0	153.7##
+17. @@100	90.3	110.0	136.7	151.0##
+18. @@100	89.3	109.0	151.0	165.0##
+ new RadioButtonExample();@@100	158.7	322.3	152.7	165.0##
+19. @@100	89.3	109.0	165.0	179.0##
+20. @@100	88.7	109.0	179.0	193.0##
+
+Java GridBagLayout @@100	71.7	198.3	494.7	507.0##
+The Java GridBagLayout class is used to align components vertically,@@100	71.0	478.3	523.7	538.7##
+
+horizontally or along their baseline. @@100	71.0	281.0	537.7	552.7##
+
+The components may not be of same size. Each GridBagLayout object @@100	70.0	482.0	565.7	580.7##
+maintains a dynamic, rectangular grid of cells. Each component occupies @@100	70.0	504.0	579.7	594.7##
+one or more cells known as its display area. Each component associates an @@100	71.0	515.7	593.7	608.7##
+instance of GridBagConstraints. With the help of constraints object we @@100	70.0	488.0	607.7	622.7##
+arrange component's display area on the grid. The GridBagLayout manages @@100	70.0	517.3	620.0	637.7##
+each component's minimum and preferred sizes in order to determine @@100	71.0	482.7	636.7	651.7##
+
+Useful Methods @@102	142.7	242.0	505.3	520.0##
+Modifier and Type @@102	72.0	188.7	521.0	535.7##
+
+Description @@102	434.3	510.3	521.0	536.7##
+Method @@102	281.0	332.3	522.0	536.7##
+
+void @@102	69.7	97.3	592.3	606.3##
+comp, Object constraints)@@102	191.3	345.3	600.7	615.7##
+
+void @@102	71.0	98.3	701.7	715.7##
+Component comp)@@102	192.3	302.0	710.3	725.3##
+
+float @@103	70.0	101.0	613.0	629.0##
+
+Example @@104	141.7	199.3	710.3	725.3##
+1. import java.awt.Button; @@104	89.3	249.0	738.7	753.3##
+2. import java.awt.GridBagConstraints; @@104	88.7	326.0	752.7	767.3##
+
+3. import java.awt.GridBagLayout; @@105	87.0	296.7	79.0	93.7##
+4.@@105	88.7	101.0	94.7	107.0##
+5. import javax.swing.*; @@105	89.3	234.0	109.7	122.3##
+6. public class GridBagLayoutExample extends JFrame{@@105	87.7	423.3	122.7	137.7##
+ public static void main(String[]args){@@105	120.7	346.3	135.0	152.7##
+7. @@105	89.3	102.0	137.7	150.0##
+ GridBagLayoutExample a =new GridBagLayoutExample(); @@105	152.3	497.0	150.0	165.0##
+8. @@105	88.7	102.0	151.0	164.0##
+9.  }@@105	88.7	144.3	166.7	177.7##
+10. @@105	89.3	109.0	179.0	193.0##
+11. @@105	90.3	110.0	193.0	207.0##
+ GridBagLayoutgrid =new GridBagLayout();@@105	159.3	412.0	194.7	207.0##
+12. @@105	89.3	110.0	207.0	221.0##
+13. @@105	89.3	110.0	221.0	235.0##
+14. @@105	89.3	110.0	235.0	249.0##
+15. @@105	89.3	110.0	249.0	263.0##
+16. @@105	89.3	109.0	263.0	277.0##
+ this.setLayout(layout); @@105	158.7	290.7	264.0	279.0##
+17. @@105	89.3	110.0	277.0	291.3##
+18. @@105	89.3	109.0	291.3	305.3##
+ gbc.gridx =0; @@105	156.7	240.7	292.0	307.0##
+19. @@105	89.3	109.0	305.3	319.3##
+ gbc.gridy =0; @@105	156.7	241.0	305.3	321.0##
+20. @@105	88.7	110.0	320.0	334.3##
+21. @@105	88.7	109.0	333.3	347.3##
+ gbc.gridx =1; @@105	157.7	241.0	334.3	349.0##
+22. @@105	89.0	109.7	346.0	360.0##
+ gbc.gridy =0; @@105	156.7	240.7	349.3	363.3##
+23. @@105	89.0	109.3	360.0	375.0##
+ this.add(new Button("Button two"), gbc); @@105	157.7	397.0	362.3	377.0##
+24. @@105	88.7	109.0	376.3	390.3##
+ gbc.fill =GridBagConstraints.HORIZONTAL;@@105	156.7	418.0	376.3	391.3##
+25. @@105	88.7	109.0	390.3	404.3##
+ gbc.ipady =20; @@105	157.7	250.7	390.3	405.3##
+26. @@105	88.7	109.0	404.3	418.3##
+ gbc.gridx =0; @@105	156.7	241.7	405.3	420.3##
+27. @@105	88.7	109.0	418.3	432.3##
+ gbc.gridy =1; @@105	156.7	240.7	419.3	434.3##
+28. @@105	88.7	109.0	432.3	446.3##
+29. @@105	88.7	109.0	445.7	460.3##
+ gbc.gridx =1; @@105	156.7	241.0	446.3	462.3##
+30. @@105	88.7	109.0	460.3	474.7##
+ gbc.gridy =1; @@105	156.7	240.7	461.3	476.3##
+31. @@105	88.7	109.0	474.7	488.7##
+32. @@105	88.7	109.0	488.7	502.7##
+ gbc.gridx =0; @@105	158.7	241.0	489.3	504.3##
+33. @@105	88.7	109.0	502.7	516.7##
+ gbc.gridy =2; @@105	156.7	240.7	503.7	518.3##
+34. @@105	88.7	109.0	516.7	530.7##
+ gbc.fill =GridBagConstraints.HORIZONTAL; @@105	157.7	420.0	516.7	531.7##
+35. @@105	88.7	109.0	530.7	544.7##
+ gbc.gridwidth =2; @@105	157.7	266.7	530.7	545.7##
+36. @@105	88.7	109.0	545.7	558.7##
+ this.add(new Button("Button Five"), gbc); @@105	157.7	400.3	545.7	560.3##
+ setSize(300, 300); @@105	188.0	296.0	558.7	573.7##
+ setPreferredSize(getSize()); @@105	188.7	343.7	573.7	588.7##
+ setVisible(true); @@105	189.7	282.7	588.7	600.7##
+
+ GridBagConstraints gbc =new GridBagConstraints(); @@105	188.0	503.3	206.0	221.0##
+ setTitle("GridBag Layout Example"); @@105	187.0	401.3	233.3	250.7##
+ GridBagLayout layout =new GridBagLayout(); @@105	188.0	461.7	248.3	264.0##
+ gbc.fill =GridBagConstraints.HORIZONTAL; @@105	156.0	420.0	276.3	294.0##
+
+ this.add(new Button("Button One"), gbc); @@105	157.0	400.3	319.3	334.0##
+
+ this.add(new Button("Button Three"), gbc); @@105	157.0	410.3	431.7	447.3##
+
+ this.add(new Button("Button Four"), gbc); @@105	157.0	404.0	473.7	488.7##
+
+ setDefaultCloseOperation(EXIT_ON_CLOSE);@@105	189.7	452.7	603.3	615.7##
+
+ GridBag LayoutExample@@106	80.7	250.7	83.3	97.3##
+Java JTree @@106	70.0	141.7	379.7	394.7##
+The JTree class is used to display the tree structured data or hierarchical @@106	71.0	505.0	410.3	425.3##
+data. JTree is a complex component. It has a 'root node'at the top most @@106	71.0	494.3	424.7	439.3##
+which is a parent for all nodes in the tree. It inherits JComponent class.@@106	70.0	494.3	438.7	453.3##
+
+JTree class declaration @@106	71.7	217.0	467.3	479.7##
+Let's see the declaration for javax.swing.JTree class. @@106	71.0	378.3	497.3	512.3##
+
+1. public class JTree extends JComponent implements Scrollable, Access@@106	90.3	523.7	526.3	538.7##
+ible @@106	107.3	130.3	541.0	551.7##
+Commonly used Constructors: @@106	144.3	335.0	568.3	580.7##
+Constructor @@106	87.0	165.0	582.3	595.3##
+Description @@106	316.3	390.7	585.0	597.3##
+JTree()@@106	69.7	113.7	611.0	626.0##
+JTree(Object[]@@106	69.3	154.3	640.0	655.0##
+Creates a JTree with every element of the specified array @@106	183.3	516.3	642.0	657.0##
+
+Creates a JTree with a sample model.@@106	183.3	403.0	614.0	626.3##
+
+Java JTree Example@@107	71.0	197.7	81.7	94.0##
+1. import javax.swing.*; @@107	88.7	234.0	109.7	125.3##
+ 2. import javax.swing.tree.DefaultMutableTreeNode; @@107	86.0	400.3	122.7	140.3##
+
+3. public class TreeExample {@@107	87.0	268.3	137.7	152.7##
+4. JFrame f; @@107	87.7	166.7	152.7	167.7##
+ 5. TreeExample(){@@107	87.0	197.7	165.7	181.3##
+6.  f=new JFrame(); @@107	89.3	219.0	180.7	194.3##
+ DefaultMutableTreeNode style=new DefaultMutableTreeNode("Style"@@107	120.7	520.0	193.7	208.7##
+7. @@107	89.3	102.0	195.7	208.0##
+); @@107	105.3	117.0	210.7	223.7##
+8.@@107	88.7	101.0	224.7	236.0##
+ DefaultMutableTreeNode color=new DefaultMutableTreeNode("color"@@107	122.3	521.0	224.7	236.7##
+); @@107	105.3	117.0	238.7	251.7##
+9. @@107	88.7	102.0	252.7	265.0##
+ DefaultMutableTreeNode font=new DefaultMutableTreeNode("font");@@107	122.3	519.0	253.3	265.7##
+10. @@107	89.3	110.0	279.7	293.7##
+11. @@107	89.3	110.0	293.7	308.0##
+ style.add(font); @@107	158.7	248.0	295.7	308.0##
+12. @@107	89.3	110.0	308.0	322.0##
+ DefaultMutableTreeNode red=new DefaultMutableTreeNode("r@@107	156.7	521.7	308.0	320.0##
+ed"); @@107	105.3	136.3	322.0	337.7##
+13. @@107	89.3	109.0	336.0	350.0##
+ DefaultMutableTreeNode blue=new DefaultMutableTreeNode("@@107	158.7	521.0	337.7	350.0##
+ blue"); @@107	106.0	146.3	349.7	363.0##
+14. @@107	90.3	109.0	365.7	378.0##
+ DefaultMutableTreeNode black=new DefaultMutableTreeNode@@107	158.7	521.0	365.7	377.0##
+("black"); @@107	106.3	162.0	378.0	393.0##
+15. @@107	90.3	109.0	393.7	406.0##
+ DefaultMutableTreeNode green=new DefaultMutableTreeNode@@107	156.7	520.0	393.7	406.0##
+("green"); @@107	105.3	163.0	407.0	422.0##
+ color.add(red); color.add(blue); color.add(black); color.add(gre@@107	156.0	520.0	420.0	435.0##
+en); @@107	106.3	131.0	436.0	449.0##
+ JTree jt=new JTree(style); @@107	156.0	310.0	447.3	462.3##
+17. @@107	89.3	110.0	449.0	462.3##
+ f.add(jt); @@107	156.3	210.0	461.0	477.0##
+18. @@107	89.3	110.0	463.0	476.3##
+ f.setSize(200,200); @@107	156.0	269.3	476.3	491.0##
+19. @@107	89.3	110.0	477.0	491.3##
+ f.setVisible(true); @@107	156.3	260.7	489.3	504.3##
+20. @@107	88.7	110.0	491.3	504.3##
+21. @@107	88.7	110.0	505.3	518.3##
+ public static void main(String[]args){@@107	141.0	366.0	518.3	533.3##
+22. @@107	88.7	110.0	519.3	533.3##
+23. @@107	88.7	110.0	533.3	547.3##
+ new TreeExample(); @@107	156.7	275.7	534.0	549.0##
+24. @@107	88.7	110.0	547.3	561.3##
+}}@@107	141.7	152.3	548.3	562.3##
+Output: @@107	70.3	119.7	574.3	589.3##
