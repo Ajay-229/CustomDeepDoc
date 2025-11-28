@@ -13,6 +13,7 @@ MINIMAL_DEPENDENCIES = [
     "datrie>=0.8.3,<0.9.0",
     "demjson3==3.0.6",
     "hanziconv==0.3.2",
+    "html5lib>=1.1",
     "huggingface-hub>=0.25.0,<0.26.0",
     "markdown==3.6",
     "nltk==3.9.1",
