@@ -1,0 +1,97 @@
+import os
+import sys
+from pathlib import Path
+from time import time
+import logging
+from typing import List
+
+# ====================================================================
+# PATH SETUP
+# ====================================================================
+PROJECT_ROOT = Path(__file__).resolve().parent.parent
+sys.path.insert(0, str(PROJECT_ROOT))
+
+# Import the parser
+try:
+    from deepdoc.parser.txt_parser import RAGFlowTxtParser
+except ImportError:
+    print("FATAL ERROR: Could not import RAGFlowTxtParser.")
+    sys.exit(1)
+
+
+# Logging setup
+logging.basicConfig(level=logging.INFO)
+
+SECTION_SEPARATOR = "\n" + "-"*80 + "\n"
+
+def run_txt_parser(file_name_stem: str, extension: str = "txt", chunk_size: int = 256):
+    start_time = time()
+    
+    # 1. Determine Input Path (Using PROJECT_ROOT)
+    full_file_name = f"{file_name_stem}.{extension}"
+    input_path = PROJECT_ROOT / "input" / full_file_name
+    
+    if not input_path.exists():
+        print(f"Error: {input_path} not found.")
+        print(f"Please ensure the file '{full_file_name}' is in the 'input/' directory.")
+        return
+
+    # NOTE: File content is NOT read here. We pass the path to the parser.
+    
+    print(f"Parsing {full_file_name} with chunk size {chunk_size} tokens...")
+    
+    # 2. Instantiate parser
+    parser = RAGFlowTxtParser()
+    
+    try:
+        # FIX: Pass the file path string (str) to satisfy the type hint fnm: str.
+        # get_text will receive the path and use the `else` block to open it: 
+        # with open(fnm, "r") as f: ...
+        sections: List[List[str]] = parser(
+            fnm=str(input_path), # Pass the path string (str) to satisfy the type checker
+            binary=False,        # Signal to get_text to use the file path logic (default)
+            chunk_token_num=chunk_size
+        )
+    except Exception as e:
+        # If a UnicodeDecodeError occurs here, it means the internal get_text is 
+        # relying on system-default encoding and must be fixed internally.
+        logging.error(f"Error during parser execution for {full_file_name}: {e}")
+        return
+    
+    elapsed = time() - start_time
+    print(f"Done parsing in {elapsed:.2f}s.")
+    
+    # 4. Process and Save Sections
+    text_chunks = [s[0].strip() for s in sections if s[0].strip()]
+    output_content = SECTION_SEPARATOR.join(text_chunks)
+    
+    print(f"Total extracted text chunks: {len(text_chunks)}")
+    
+    output_sections = PROJECT_ROOT / "output" / f"chunks_{file_name_stem}.txt"
+    output_sections.parent.mkdir(exist_ok=True)
+    
+    with open(output_sections, "w", encoding="utf-8") as f:
+        f.write(output_content)
+    print(f"Saved chunked content to: {output_sections}")
+    print("\nCheck the 'output/' directory for the chunked content.")
+
+if __name__ == "__main__":
+    if len(sys.argv) < 2:
+        print("Usage: python run_txt_parser.py <file_name_stem_without_extension> [chunk_size]")
+        sys.exit(1)
+    
+    file_stem = sys.argv[1]
+    
+    # Handle the file extension correctly
+    extension = "txt"
+    if file_stem.lower().endswith(".text"):
+        extension = "text"
+        file_stem = file_stem[:-5] 
+    
+    try:
+        chunk_size_arg = int(sys.argv[2]) if len(sys.argv) > 2 else 256
+    except ValueError:
+        print("Error: Chunk size must be an integer.")
+        sys.exit(1)
+        
+    run_txt_parser(file_stem, extension=extension, chunk_size=chunk_size_arg)
